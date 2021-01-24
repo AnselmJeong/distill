@@ -2122,7 +2122,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /* Optional: embed custom fonts here with `@import`          */
   /* This must remain at the top of this file.                 */
 
-
+  @import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR');
+  @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
 
   html {
     /*-- Main font sizes --*/
@@ -2138,10 +2139,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --aside-color:     rgba(0, 0, 0, 0.6);
     --fig-cap-color:   rgba(0, 0, 0, 0.6);
     /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    sans-serif;
+    --heading-font:    'Noto Sans Kr', sans-serif;
     --mono-font:       monospace;
-    --body-font:       sans-serif;
-    --navbar-font:     sans-serif;  /* websites + blogs only */
+    --body-font:       'Noto Serif KR', sans-serif;
+    --navbar-font:     'Noto Sans Kr', sans-serif;  /* websites + blogs only */
   }
 
   /*-- ASIDE --*/
@@ -2172,10 +2173,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }
 
   /*-- ARTICLE TABLE OF CONTENTS --*/
+
   .d-contents {
-    --heading-size:    18px;
-    --contents-size:   13px;
+    --heading-size:    24px;
+    --contents-size:   16px;
+    top: 200px;
   }
+
+
 
   /*-- ARTICLE APPENDIX --*/
   d-appendix {
@@ -2208,6 +2213,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   figcaption {
     text-align: center;
+  }
+
+  .figcaption {
+    line-height: 1.8rem;
   }
 
   img.center {

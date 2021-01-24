@@ -2132,7 +2132,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /* Optional: embed custom fonts here with `@import`          */
   /* This must remain at the top of this file.                 */
 
-
+  @import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR');
+  @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
 
   html {
     /*-- Main font sizes --*/
@@ -2148,10 +2149,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --aside-color:     rgba(0, 0, 0, 0.6);
     --fig-cap-color:   rgba(0, 0, 0, 0.6);
     /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    sans-serif;
+    --heading-font:    'Noto Sans Kr', sans-serif;
     --mono-font:       monospace;
-    --body-font:       sans-serif;
-    --navbar-font:     sans-serif;  /* websites + blogs only */
+    --body-font:       'Noto Serif KR', sans-serif;
+    --navbar-font:     'Noto Sans Kr', sans-serif;  /* websites + blogs only */
   }
 
   /*-- ASIDE --*/
@@ -2182,10 +2183,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }
 
   /*-- ARTICLE TABLE OF CONTENTS --*/
+
   .d-contents {
-    --heading-size:    18px;
-    --contents-size:   13px;
+    --heading-size:    24px;
+    --contents-size:   16px;
+    top: 200px;
   }
+
+
 
   /*-- ARTICLE APPENDIX --*/
   d-appendix {
@@ -2218,6 +2223,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   figcaption {
     text-align: center;
+  }
+
+  .figcaption {
+    line-height: 1.8rem;
   }
 
   img.center {
@@ -2445,6 +2454,24 @@ Contents
 
 
 <div class="d-article">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#장-조현병의-이해와-진단">1장 조현병의 이해와 진단</a>
+<ul>
+<li><a href="#조현병-개념의-역사">1. 조현병 개념의 역사</a>
+<ul>
+<li><a href="#고대">1-1. 고대</a></li>
+<li><a href="#그리스-로마-시대-그리고-중세">1-2. 그리스, 로마 시대 그리고 중세</a></li>
+<li><a href="#근대">1-3. 근대</a></li>
+<li><a href="#크레펠린-이전의-조현병">1-4. 크레펠린 이전의 조현병</a></li>
+<li><a href="#크레펠린과-조발성-치매">1-5. 크레펠린과 조발성 치매</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+</div>
 <h1 id="장-조현병의-이해와-진단">1장 조현병의 이해와 진단</h1>
 <h2 id="조현병-개념의-역사">1. 조현병 개념의 역사</h2>
 <h3 id="고대">1-1. 고대</h3>
