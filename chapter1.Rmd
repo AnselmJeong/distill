@@ -60,21 +60,19 @@ link-citation: yes
 
 1487년 하인리히 크레이머와 자콥 스프렝거라는 두 명의 도미니코 수도회 성직자는 "마녀의 망치(Malleus Maleficarum)"이라는 마녀사냥 지침서를 출간한다. 이 책은 마녀를 쉽게 구분하고 판결을 내릴 수 있는 기준을 나열한 책이다. 문제는 이 책의 저자들이, 악마의 술책은 인간 심리의 약점을 교묘하게 파고드는 것이라 믿었다는 점이다. 사회에서 소외되어 있는 사람들(특히 가난한 여성)의 말이나 행동, 혹은 신체적 증상이 당시의 의학적 지식으로 설명되지 않을 때, 종교재판관은 악마가 피해자의 영혼을 사로잡았기 때문이라고 설명하였다. 악마에게 영혼을 빼앗긴 것은 애초에 신앙심이 굳건하지 못했기 때문이요, 그 자체가 죄와 타락의 증거가 되었다. 이런 해석하에 광증을 비롯하여, 우울증, 히스테리아 등을 보이는 많은 환자들이, 편견에 치우친 증거와 고문으로 얻어진 자백하에 처형되었다.
 
-)
+<aside>
 
-[![Malleus Malleficarum (retrieved from Wikipedia)](images/img_0.png){width="50%"}](https://en.wikipedia.org/wiki/Malleus_Maleficarum#/media/File:J._Sprenger_and_H._Institutoris,_Malleus_maleficarum._Wellcome_L0000980.jpg)
+물론 수많은 정신질환자들이 마녀 사냥으로 인해 처형되었다는 분명한 증거는 존재하지 않는다. 당연하겠지만 정신질환자라고 진단을 한 적이 없기 때문이다. 이후 역사가들이 이렇게 생각하는 이유는, 다양한 마녀 판례집에 기술된 묘사가 다양한 정신병리와 놀랄만큼 유사하기 때문이다. 정신질환자들이 광신적 종교관과 교회의 권력욕에 의해 희생양이 되었다는 식의 관점은 정신분석가이자 의사학자인 Gregory Zilboorg로부터 비롯되었다. 그는 광증과 마법, 이단이 하나의 개념으로 융합되고, 그것이 정신질환이라는 의학적 상태때문일 지 모른다는 합리적 의심이 완전히 배제되는 바람에 이 모든 비극이 초래되었다고 주장한다.[@Zilboorg1941-nx]
+
+</aside>
+
+[![Malleus Malleficarum (retrieved from Wikipedia)](images/img_0.png){.center width="50%"}](https://en.wikipedia.org/wiki/Malleus_Maleficarum#/media/File:J._Sprenger_and_H._Institutoris,_Malleus_maleficarum._Wellcome_L0000980.jpg)
 
 <figcaption>
 
 Malleus Malleficarum (retrieved from Wikipedia)
 
 </figcaption>
-
-<aside>
-
-물론 수많은 정신질환자들이 마녀 사냥으로 인해 처형되었다는 분명한 증거는 존재하지 않는다. 당연하겠지만 정신질환자라고 진단을 한 적이 없기 때문이다. 이후 역사가들이 이렇게 생각하는 이유는, 다양한 마녀 판례집에 기술된 묘사가 다양한 정신병리와 놀랄만큼 유사하기 때문이다. 정신질환자들이 광신적 종교관과 교회의 권력욕에 의해 희생양이 되었다는 식의 관점은 정신분석가이자 의사학자인 Gregory Zilboorg로부터 비롯되었다. 그는 광증과 마법, 이단이 하나의 개념으로 융합되고, 그것이 정신질환이라는 의학적 상태때문일 지 모른다는 합리적 의심이 완전히 배제되는 바람에 이 모든 비극이 초래되었다고 주장한다.[@Zilboorg1941-nx]
-
-</aside>
 
 이러한 비극은 그저 역사의 한 페이지로 넘겨버릴 수도 있었을 것이다. 그런데, 반정신의학을 주장하는 학자들은 이러한 비극이 현재도 끊임없이 재생 반복되고 있다고 주장한다. 사회복지학자인 Kutchins와 Kirk는 "Making Us Crazy: DSM, the Psychiatric Bible and the Creation of Mental Disorders"라는 책[@Kutchins1997-ju]**​**에서 정상과 비정상의 경계를 규정하는 DSM이 어떻게 사람들간의 차이와 일상적 고통을 정치적, 경제적 목적을 위해 질병화하고 있는지를 비판한다. 혹자는 DSM이 현대의 "마녀의 망치"에 지나지 않는다는 가혹한 비판을 내리기도 한다.[@Melanson2014-pu]
 
@@ -124,7 +122,7 @@ Malleus Malleficarum (retrieved from Wikipedia)
 
 </aside>
 
-[![A Dementia Praecox patient with Catatonia](images/img_1.png){width="50%"}](https://upload.wikimedia.org/wikipedia/commons/9/9c/Writing_on_the_back_of_a_female_patient_Wellcome_L0040284.jpg)
+[![A Dementia Praecox patient with Catatonia](images/img_1.png){.center width="50%"}](https://upload.wikimedia.org/wikipedia/commons/9/9c/Writing_on_the_back_of_a_female_patient_Wellcome_L0040284.jpg)
 
 <figcaption>
 
@@ -268,4 +266,3 @@ A Dementia Praecox patient with Catatonia
 
 그러나 모든 조발성 치매 환자가 회복을 하지 못했던 것은 아니었다. 크레펠린이 수집한 사례에서도 1/4에 해당되는 환자는 어느 정도 회복을 하였으며, 그가 완성하지 못했던 9판 교과서 원고에는 궁극적으로 회복하여 정상 생활을 하는 증례도 소개되어 있다. 크레펠린은 자신의 교과서를 여러 차례 개정하면서, 동료 의사들의 비판을 수용하여 질병의 개념과 이름을 변화시켰다. 말년에 나온 8판 교과서는 블로일러의 조현병 개념을 받아들였으며, 역시 블로일러가 제안한 단순 정신병(simple type) 개념도 추가하였다. 조발성 치매의 개념은 20년 이상에 걸쳐 수정, 보완되면서, 처음의 엄격하고 제한적인 개념에서 경계가 불분명하고 포괄적인 개념으로 변모하게 된다. 그러다보니 크레펠린의 교과서 8판에는 무려 10개의 아형이 기술되었고, 또 다시 이질적인 진단의 집합체가 되어버렸다.
 
-# References
