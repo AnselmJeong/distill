@@ -85,26 +85,36 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>KYS study group: Pharmacotherapy of Schizophrenia</title>
+  <title>KYS study group: 조현병의 약물치료</title>
+
+  <meta property="description" itemprop="description" content="Pharmacotherapy of Schizophrenia"/>
 
 
-
+  <meta name="article:author" content="정성훈"/>
+  <meta name="article:author" content="김용식"/>
+  <meta name="article:author" content="김세현"/>
+  <meta name="article:author" content="이중서"/>
+  <meta name="article:author" content="안용민"/>
+  <meta name="article:author" content="주은정"/>
+  <meta name="article:author" content="정희연"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="KYS study group: Pharmacotherapy of Schizophrenia"/>
+  <meta property="og:title" content="KYS study group: 조현병의 약물치료"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Pharmacotherapy of Schizophrenia"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="KYS study group"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="KYS study group: Pharmacotherapy of Schizophrenia"/>
+  <meta property="twitter:title" content="KYS study group: 조현병의 약물치료"/>
+  <meta property="twitter:description" content="Pharmacotherapy of Schizophrenia"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site"]}},"value":[{"type":"character","attributes":{},"value":["Pharmacotherapy of Schizophrenia"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site","author","toc"]}},"value":[{"type":"character","attributes":{},"value":["조현병의 약물치료"]},{"type":"character","attributes":{},"value":["Pharmacotherapy of Schizophrenia"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","affiliation","affiliation_url","orcid_id"]}},"value":[{"type":"character","attributes":{},"value":["정성훈"]},{"type":"character","attributes":{},"value":["을지대학교 의과대학, 대전 을지대학교 병원"]},{"type":"character","attributes":{},"value":["http://www.emc.ac.kr/index.jsp"]},{"type":"character","attributes":{},"value":["0000-0002-7404-9056"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","affiliation","orcid_id","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["김용식"]},{"type":"character","attributes":{},"value":["을지대학교 의과대학, 노원 을지대학교 병원"]},{"type":"character","attributes":{},"value":["0000-0002-8845-5186"]},{"type":"character","attributes":{},"value":["http://www.eulji.or.kr/index.jsp"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["김세현"]},{"type":"character","attributes":{},"value":["서울대학교 의과대학, 서울대학교 병원"]},{"type":"character","attributes":{},"value":["http://www.snuh.org/intro.do"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["이중서"]},{"type":"character","attributes":{},"value":["한림대학교 의과대학, 한림대학교 강남성심병원"]},{"type":"character","attributes":{},"value":["https://kangnam.hallym.or.kr/"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["안용민"]},{"type":"character","attributes":{},"value":["서울대학교 의과대학, 서울대학교 병원"]},{"type":"character","attributes":{},"value":["http://www.snuh.org/intro.do"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["주은정"]},{"type":"character","attributes":{},"value":["을지대학교 의과대학, 노원 을지대학교 병원"]},{"type":"character","attributes":{},"value":["http://www.eulji.or.kr/index.jsp"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["정희연"]},{"type":"character","attributes":{},"value":["서울대학교 의과대학, 서울특별시 보라매 병원"]},{"type":"character","attributes":{},"value":["https://www.brmh.org/home.do"]}]}]},{"type":"logical","attributes":{},"value":[false]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2120,7 +2130,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /* This must remain at the top of this file.                 */
 
   @import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR');
-  @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
 
   html {
     /*-- Main font sizes --*/
@@ -2145,11 +2155,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*-- ASIDE --*/
 
   d-article aside {
-    width: 200%;
+    width: 180%;
   }
 
   d-article aside li {
-    line-height: 0.5rem
+    line-height: 0.8rem
   }
 
   /*-- a concept explained in ASIDE --*/
@@ -2172,10 +2182,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*-- ARTICLE TABLE OF CONTENTS --*/
 
   .d-contents {
-    --heading-size:    24px;
-    --contents-size:   16px;
+    --heading-size:    1.4rem;
+    --contents-size:   0.8rem;
   }
 
+  .d-contents.d-contents-float {
+    position: fixed;
+    top: 150px;
+    left: 2%;
+    width: 15%;
+  }
 
 
   /*-- ARTICLE APPENDIX --*/
@@ -2207,20 +2223,93 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
 
-  figcaption {
-    text-align: center;
+
+  d-contents .figcaption {
+    line-height: 2rem;
   }
 
-  .figcaption {
-    line-height: 1.8rem;
+  figure {
+    margin: 1rem auto;
+    width: 75%;
   }
 
-  img.center {
-    display: block;
-    margin: auto;
+
+  figure figcaption,
+  .figcaption p {
+    border-bottom: 1px dotted black;
   }
 
-  </style>
+  i.arrow {
+    position: fixed;
+    font-size: 5rem;
+    top: 50%;
+    color: rgb(25, 0, 125);
+    opacity: 0.1;
+  }
+
+  i.arrow:hover {
+    opacity: 0.5;
+  }
+
+  i.fa-arrow-alt-circle-left {
+    left: 5%;
+  }
+
+  i.fa-arrow-alt-circle-right {
+    right: 5%;
+  }
+
+  .title_box {
+    position: relative; 
+    background-color: white;
+    width: 700px; 
+  }
+
+  .title_box li {
+    list-style-type: none;
+  }
+
+  .title_border:before {
+      content: "";
+      background: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      width: calc(100% + 10px);
+      height: calc(100% + 10px);
+      z-index: -1;
+      border-radius: 12px;
+  }
+
+  .title_inside {
+    padding: 20px;
+  }
+
+  d-article a {
+    border-bottom: none;
+    opacity: 0.6;
+  }
+  d-article a:hover {
+    opacity: 1;
+    color: color: rgb(25, 0, 125);
+    border-bottom: none;
+  }
+
+  .d-contents nav a {
+    text-decoration: none;
+    border-bottom: none;
+    opacity: 0.6;
+  }
+  .d-contents nav a:hover {
+    text-decoration: none;
+    border-bottom: none;
+    opacity: 1;
+  }
+
+  /* Table decoration  */
+  table td {
+    vertical-align: top;
+  }</style>
   <style type="text/css">
   /* base style */
 
@@ -2396,7 +2485,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Pharmacotherapy of Schizophrenia","authors":[]}
+{"title":"조현병의 약물치료","description":"Pharmacotherapy of Schizophrenia","authors":[{"author":"정성훈","authorURL":"#","affiliation":"을지대학교 의과대학, 대전 을지대학교 병원","affiliationURL":"http://www.emc.ac.kr/index.jsp","orcidID":"0000-0002-7404-9056"},{"author":"김용식","authorURL":"#","affiliation":"을지대학교 의과대학, 노원 을지대학교 병원","affiliationURL":"http://www.eulji.or.kr/index.jsp","orcidID":"0000-0002-8845-5186"},{"author":"김세현","authorURL":"#","affiliation":"서울대학교 의과대학, 서울대학교 병원","affiliationURL":"http://www.snuh.org/intro.do","orcidID":""},{"author":"이중서","authorURL":"#","affiliation":"한림대학교 의과대학, 한림대학교 강남성심병원","affiliationURL":"https://kangnam.hallym.or.kr/","orcidID":""},{"author":"안용민","authorURL":"#","affiliation":"서울대학교 의과대학, 서울대학교 병원","affiliationURL":"http://www.snuh.org/intro.do","orcidID":""},{"author":"주은정","authorURL":"#","affiliation":"을지대학교 의과대학, 노원 을지대학교 병원","affiliationURL":"http://www.eulji.or.kr/index.jsp","orcidID":""},{"author":"정희연","authorURL":"#","affiliation":"서울대학교 의과대학, 서울특별시 보라매 병원","affiliationURL":"https://www.brmh.org/home.do","orcidID":""}]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2404,7 +2493,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <header class="header header--fixed" role="banner">
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
+<a class="logo">
+<img src="images/logo2.png" alt="Logo"/>
+</a>
 <a href="index.html" class="title">KYS study group</a>
+<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
 <a href="index.html">Front Matter</a>
@@ -2415,8 +2508,8 @@ Contents
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="chapter1.html">1. Understanding of Schizophrenia</a>
-<a href="chapter2.html">2. Biological Basis of Schizophrenia</a>
+<a href="frontmatter_01.html">1. Understanding of Schizophrenia</a>
+<a href="frontmatter_02.html">2. Biological Basis of Schizophrenia</a>
 </div>
 </div>
 <a href="about.html">Authors</a>
@@ -2432,38 +2525,49 @@ Contents
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Pharmacotherapy of Schizophrenia</h1>
+<h1>조현병의 약물치료</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-
+<p>Pharmacotherapy of Schizophrenia</p>
 </div>
 
+<div class="d-byline">
+  정성훈  (을지대학교 의과대학, 대전 을지대학교 병원)<a href="http://www.emc.ac.kr/index.jsp" class="uri">http://www.emc.ac.kr/index.jsp</a>
+  
+,   김용식  (을지대학교 의과대학, 노원 을지대학교 병원)<a href="http://www.eulji.or.kr/index.jsp" class="uri">http://www.eulji.or.kr/index.jsp</a>
+  
+,   김세현  (서울대학교 의과대학, 서울대학교 병원)<a href="http://www.snuh.org/intro.do" class="uri">http://www.snuh.org/intro.do</a>
+  
+,   이중서  (한림대학교 의과대학, 한림대학교 강남성심병원)<a href="https://kangnam.hallym.or.kr/" class="uri">https://kangnam.hallym.or.kr/</a>
+  
+,   안용민  (서울대학교 의과대학, 서울대학교 병원)<a href="http://www.snuh.org/intro.do" class="uri">http://www.snuh.org/intro.do</a>
+  
+,   주은정  (을지대학교 의과대학, 노원 을지대학교 병원)<a href="http://www.eulji.or.kr/index.jsp" class="uri">http://www.eulji.or.kr/index.jsp</a>
+  
+,   정희연  (서울대학교 의과대학, 서울특별시 보라매 병원)<a href="https://www.brmh.org/home.do" class="uri">https://www.brmh.org/home.do</a>
+  
+
+</div>
 
 <div class="d-article">
-<div class="d-contents d-contents-float">
-<nav class="l-text toc figcaption" id="TOC">
-<h3>Contents</h3>
+<div class="title_box">
+<div class="title_border">
+<div class="title_inside">
 <ul>
-<li><a href="#조현병의-약물-치료">조현병의 약물 치료</a>
+<li><h2 id="제-1-권-조현병의-이해">제 1 권: 조현병의 이해</h2>
 <ul>
-<li><a href="#제-1-권">제 1 권</a>
-<ul>
-<li><a href="#제-1-장-조현병의-이해와-진단">제 1 장: <span>조현병의 이해와 진단</span></a></li>
-<li><a href="#제-2-장-조현병의-생물학적-기전">제 2 장: <span>조현병의 생물학적 기전</span></a></li>
+<li><h3 id="제-1-장-조현병의-개관">제 1 장: <a href="frontmatter-01.html">조현병의 개관</a></h3></li>
+<li><h3 id="제-2-장-조현병의-생물학적-이해">제 2 장: <a href="frontmatter-02.html">조현병의 생물학적 이해</a></h3></li>
+<li><h3 id="제-3-장-조현병-약물치료의-역사">제 3 장: <a href="frontmatter-03.html">조현병 약물치료의 역사</a></h3></li>
+<li><h3 id="제-4-장-조현병-약물치료의-기본개념">제 4 장: <a href="frontmatter-04.html">조현병 약물치료의 기본개념</a></h3>
+<hr></li>
 </ul></li>
-<li><a href="#제-2-권">제 2 권</a></li>
-</ul></li>
+<li><h2 id="제-2-권-약물치료-실제">제 2 권: 약물치료 실제</h2></li>
+<li><h2 id="제-3-권-특수한-임상상황에서의-사용">제 3 권: 특수한 임상상황에서의 사용</h2></li>
 </ul>
-</nav>
 </div>
-<h1 style="text-align: center;" id="조현병의-약물-치료">조현병의 약물 치료</h1>
-<h4 style="text-align: center;" id="김용식-정성훈-김세현-이중서-안용민-주은정-정희연">김용식, 정성훈, 김세현, 이중서, 안용민, 주은정, 정희연</h4>
-<hr>
-<h2 id="제-1-권">제 1 권</h2>
-<h3 style="margin-left: 5%;" id="제-1-장-조현병의-이해와-진단">제 1 장: <a href="chapter1.html">조현병의 이해와 진단</a></h3>
-<h3 style="margin-left: 5%;" id="제-2-장-조현병의-생물학적-기전">제 2 장: <a href="chapter2.html">조현병의 생물학적 기전</a></h3>
-<hr>
-<h2 id="제-2-권">제 2 권</h2>
+</div>
+</div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

@@ -12,7 +12,7 @@
 /* This must remain at the top of this file.                 */
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR');
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
 
 html {
   /*-- Main font sizes --*/
@@ -37,11 +37,11 @@ html {
 /*-- ASIDE --*/
 
 d-article aside {
-  width: 200%;
+  width: 180%;
 }
 
 d-article aside li {
-  line-height: 0.5rem
+  line-height: 0.8rem
 }
 
 /*-- a concept explained in ASIDE --*/
@@ -64,10 +64,16 @@ d-byline {
 /*-- ARTICLE TABLE OF CONTENTS --*/
 
 .d-contents {
-  --heading-size:    24px;
-  --contents-size:   16px;
+  --heading-size:    1.4rem;
+  --contents-size:   0.8rem;
 }
 
+.d-contents.d-contents-float {
+  position: fixed;
+  top: 150px;
+  left: 2%;
+  width: 15%;
+}
 
 
 /*-- ARTICLE APPENDIX --*/
@@ -99,17 +105,90 @@ d-appendix {
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
 
-figcaption {
-  text-align: center;
+
+d-contents .figcaption {
+  line-height: 2rem;
 }
 
-.figcaption {
-  line-height: 1.8rem;
-}
-
-img.center {
-  display: block;
-  margin: auto;
+figure {
+  margin: 1rem auto;
+  width: 75%;
 }
 
 
+figure figcaption,
+.figcaption p {
+  border-bottom: 1px dotted black;
+}
+
+i.arrow {
+  position: fixed;
+  font-size: 5rem;
+  top: 50%;
+  color: rgb(25, 0, 125);
+  opacity: 0.1;
+}
+
+i.arrow:hover {
+  opacity: 0.5;
+}
+
+i.fa-arrow-alt-circle-left {
+  left: 5%;
+}
+
+i.fa-arrow-alt-circle-right {
+  right: 5%;
+}
+
+.title_box {
+  position: relative; 
+  background-color: white;
+  width: 700px; 
+}
+
+.title_box li {
+  list-style-type: none;
+}
+
+.title_border:before {
+    content: "";
+    background: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    z-index: -1;
+    border-radius: 12px;
+}
+
+.title_inside {
+  padding: 20px;
+}
+
+d-article a {
+  border-bottom: none;
+  opacity: 0.6;
+}
+d-article a:hover {
+  opacity: 1;
+  color: color: rgb(25, 0, 125);
+  border-bottom: none;
+}
+
+.d-contents nav a {
+  text-decoration: none;
+  border-bottom: none;
+  opacity: 0.6;
+}
+.d-contents nav a:hover {
+  text-decoration: none;
+  border-bottom: none;
+  opacity: 1;
+}
+
+/* Table decoration  */
+table td {
+  vertical-align: top;
+}

@@ -1,20 +1,45 @@
 ---
-title: Pharmacotherapy of Schizophrenia
+title: 조현병의 약물치료
+description: Pharmacotherapy of Schizophrenia
 site: distill::distill_website
+author:
+  - name: 정성훈
+    affiliation: 을지대학교 의과대학, 대전 을지대학교 병원
+    affiliation_url: http://www.emc.ac.kr/index.jsp
+    orcid_id: 0000-0002-7404-9056
+  - name: 김용식
+    affiliation: 을지대학교 의과대학, 노원 을지대학교 병원
+    orcid_id: 0000-0002-8845-5186
+    affiliation_url: http://www.eulji.or.kr/index.jsp
+  - name: 김세현
+    affiliation: 서울대학교 의과대학, 서울대학교 병원
+    affiliation_url: http://www.snuh.org/intro.do
+  - name: 이중서
+    affiliation: 한림대학교 의과대학, 한림대학교 강남성심병원
+    affiliation_url: https://kangnam.hallym.or.kr/
+  - name: 안용민
+    affiliation: 서울대학교 의과대학, 서울대학교 병원
+    affiliation_url: http://www.snuh.org/intro.do
+  - name: 주은정
+    affiliation: 을지대학교 의과대학, 노원 을지대학교 병원
+    affiliation_url: http://www.eulji.or.kr/index.jsp
+  - name: 정희연
+    affiliation: 서울대학교 의과대학, 서울특별시 보라매 병원
+    affiliation_url: https://www.brmh.org/home.do
+toc: false
 ---
 
-# 조현병의 약물 치료 {style="text-align: center;"}
-
-#### 김용식, 정성훈, 김세현, 이중서, 안용민, 주은정, 정희연 {style="text-align: center;"}
-
-<hr>
-
-## 제 1 권
-
-### 제 1 장: [조현병의 이해와 진단](chapter1.html) {style="margin-left: 5%;"}
-
-### 제 2 장: [조현병의 생물학적 기전](chapter2.html) {style="margin-left: 5%;"}
-
-<hr>
-
-## 제 2 권
+::: {.title_box}
+::: {.title_border}
+::: {.title_inside}
+- ## 제 1 권: 조현병의 이해
+  - ### 제 1 장: [조현병의 개관](frontmatter-01.html)
+  - ### 제 2 장: [조현병의 생물학적 이해](frontmatter-02.html)
+  - ### 제 3 장: [조현병 약물치료의 역사](frontmatter-03.html)
+  - ### 제 4 장: [조현병 약물치료의 기본개념](frontmatter-04.html)
+  <hr>
+- ## 제 2 권: 약물치료 실제
+- ## 제 3 권: 특수한 임상상황에서의 사용
+:::
+:::
+:::
