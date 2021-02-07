@@ -65,7 +65,7 @@ link-citation: yes
 
 </aside>
 
-![Figure 1. Title page of Malleus Maleficarum. Retrieved from Wikipedia](images/01-01/img_0.png){#fig:malleus style="width: 80%"}
+![Figure 1. Title page of Malleus Maleficarum. Retrieved from Wikipedia](images/01-01/img_0.png){#fig:malleus width="60%"}
 
 이러한 비극은 그저 역사의 한 페이지로 넘겨버릴 수도 있었을 것이다. 그런데, 반정신의학을 주장하는 학자들은 이러한 비극이 현재도 끊임없이 재생 반복되고 있다고 주장한다. 사회복지학자인 Kutchins와 Kirk는 "Making Us Crazy: DSM, the Psychiatric Bible and the Creation of Mental Disorders"라는 책[@Kutchins1997-ju]"에서 정상과 비정상의 경계를 규정하는 DSM이 어떻게 사람들간의 차이와 일상적 고통을 정치적, 경제적 목적을 위해 질병화하고 있는지를 비판한다. 혹자는 DSM이 현대의 "마녀의 망치"에 지나지 않는다는 가혹한 비판을 내리기도 한다.[@Melanson2014-pu]
 
