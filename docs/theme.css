@@ -68,7 +68,7 @@ d-byline {
   --contents-size:   0.8rem;
 }
 
-.d-contents.d-contents-float {
+.d-contents-float {
   position: fixed;
   top: 150px;
   left: 2%;
@@ -105,6 +105,9 @@ d-appendix {
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
 
+d-article {
+  contain: none !important;
+}
 
 d-contents .figcaption {
   line-height: 2rem;

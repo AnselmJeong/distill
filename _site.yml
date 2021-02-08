@@ -17,9 +17,13 @@ navbar:
     - text: "Contents"
       menu:
         - text: "1. Understanding of Schizophrenia"
-          href: frontmatter_01.html
+          href: frontmatter-01.html
         - text: "2. Biological Basis of Schizophrenia"
-          href: frontmatter_02.html
+          href: frontmatter-02.html
+        - text: "3. History of Antipsychotic Treatment"
+          href: frontmatter-03.html
+        - text: "4. Basic Concetps in Antipsychotic Treatment"
+          href: frontmatter-04.html
     - text: "Authors"
       href: about.html
     - icon: fab fa-github
