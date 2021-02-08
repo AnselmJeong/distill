@@ -68,11 +68,13 @@ d-byline {
   --contents-size:   0.8rem;
 }
 
-.d-contents-float {
-  position: fixed;
-  top: 150px;
-  left: 2%;
-  width: 15%;
+@media (min-width: 1000px) {
+  .d-contents.d-contents-float {
+      position: fixed;
+      top: 20%;
+      left: 2%;
+      width: 16%;
+  }
 }
 
 
