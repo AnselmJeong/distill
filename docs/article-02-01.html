@@ -1,0 +1,2842 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="generator" content="distill" />
+
+  <style type="text/css">
+  /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
+  body {
+    visibility: hidden;
+  }
+  </style>
+
+ <!--radix_placeholder_import_source-->
+ <!--/radix_placeholder_import_source-->
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ad0000; } /* Alert */
+code span.an { color: #5e5e5e; } /* Annotation */
+code span.at { color: #20794d; } /* Attribute */
+code span.bn { color: #ad0000; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007ba5; } /* ControlFlow */
+code span.ch { color: #20794d; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #5e5e5e; } /* Comment */
+code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+code span.dt { color: #ad0000; } /* DataType */
+code span.dv { color: #ad0000; } /* DecVal */
+code span.er { color: #ad0000; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #ad0000; } /* Float */
+code span.fu { color: #4758ab; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #5e5e5e; } /* Information */
+code span.kw { color: #007ba5; } /* Keyword */
+code span.op { color: #5e5e5e; } /* Operator */
+code span.ot { color: #007ba5; } /* Other */
+code span.pp { color: #ad0000; } /* Preprocessor */
+code span.sc { color: #20794d; } /* SpecialChar */
+code span.ss { color: #20794d; } /* SpecialString */
+code span.st { color: #20794d; } /* String */
+code span.va { color: #111111; } /* Variable */
+code span.vs { color: #20794d; } /* VerbatimString */
+code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+</style>
+
+  <!--radix_placeholder_meta_tags-->
+  <title>KYS study group: 2장 1절 조현병의 유전학적 이해</title>
+
+  <meta property="description" itemprop="description" content="Genetic Understanding of Schizophrenia"/>
+
+
+
+  <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
+  <meta property="og:title" content="KYS study group: 2장 1절 조현병의 유전학적 이해"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Genetic Understanding of Schizophrenia"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="KYS study group"/>
+
+  <!--  https://dev.twitter.com/cards/types/summary -->
+  <meta property="twitter:card" content="summary"/>
+  <meta property="twitter:title" content="KYS study group: 2장 1절 조현병의 유전학적 이해"/>
+  <meta property="twitter:description" content="Genetic Understanding of Schizophrenia"/>
+
+  <!--/radix_placeholder_meta_tags-->
+  
+  <meta name="citation_reference" content="citation_title=The origins of theoretical population genetics: With a new afterword;citation_publication_date=2001;citation_publisher=University of Chicago Press;citation_author=William B Provine"/>
+  <meta name="citation_reference" content="citation_title=Genetic relationship between five psychiatric disorders estimated from genome-wide SNPs;citation_publication_date=2013;citation_volume=45;citation_doi=10.1038/ng.2711;citation_issn=1061-4036, 1546-1718;citation_author=S Hong Lee;citation_author=Stephan Ripke;citation_author=Benjamin M Neale;citation_author=Stephen V Faraone;citation_author=Shaun M Purcell;citation_author=Roy H Perlis;citation_author=Bryan J Mowry;citation_author=Anita Thapar;citation_author=Michael E Goddard;citation_author=John S Witte;citation_author=Devin Absher;citation_author=Ingrid Agartz;citation_author=Huda Akil;citation_author=Farooq Amin;citation_author=Ole A Andreassen;citation_author=Adebayo Anjorin;citation_author=Richard Anney;citation_author=Verneri Anttila;citation_author=Dan E Arking;citation_author=Philip Asherson;citation_author=Maria H Azevedo;citation_author=Lena Backlund;citation_author=Judith A Badner;citation_author=Anthony J Bailey;citation_author=Tobias Banaschewski;citation_author=Jack D Barchas;citation_author=Michael R Barnes;citation_author=Thomas B Barrett;citation_author=Nicholas Bass;citation_author=Agatino Battaglia;citation_author=Michael Bauer;citation_author=MÃ²nica BayÃ©s;citation_author=Frank Bellivier;citation_author=Sarah E Bergen;citation_author=Wade Berrettini;citation_author=Catalina Betancur;citation_author=Thomas Bettecken;citation_author=Joseph Biederman;citation_author=Elisabeth B Binder;citation_author=Donald W Black;citation_author=Douglas H R Blackwood;citation_author=Cinnamon S Bloss;citation_author=Michael Boehnke;citation_author=Dorret I Boomsma;citation_author=Gerome Breen;citation_author=RenÃ© Breuer;citation_author=Richard Bruggeman;citation_author=Paul Cormican;citation_author=Nancy G Buccola;citation_author=Jan K Buitelaar;citation_author=William E Bunney;citation_author=Joseph D Buxbaum;citation_author=William F Byerley;citation_author=Enda M Byrne;citation_author=Sian Caesar;citation_author=Wiepke Cahn;citation_author=Rita M Cantor;citation_author=Miguel Casas;citation_author=Aravinda Chakravarti;citation_author=Kimberly Chambert;citation_author=Khalid Choudhury;citation_author=Sven Cichon;citation_author=C Robert Cloninger;citation_author=David A Collier;citation_author=Edwin H Cook;citation_author=Hilary Coon;citation_author=Bru Cormand;citation_author=Aiden Corvin;citation_author=William H Coryell;citation_author=David W Craig;citation_author=Ian W Craig;citation_author=Jennifer Crosbie;citation_author=Michael L Cuccaro;citation_author=David Curtis;citation_author=Darina Czamara;citation_author=Susmita Datta;citation_author=Geraldine Dawson;citation_author=Richard Day;citation_author=Eco J De Geus;citation_author=Franziska Degenhardt;citation_author=Srdjan Djurovic;citation_author=Gary J Donohoe;citation_author=Alysa E Doyle;citation_author=Jubao Duan;citation_author=Frank Dudbridge;citation_author=Eftichia Duketis;citation_author=Richard P Ebstein;citation_author=Howard J Edenberg;citation_author=Josephine Elia;citation_author=Sean Ennis;citation_author=Bruno Etain;citation_author=Ayman Fanous;citation_author=Anne E Farmer;citation_author=I Nicol Ferrier;citation_author=Matthew Flickinger;citation_author=Eric Fombonne;citation_author=Tatiana Foroud;citation_author=Josef Frank;citation_author=Barbara Franke;citation_author=Christine Fraser;citation_author=Robert Freedman;citation_author=Nelson B Freimer;citation_author=Christine M Freitag;citation_author=Marion Friedl;citation_author=Louise FrisÃ©n;citation_author=Louise Gallagher;citation_author=Pablo V Gejman;citation_author=Lyudmila Georgieva;citation_author=Elliot S Gershon;citation_author=Daniel H Geschwind;citation_author=Ina Giegling;citation_author=Michael Gill;citation_author=Scott D Gordon;citation_author=Katherine Gordon-Smith;citation_author=Elaine K Green;citation_author=Tiffany A Greenwood;citation_author=Dorothy E Grice;citation_author=Magdalena Gross;citation_author=Detelina Grozeva;citation_author=Weihua Guan;citation_author=Hugh Gurling;citation_author=Lieuwe De Haan;citation_author=Jonathan L Haines;citation_author=Hakon Hakonarson;citation_author=Joachim Hallmayer;citation_author=Steven P Hamilton;citation_author=Marian L Hamshere;citation_author=Thomas F Hansen;citation_author=Annette M Hartmann;citation_author=Martin Hautzinger;citation_author=Andrew C Heath;citation_author=Anjali K Henders;citation_author=Stefan Herms;citation_author=Ian B Hickie;citation_author=Maria Hipolito;citation_author=Susanne Hoefels;citation_author=Peter A Holmans;citation_author=Florian Holsboer;citation_author=Witte J Hoogendijk;citation_author=Jouke-Jan Hottenga;citation_author=Christina M Hultman;citation_author=Vanessa Hus;citation_author=AndrÃ©s Ingason;citation_author=Marcus Ising;citation_author=StÃ©phane Jamain;citation_author=Edward G Jones;citation_author=Ian Jones;citation_author=Lisa Jones;citation_author=Jung-Ying Tzeng;citation_author=Anna K KÃ¤hler;citation_author=RenÃ© S Kahn;citation_author=Radhika Kandaswamy;citation_author=Matthew C Keller;citation_author=James L Kennedy;citation_author=Elaine Kenny;citation_author=Lindsey Kent;citation_author=Yunjung Kim;citation_author=George K Kirov;citation_author=Sabine M Klauck;citation_author=Lambertus Klei;citation_author=James A Knowles;citation_author=Martin A Kohli;citation_author=Daniel L Koller;citation_author=Bettina Konte;citation_author=Ania Korszun;citation_author=Lydia Krabbendam;citation_author=Robert Krasucki;citation_author=Jonna Kuntsi;citation_author=Phoenix Kwan;citation_author=Mikael LandÃ©n;citation_author=Niklas LÃ¥ngstrÃ¶m;citation_author=Mark Lathrop;citation_author=Jacob Lawrence;citation_author=William B Lawson;citation_author=Marion Leboyer;citation_author=David H Ledbetter;citation_author=Phil H Lee;citation_author=Todd Lencz;citation_author=Klaus-Peter Lesch;citation_author=Douglas F Levinson;citation_author=Cathryn M Lewis;citation_author=Jun Li;citation_author=Paul Lichtenstein;citation_author=Jeffrey A Lieberman;citation_author=Dan-Yu Lin;citation_author=Don H Linszen;citation_author=Chunyu Liu;citation_author=Falk W Lohoff;citation_author=Sandra K Loo;citation_author=Catherine Lord;citation_author=Jennifer K Lowe;citation_author=Susanne Lucae;citation_author=Donald J MacIntyre;citation_author=Pamela A F Madden;citation_author=Elena Maestrini;citation_author=Patrik K E Magnusson;citation_author=Pamela B Mahon;citation_author=Wolfgang Maier;citation_author=Anil K Malhotra;citation_author=Shrikant M Mane;citation_author=Christa L Martin;citation_author=Nicholas G Martin;citation_author=Manuel Mattheisen;citation_author=Keith Matthews;citation_author=Morten Mattingsdal;citation_author=Steven A McCarroll;citation_author=Kevin A McGhee;citation_author=James J McGough;citation_author=Patrick J McGrath;citation_author=Peter McGuffin;citation_author=Melvin G McInnis;citation_author=Andrew McIntosh;citation_author=Rebecca McKinney;citation_author=Alan W McLean;citation_author=Francis J McMahon;citation_author=William M McMahon;citation_author=Andrew McQuillin;citation_author=Helena Medeiros;citation_author=Sarah E Medland;citation_author=Sandra Meier;citation_author=Ingrid Melle;citation_author=Fan Meng;citation_author=Jobst Meyer;citation_author=Christel M Middeldorp;citation_author=Lefkos Middleton;citation_author=Vihra Milanova;citation_author=Ana Miranda;citation_author=Anthony P Monaco;citation_author=Grant W Montgomery;citation_author=Jennifer L Moran;citation_author=Daniel Moreno-De-Luca;citation_author=Gunnar Morken;citation_author=Derek W Morris;citation_author=Eric M Morrow;citation_author=Valentina Moskvina;citation_author=Pierandrea Muglia;citation_author=Thomas W MÃ¼hleisen;citation_author=Walter J Muir;citation_author=Bertram MÃ¼ller-Myhsok;citation_author=Michael Murtha;citation_author=Richard M Myers;citation_author=Inez Myin-Germeys;citation_author=Michael C Neale;citation_author=Stan F Nelson;citation_author=Caroline M Nievergelt;citation_author=Ivan Nikolov;citation_author=Vishwajit Nimgaonkar;citation_author=Willem A Nolen;citation_author=Markus M NÃ¶then;citation_author=John I Nurnberger;citation_author=Evaristus A Nwulia;citation_author=Dale R Nyholt;citation_author=Colm Oâ€™Dushlaine;citation_author=Robert D Oades;citation_author=Ann Olincy;citation_author=Guiomar Oliveira;citation_author=Line Olsen;citation_author=Roel A Ophoff;citation_author=Urban Osby;citation_author=Michael J Owen;citation_author=Aarno Palotie;citation_author=Jeremy R Parr;citation_author=Andrew D Paterson;citation_author=Carlos N Pato;citation_author=Michele T Pato;citation_author=Brenda W Penninx;citation_author=Michele L Pergadia;citation_author=Margaret A Pericak-Vance;citation_author=Benjamin S Pickard;citation_author=Jonathan Pimm;citation_author=Joseph Piven;citation_author=Danielle Posthuma;citation_author=James B Potash;citation_author=Fritz Poustka;citation_author=Peter Propping;citation_author=Vinay Puri;citation_author=Digby J Quested;citation_author=Emma M Quinn;citation_author=Josep Antoni Ramos-Quiroga;citation_author=Henrik B Rasmussen;citation_author=Soumya Raychaudhuri;citation_author=Karola RehnstrÃ¶m;citation_author=Andreas Reif;citation_author=Marta RibasÃ©s;citation_author=John P Rice;citation_author=Marcella Rietschel;citation_author=Kathryn Roeder;citation_author=Herbert Roeyers;citation_author=Lizzy Rossin;citation_author=Aribert Rothenberger;citation_author=Guy Rouleau;citation_author=Douglas Ruderfer;citation_author=Dan Rujescu;citation_author=Alan R Sanders;citation_author=Stephan J Sanders;citation_author=Susan L Santangelo;citation_author=Joseph A Sergeant;citation_author=Russell Schachar;citation_author=Martin Schalling;citation_author=Alan F Schatzberg;citation_author=William A Scheftner;citation_author=Gerard D Schellenberg;citation_author=Stephen W Scherer;citation_author=Nicholas J Schork;citation_author=Thomas G Schulze;citation_author=Johannes Schumacher;citation_author=Markus Schwarz;citation_author=Edward Scolnick;citation_author=Laura J Scott;citation_author=Jianxin Shi;citation_author=Paul D Shilling;citation_author=Stanley I Shyn;citation_author=Jeremy M Silverman;citation_author=Susan L Slager;citation_author=Susan L Smalley;citation_author=Johannes H Smit;citation_author=Erin N Smith;citation_author=Edmund J S Sonuga-Barke;citation_author=David St Clair;citation_author=Matthew State;citation_author=Michael Steffens;citation_author=Hans-Christoph Steinhausen;citation_author=John S Strauss;citation_author=Jana Strohmaier;citation_author=T Scott Stroup;citation_author=James S Sutcliffe;citation_author=Peter Szatmari;citation_author=Szabocls Szelinger;citation_author=Srinivasa Thirumalai;citation_author=Robert C Thompson;citation_author=Alexandre A Todorov;citation_author=Federica Tozzi;citation_author=Jens Treutlein;citation_author=Manfred Uhr;citation_author=Edwin J C G Oord;citation_author=Gerard Van Grootheest;citation_author=Jim Van Os;citation_author=Astrid M Vicente;citation_author=Veronica J Vieland;citation_author=John B Vincent;citation_author=Peter M Visscher;citation_author=Christopher A Walsh;citation_author=Thomas H Wassink;citation_author=Stanley J Watson;citation_author=Myrna M Weissman;citation_author=Thomas Werge;citation_author=Thomas F Wienker;citation_author=Ellen M Wijsman;citation_author=Gonneke Willemsen;citation_author=Nigel Williams;citation_author=A Jeremy Willsey;citation_author=Stephanie H Witt;citation_author=Wei Xu;citation_author=Allan H Young;citation_author=Timothy W Yu;citation_author=Stanley Zammit;citation_author=Peter P Zandi;citation_author=Peng Zhang;citation_author=Frans G Zitman;citation_author=Sebastian ZÃ¶llner;citation_author=Bernie Devlin;citation_author=John R Kelsoe;citation_author=Pamela Sklar;citation_author=Mark J Daly;citation_author=Michael C Oâ€™Donovan;citation_author=Nicholas Craddock;citation_author=Patrick F Sullivan;citation_author=Jordan W Smoller;citation_author=Kenneth S Kendler;citation_author=Naomi R Wray;citation_author=Genetic relationship between five psychiatric disorders estimated from genome-wide SNPs;citation_author=2013"/>
+  <meta name="citation_reference" content="citation_title=Genetic association studies;citation_publication_date=2005;citation_volume=366;citation_doi=10.1016/S0140-6736(05)67424-7;citation_issn=0140-6736, 1474-547X;citation_author=Heather J Cordell;citation_author=David G Clayton"/>
+  <meta name="citation_reference" content="citation_title=Seymour s. Kety and the genetics of schizophrenia;citation_publication_date=2001;citation_volume=25;citation_doi=10.1016/S0893-133X(01)00276-7;citation_issn=0893-133X;citation_author=P S Holzman"/>
+  <meta name="citation_reference" content="citation_title=Common schizophrenia alleles are enriched in mutation-intolerant genes and in regions under strong background selection;citation_publication_date=2018;citation_volume=50;citation_doi=10.1038/s41588-018-0059-2;citation_issn=1061-4036, 1546-1718;citation_author=Antonio F PardiÃ±as;citation_author=Peter Holmans;citation_author=Andrew J Pocklington;citation_author=Valentina Escott-Price;citation_author=Stephan Ripke;citation_author=Noa Carrera;citation_author=Sophie E Legge;citation_author=Sophie Bishop;citation_author=Darren Cameron;citation_author=Marian L Hamshere;citation_author=Jun Han;citation_author=Leon Hubbard;citation_author=Amy Lynham;citation_author=Kiran Mantripragada;citation_author=Elliott Rees;citation_author=James H MacCabe;citation_author=Steven A McCarroll;citation_author=Bernhard T Baune;citation_author=Gerome Breen;citation_author=Enda M Byrne;citation_author=Udo Dannlowski;citation_author=Thalia C Eley;citation_author=Caroline Hayward;citation_author=Nicholas G Martin;citation_author=Andrew M McIntosh;citation_author=Robert Plomin;citation_author=David J Porteous;citation_author=Naomi R Wray;citation_author=Armando Caballero;citation_author=Daniel H Geschwind;citation_author=Laura M Huckins;citation_author=Douglas M Ruderfer;citation_author=Enrique Santiago;citation_author=Pamela Sklar;citation_author=Eli A Stahl;citation_author=Hyejung Won;citation_author=Esben Agerbo;citation_author=Thomas D Als;citation_author=Ole A Andreassen;citation_author=Marie BÃ¦kvad-Hansen;citation_author=Preben Bo Mortensen;citation_author=Carsten BÃ¸cker Pedersen;citation_author=Anders D BÃ¸rglum;citation_author=Jonas Bybjerg-Grauholm;citation_author=Srdjan Djurovic;citation_author=Naser Durmishi;citation_author=Marianne GiÃ¸rtz Pedersen;citation_author=Vera Golimbet;citation_author=Jakob Grove;citation_author=David M Hougaard;citation_author=Manuel Mattheisen;citation_author=Espen Molden;citation_author=Ole Mors;citation_author=Merete Nordentoft;citation_author=Milica Pejovic-Milovancevic;citation_author=Engilbert Sigurdsson;citation_author=Teimuraz Silagadze;citation_author=Christine SÃ¸holm Hansen;citation_author=Kari Stefansson;citation_author=Hreinn Stefansson;citation_author=Stacy Steinberg;citation_author=Sarah Tosato;citation_author=Thomas Werge;citation_author=David A Collier;citation_author=Dan Rujescu;citation_author=George Kirov;citation_author=Michael J Owen;citation_author=Michael C Oâ€™Donovan;citation_author=James T R Walters;citation_author=Common schizophrenia alleles are enriched in mutation-intolerant genes and in regions under strong background selection;citation_author=2018"/>
+  <meta name="citation_reference" content="citation_title=ì •ì‹ ì§ˆí™˜ì˜ ìœ ì „í•™ì  ì—°êµ¬ : ì •ëŸ‰ì  ìœ ì „í•™ì˜ ê¸°ë³¸ ê°œë…ê³¼ ë°©ë²•ë¡ ;citation_publication_date=2000;citation_volume=39;citation_author=ì •ì‹ ì§ˆí™˜ì˜ ìœ ì „í•™ì  ì—°êµ¬ : ì •ëŸ‰ì  ìœ ì „í•™ì˜ ê¸°ë³¸ ê°œë…ê³¼ ë°©ë²•ë¡ ;citation_author=2000"/>
+  <meta name="citation_reference" content="citation_title=Studies based on a total sample of adopted individuals and their relatives: Why they were necessary, what they demonstrated and failed to demonstrate;citation_publication_date=1976;citation_volume=2;citation_doi=10.1093/schbul/2.3.413;citation_issn=0586-7614;citation_author=S S Kety;citation_author=D Rosenthal;citation_author=P H Wender;citation_author=F Schulsinger"/>
+  <meta name="citation_reference" content="citation_title=Replication validity of genetic association studies;citation_publication_date=2001;citation_volume=29;citation_doi=10.1038/ng749;citation_issn=1061-4036;citation_author=J P Ioannidis;citation_author=E E Ntzani;citation_author=T A Trikalinos;citation_author=D G Contopoulos-Ioannidis"/>
+  <meta name="citation_reference" content="citation_title=Structural equation modeling in genetics;citation_publication_date=2012;citation_publisher=The Guilford Press, xi;citation_volume=740;citation_author=Sanja FraniÄ‡;citation_author=Conor V Dolan;citation_author=Denny Borsboom;citation_author=Dorret I Boomsma"/>
+  <meta name="citation_reference" content="citation_title=A global reference for human genetic variation;citation_publication_date=2015;citation_volume=526;citation_doi=10.1038/nature15393;citation_issn=0028-0836, 1476-4687;citation_author=Adam Auton;citation_author=Lisa D Brooks;citation_author=Richard M Durbin;citation_author=Erik P Garrison;citation_author=Hyun Min Kang;citation_author=Jan O Korbel;citation_author=Jonathan L Marchini;citation_author=Shane McCarthy;citation_author=Gil A McVean;citation_author=GonÃ§alo R Abecasis;citation_author=A global reference for human genetic variation"/>
+  <meta name="citation_reference" content="citation_title=No evidence that schizophrenia candidate genes are more associated with schizophrenia than noncandidate genes;citation_publication_date=2017;citation_volume=82;citation_doi=10.1016/j.biopsych.2017.06.033;citation_issn=0006-3223, 1873-2402;citation_author=Emma C Johnson;citation_author=Richard Border;citation_author=Whitney E Melroy-Greif;citation_author=Christiaan A Leeuw;citation_author=Marissa A Ehringer;citation_author=Matthew C Keller"/>
+  <meta name="citation_reference" content="citation_title=The use of single nucleotide polymorphisms in the isolation of common disease genes;citation_publication_date=2000;citation_volume=1;citation_doi=10.1517/14622416.1.1.39;citation_issn=1462-2416;citation_author=J H Riley;citation_author=C J Allan;citation_author=E Lai;citation_author=A Roses"/>
+  <meta name="citation_reference" content="citation_title=The inheritance of liability to diseases with variable age of onset, with particular reference to diabetes mellitus;citation_publication_date=1967;citation_volume=31;citation_doi=10.1111/j.1469-1809.1967.tb01249.x;citation_issn=0003-4800;citation_author=D S Falconer"/>
+  <meta name="citation_reference" content="citation_title=Hypothesis-driven candidate gene association studies: Practical design and analytical considerations;citation_publication_date=2009;citation_volume=170;citation_doi=10.1093/aje/kwp242;citation_issn=0002-9262, 1476-6256;citation_author=Timothy J Jorgensen;citation_author=Ingo Ruczinski;citation_author=Bailey Kessing;citation_author=Michael W Smith;citation_author=Yin Yao Shugart;citation_author=Anthony J Alberg"/>
+  <meta name="citation_reference" content="citation_title=MAGMA: Generalized gene-set analysis of GWAS data;citation_publication_date=2015;citation_volume=11;citation_doi=10.1371/journal.pcbi.1004219;citation_issn=1553-734X, 1553-7358;citation_author=Christiaan A Leeuw;citation_author=Joris M Mooij;citation_author=Tom Heskes;citation_author=Danielle Posthuma"/>
+  <meta name="citation_reference" content="citation_title=Psychiatric genomics: An update and an agenda;citation_publication_date=2018;citation_volume=175;citation_doi=10.1176/appi.ajp.2017.17030283;citation_issn=0002-953X, 1535-7228;citation_author=Patrick F Sullivan;citation_author=Arpana Agrawal;citation_author=Cynthia M Bulik;citation_author=Ole A Andreassen;citation_author=Anders D BÃ¸rglum;citation_author=Gerome Breen;citation_author=Sven Cichon;citation_author=Howard J Edenberg;citation_author=Stephen V Faraone;citation_author=Joel Gelernter;citation_author=Carol A Mathews;citation_author=Caroline M Nievergelt;citation_author=Jordan W Smoller;citation_author=Michael C Oâ€™Donovan;citation_author=Psychiatric genomics: An update and an agenda"/>
+  <meta name="citation_reference" content="citation_title=Discovery of DNA function and structure: Watson and crick;citation_publication_date=2008;citation_volume=1;citation_author=L A Pray"/>
+  <meta name="citation_reference" content="citation_title=The international HapMap project;citation_publication_date=2003;citation_volume=426;citation_doi=10.1038/nature02168;citation_issn=0028-0836, 1476-4687;citation_author=The international HapMap project"/>
+  <meta name="citation_reference" content="citation_title=Linkage disequilibrium maps and disease-association mapping;citation_publication_date=2007;citation_volume=376;citation_doi=10.1007/978-1-59745-389-9_8;citation_issn=1064-3745;citation_author=Nikolas Maniatis"/>
+  <meta name="citation_reference" content="citation_title=An integrated map of structural variation in 2,504 human genomes;citation_publication_date=2015;citation_volume=526;citation_doi=10.1038/nature15394;citation_issn=0028-0836, 1476-4687;citation_author=Peter H Sudmant;citation_author=Tobias Rausch;citation_author=Eugene J Gardner;citation_author=Robert E Handsaker;citation_author=Alexej Abyzov;citation_author=John Huddleston;citation_author=Yan Zhang;citation_author=Kai Ye;citation_author=Goo Jun;citation_author=Markus Hsi-Yang Fritz;citation_author=Miriam K Konkel;citation_author=Ankit Malhotra;citation_author=Adrian M StÃ¼tz;citation_author=Xinghua Shi;citation_author=Francesco Paolo Casale;citation_author=Jieming Chen;citation_author=Fereydoun Hormozdiari;citation_author=Gargi Dayama;citation_author=Ken Chen;citation_author=Maika Malig;citation_author=Mark J P Chaisson;citation_author=Klaudia Walter;citation_author=Sascha Meiers;citation_author=Seva Kashin;citation_author=Erik Garrison;citation_author=Adam Auton;citation_author=Hugo Y K Lam;citation_author=Xinmeng Jasmine Mu;citation_author=Can Alkan;citation_author=Danny Antaki;citation_author=Taejeong Bae;citation_author=Eliza Cerveira;citation_author=Peter Chines;citation_author=Zechen Chong;citation_author=Laura Clarke;citation_author=Elif Dal;citation_author=Li Ding;citation_author=Sarah Emery;citation_author=Xian Fan;citation_author=Madhusudan Gujral;citation_author=Fatma Kahveci;citation_author=Jeffrey M Kidd;citation_author=Yu Kong;citation_author=Eric-Wubbo Lameijer;citation_author=Shane McCarthy;citation_author=Paul Flicek;citation_author=Richard A Gibbs;citation_author=Gabor Marth;citation_author=Christopher E Mason;citation_author=Androniki Menelaou;citation_author=Donna M Muzny;citation_author=Bradley J Nelson;citation_author=Amina Noor;citation_author=Nicholas F Parrish;citation_author=Matthew Pendleton;citation_author=Andrew Quitadamo;citation_author=Benjamin Raeder;citation_author=Eric E Schadt;citation_author=Mallory Romanovitch;citation_author=Andreas Schlattl;citation_author=Robert Sebra;citation_author=Andrey A Shabalin;citation_author=Andreas Untergasser;citation_author=Jerilyn A Walker;citation_author=Min Wang;citation_author=Fuli Yu;citation_author=Chengsheng Zhang;citation_author=Jing Zhang;citation_author=Xiangqun Zheng-Bradley;citation_author=Wanding Zhou;citation_author=Thomas Zichner;citation_author=Jonathan Sebat;citation_author=Mark A Batzer;citation_author=Steven A McCarroll;citation_author=Ryan E Mills;citation_author=Mark B Gerstein;citation_author=Ali Bashir;citation_author=Oliver Stegle;citation_author=Scott E Devine;citation_author=Charles Lee;citation_author=Evan E Eichler;citation_author=Jan O Korbel;citation_author=An integrated map of structural variation in 2,504 human genomes"/>
+  <meta name="citation_reference" content="citation_title=Schizophrenia: Evidence for the major gene hypothesis;citation_publication_date=1970;citation_volume=1;citation_doi=10.1007/BF01067366;citation_issn=0001-8244;citation_author=R C Elston;citation_author=M A Campbell"/>
+  <meta name="citation_reference" content="citation_title=Linkage disequilibrium in the human genome;citation_publication_date=2001;citation_volume=411;citation_doi=10.1038/35075590;citation_issn=0028-0836;citation_author=D E Reich;citation_author=M Cargill;citation_author=S Bolk;citation_author=J Ireland;citation_author=P C Sabeti;citation_author=D J Richter;citation_author=T Lavery;citation_author=R Kouyoumjian;citation_author=S F Farhadian;citation_author=R Ward;citation_author=E S Lander"/>
+  <meta name="citation_reference" content="citation_title=Penetrance and pleiotropy of polygenic risk scores for schizophrenia in 106,160 patients across four health care systems;citation_publication_date=2019;citation_volume=176;citation_doi=10.1176/appi.ajp.2019.18091085;citation_issn=0002-953X, 1535-7228;citation_author=Amanda B Zheutlin;citation_author=Jessica Dennis;citation_author=Richard Karlsson LinnÃ©r;citation_author=Arden Moscati;citation_author=Nicole Restrepo;citation_author=Peter Straub;citation_author=Douglas Ruderfer;citation_author=Victor M Castro;citation_author=Chia-Yen Chen;citation_author=Tian Ge;citation_author=Laura M Huckins;citation_author=Alexander Charney;citation_author=H Lester Kirchner;citation_author=Eli A Stahl;citation_author=Christopher F Chabris;citation_author=Lea K Davis;citation_author=Jordan W Smoller"/>
+  <meta name="citation_reference" content="citation_title=Schizophrenia and genetics: A twin study vantage point;citation_publication_date=1972;citation_publisher=London, Academic Press;citation_author=Irving I Gottesman;citation_author=James Shields"/>
+  <meta name="citation_reference" content="citation_title=Heritability estimates for psychotic disorders: The maudsley twin psychosis series;citation_publication_date=1999;citation_volume=56;citation_doi=10.1001/archpsyc.56.2.162;citation_issn=0003-990X;citation_author=A G Cardno;citation_author=E J Marshall;citation_author=B Coid;citation_author=A M Macdonald;citation_author=T R Ribchester;citation_author=N J Davies;citation_author=P Venturi;citation_author=L A Jones;citation_author=S W Lewis;citation_author=P C Sham;citation_author=I I Gottesman;citation_author=A E Farmer;citation_author=P McGuffin;citation_author=A M Reveley;citation_author=R M Murray"/>
+  <meta name="citation_reference" content="citation_title=Ernst rÃ¼din (1874-1952) and his genealogic-demographic department in munich (1917-1986): An introduction to their family studies of schizophrenia;citation_publication_date=1996;citation_volume=67;citation_doi=10.1002/(SICI)1096-8628(19960726)67:4&lt;332::AID-AJMG3&gt;3.0.CO;2-O;citation_issn=0148-7299;citation_author=E Zerbin-RÃ¼din;citation_author=K S Kendler"/>
+  <meta name="citation_reference" content="citation_title=Inheritance of schizophrenia;citation_publication_date=1974;citation_publisher=ncbi.nlm.nih.gov;citation_volume=247;citation_issn=0065-1591;citation_author=J L Karlsson"/>
+  <meta name="citation_reference" content="citation_title=An examination of polygenic score risk prediction in individuals with First-Episode psychosis;citation_publication_date=2017;citation_volume=81;citation_doi=10.1016/j.biopsych.2016.06.028;citation_issn=0006-3223, 1873-2402;citation_author=Evangelos Vassos;citation_author=Marta Di Forti;citation_author=Jonathan Coleman;citation_author=Conrad Iyegbe;citation_author=Diana Prata;citation_author=Jack Euesden;citation_author=Paul Oâ€™Reilly;citation_author=Charles Curtis;citation_author=Anna Kolliakou;citation_author=Hamel Patel;citation_author=Stephen Newhouse;citation_author=Matthew Traylor;citation_author=Olesya Ajnakina;citation_author=Valeria Mondelli;citation_author=Tiago Reis Marques;citation_author=Poonam Gardner-Sood;citation_author=Katherine J Aitchison;citation_author=John Powell;citation_author=Zerrin Atakan;citation_author=Kathryn E Greenwood;citation_author=Shubulade Smith;citation_author=Khalida Ismail;citation_author=Carmine Pariante;citation_author=Fiona Gaughran;citation_author=Paola Dazzan;citation_author=Hugh S Markus;citation_author=Anthony S David;citation_author=Cathryn M Lewis;citation_author=Robin M Murray;citation_author=Gerome Breen"/>
+  <meta name="citation_reference" content="citation_title=The encyclopedia of schizophrenia and other psychotic disorders;citation_publication_date=2009;citation_publisher=Infobase Publishing;citation_author=Richard Noll"/>
+  <meta name="citation_reference" content="citation_title=Comprehensive pathway analyses of schizophrenia risk loci point to dysfunctional postsynaptic signaling;citation_publication_date=2018;citation_volume=199;citation_doi=10.1016/j.schres.2018.03.032;citation_issn=0920-9964, 1573-2509;citation_author=Dick Schijven;citation_author=Daniel Kofink;citation_author=Vinicius Tragante;citation_author=Marloes Verkerke;citation_author=Sara L Pulit;citation_author=RenÃ© S Kahn;citation_author=Jan H Veldink;citation_author=Christiaan H Vinkers;citation_author=Marco P Boks;citation_author=Jurjen J Luykx"/>
+  <meta name="citation_reference" content="citation_title=Schizophrenia: From mind to molecule;citation_publication_date=1994;citation_publisher=American Psychiatric Pub;citation_author=Nancy C Andreasen"/>
+  <meta name="citation_reference" content="citation_title=A joint history of the nature of genetic variation and the nature of schizophrenia;citation_publication_date=2015;citation_volume=20;citation_doi=10.1038/mp.2014.94;citation_issn=1359-4184, 1476-5578;citation_author=K S Kendler"/>
+  <meta name="citation_reference" content="citation_title=Genetics of schizophrenia: New findings and challenges;citation_publication_date=2011;citation_volume=12;citation_doi=10.1146/annurev-genom-082410-101459;citation_issn=1527-8204, 1545-293X;citation_author=Pablo V Gejman;citation_author=Alan R Sanders;citation_author=Kenneth S Kendler"/>
+  <meta name="citation_reference" content="citation_title=Systematic meta-analyses and field synopsis of genetic association studies in schizophrenia: The SzGene database;citation_publication_date=2008;citation_volume=40;citation_doi=10.1038/ng.171;citation_issn=1061-4036, 1546-1718;citation_author=Nicole C Allen;citation_author=Sachin Bagade;citation_author=Matthew B McQueen;citation_author=John P A Ioannidis;citation_author=Fotini K Kavvoura;citation_author=Muin J Khoury;citation_author=Rudolph E Tanzi;citation_author=Lars Bertram"/>
+  <meta name="citation_reference" content="citation_title=Diagnostic approaches to schizotypal personality disorder: A historical perspective;citation_publication_date=1985;citation_volume=11;citation_doi=10.1093/schbul/11.4.538;citation_issn=0586-7614;citation_author=K S Kendler"/>
+  <meta name="citation_reference" content="citation_title=A turning point in schizophrenia genetics;citation_publication_date=1997;citation_volume=19;citation_doi=10.1016/s0896-6273(00)80390-6;citation_issn=0896-6273;citation_author=M Karayiorgou;citation_author=J A Gogos"/>
+  <meta name="citation_reference" content="citation_title=Schizophrenia genetics: Uncovering positional candidate genes;citation_publication_date=2006;citation_volume=14;citation_doi=10.1038/sj.ejhg.5201587;citation_issn=1018-4813;citation_author=Maria Karayiorgou;citation_author=Joseph A Gogos"/>
+  <meta name="citation_reference" content="citation_title=A polygenic theory of schizophrenia;citation_publication_date=1967;citation_volume=58;citation_doi=10.1073/pnas.58.1.199;citation_issn=0027-8424;citation_author=I I Gottesman;citation_author=J Shields"/>
+  <meta name="citation_reference" content="citation_title=Evaluating historical candidate genes for schizophrenia;citation_publication_date=2015;citation_volume=20;citation_doi=10.1038/mp.2015.16;citation_issn=1359-4184, 1476-5578;citation_author=M S Farrell;citation_author=T Werge;citation_author=P Sklar;citation_author=M J Owen;citation_author=R A Ophoff;citation_author=M C Oâ€™Donovan;citation_author=A Corvin;citation_author=S Cichon;citation_author=P F Sullivan"/>
+  <!--radix_placeholder_rmarkdown_metadata-->
+
+  <script type="text/json" id="radix-rmarkdown-metadata">
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","bibliography","link-citation"]}},"value":[{"type":"character","attributes":{},"value":["2장 1절 조현병의 유전학적 이해"]},{"type":"character","attributes":{},"value":["Genetic Understanding of Schizophrenia"]},{"type":"character","attributes":{},"value":["references/02-01.bib"]},{"type":"logical","attributes":{},"value":[true]}]}
+  </script>
+  <!--/radix_placeholder_rmarkdown_metadata-->
+  <!--radix_placeholder_navigation_in_header-->
+  <meta name="distill:offset" content=""/>
+
+  <script type="application/javascript">
+
+    window.headroom_prevent_pin = false;
+
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+
+      // initialize headroom for banner
+      var header = $('header').get(0);
+      var headerHeight = header.offsetHeight;
+      var headroom = new Headroom(header, {
+        tolerance: 5,
+        onPin : function() {
+          if (window.headroom_prevent_pin) {
+            window.headroom_prevent_pin = false;
+            headroom.unpin();
+          }
+        }
+      });
+      headroom.init();
+      if(window.location.hash)
+        headroom.unpin();
+      $(header).addClass('headroom--transition');
+
+      // offset scroll location for banner on hash change
+      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
+      window.addEventListener("hashchange", function(event) {
+        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
+      });
+
+      // responsive menu
+      $('.distill-site-header').each(function(i, val) {
+        var topnav = $(this);
+        var toggle = topnav.find('.nav-toggle');
+        toggle.on('click', function() {
+          topnav.toggleClass('responsive');
+        });
+      });
+
+      // nav dropdowns
+      $('.nav-dropbtn').click(function(e) {
+        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
+        $(this).parent().siblings('.nav-dropdown')
+           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
+      });
+      $("body").click(function(e){
+        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
+      });
+      $(".nav-dropdown").click(function(e){
+        e.stopPropagation();
+      });
+    });
+  </script>
+
+  <style type="text/css">
+
+  /* Theme (user-documented overrideables for nav appearance) */
+
+  .distill-site-nav {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #0F2E3D;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .distill-site-nav a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .distill-site-nav a:hover {
+    color: white;
+  }
+
+  @media print {
+    .distill-site-nav {
+      display: none;
+    }
+  }
+
+  .distill-site-header {
+
+  }
+
+  .distill-site-footer {
+
+  }
+
+
+  /* Site Header */
+
+  .distill-site-header {
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 3;
+  }
+
+  .distill-site-header .nav-left {
+    display: inline-block;
+    margin-left: 8px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .distill-site-header .nav-left {
+      margin-left: 0;
+    }
+  }
+
+
+  .distill-site-header .nav-right {
+    float: right;
+    margin-right: 8px;
+  }
+
+  .distill-site-header a,
+  .distill-site-header .title {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 10px 14px 10px;
+  }
+
+  .distill-site-header .title {
+    font-size: 18px;
+    min-width: 150px;
+  }
+
+  .distill-site-header .logo {
+    padding: 0;
+  }
+
+  .distill-site-header .logo img {
+    display: none;
+    max-height: 20px;
+    width: auto;
+    margin-bottom: -4px;
+  }
+
+  .distill-site-header .nav-image img {
+    max-height: 18px;
+    width: auto;
+    display: inline-block;
+    margin-bottom: -3px;
+  }
+
+
+
+  @media screen and (min-width: 1000px) {
+    .distill-site-header .logo img {
+      display: inline-block;
+    }
+    .distill-site-header .nav-left {
+      margin-left: 20px;
+    }
+    .distill-site-header .nav-right {
+      margin-right: 20px;
+    }
+    .distill-site-header .title {
+      padding-left: 12px;
+    }
+  }
+
+
+  .distill-site-header .nav-toggle {
+    display: none;
+  }
+
+  .nav-dropdown {
+    display: inline-block;
+    position: relative;
+  }
+
+  .nav-dropdown .nav-dropbtn {
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 16px 10px;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+    margin-top: 1px;
+    z-index: 2;
+  }
+
+  .nav-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+    margin-top: 2px;
+    white-space: nowrap;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .nav-dropdown-content hr {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-dropdown-active {
+    display: block;
+  }
+
+  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
+    color: black;
+    padding: 6px 24px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .nav-dropdown-content .nav-dropdown-header {
+    display: block;
+    padding: 5px 24px;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #999999;
+    white-space: nowrap;
+  }
+
+  .nav-dropdown:hover .nav-dropbtn {
+    color: white;
+  }
+
+  .nav-dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .nav-right .nav-dropdown-content {
+    margin-left: -45%;
+    right: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
+    .distill-site-header a.nav-toggle {
+      float: right;
+      display: block;
+    }
+    .distill-site-header .title {
+      margin-left: 0;
+    }
+    .distill-site-header .nav-right {
+      margin-right: 0;
+    }
+    .distill-site-header {
+      overflow: hidden;
+    }
+    .nav-right .nav-dropdown-content {
+      margin-left: 0;
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .distill-site-header.responsive {position: relative; min-height: 500px; }
+    .distill-site-header.responsive a.nav-toggle {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .distill-site-header.responsive a,
+    .distill-site-header.responsive .nav-dropdown {
+      display: block;
+      text-align: left;
+    }
+    .distill-site-header.responsive .nav-left,
+    .distill-site-header.responsive .nav-right {
+      width: 100%;
+    }
+    .distill-site-header.responsive .nav-dropdown {float: none;}
+    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
+    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+  /* Site Footer */
+
+  .distill-site-footer {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    z-index: 3;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  /* Headroom */
+
+  d-title {
+    padding-top: 6rem;
+  }
+
+  @media print {
+    d-title {
+      padding-top: 4rem;
+    }
+  }
+
+  .headroom {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .headroom--transition {
+    transition: all .4s ease-in-out;
+  }
+
+  .headroom--unpinned {
+    top: -100px;
+  }
+
+  .headroom--pinned {
+    top: 0;
+  }
+
+  /* adjust viewport for navbar height */
+  /* helps vertically center bootstrap (non-distill) content */
+  .min-vh-100 {
+    min-height: calc(100vh - 100px) !important;
+  }
+
+  </style>
+
+  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
+  <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
+
+  <script type="application/javascript">
+
+  function getMeta(metaName) {
+    var metas = document.getElementsByTagName('meta');
+    for (let i = 0; i < metas.length; i++) {
+      if (metas[i].getAttribute('name') === metaName) {
+        return metas[i].getAttribute('content');
+      }
+    }
+    return '';
+  }
+
+  function offsetURL(url) {
+    var offset = getMeta('distill:offset');
+    return offset ? offset + '/' + url : url;
+  }
+
+  function createFuseIndex() {
+
+    // create fuse index
+    var options = {
+      keys: [
+        { name: 'title', weight: 20 },
+        { name: 'categories', weight: 15 },
+        { name: 'description', weight: 10 },
+        { name: 'contents', weight: 5 },
+      ],
+      ignoreLocation: true,
+      threshold: 0
+    };
+    var fuse = new window.Fuse([], options);
+
+    // fetch the main search.json
+    return fetch(offsetURL('search.json'))
+      .then(function(response) {
+        if (response.status == 200) {
+          return response.json().then(function(json) {
+            // index main articles
+            json.articles.forEach(function(article) {
+              fuse.add(article);
+            });
+            // download collections and index their articles
+            return Promise.all(json.collections.map(function(collection) {
+              return fetch(offsetURL(collection)).then(function(response) {
+                if (response.status === 200) {
+                  return response.json().then(function(articles) {
+                    articles.forEach(function(article) {
+                      fuse.add(article);
+                    });
+                  })
+                } else {
+                  return Promise.reject(
+                    new Error('Unexpected status from search index request: ' +
+                              response.status)
+                  );
+                }
+              });
+            })).then(function() {
+              return fuse;
+            });
+          });
+
+        } else {
+          return Promise.reject(
+            new Error('Unexpected status from search index request: ' +
+                        response.status)
+          );
+        }
+      });
+  }
+
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+
+    // get search element (bail if we don't have one)
+    var searchEl = window.document.getElementById('distill-search');
+    if (!searchEl)
+      return;
+
+    createFuseIndex()
+      .then(function(fuse) {
+
+        // make search box visible
+        searchEl.classList.remove('hidden');
+
+        // initialize autocomplete
+        var options = {
+          autoselect: true,
+          hint: false,
+          minLength: 2,
+        };
+        window.autocomplete(searchEl, options, [{
+          source: function(query, callback) {
+            const searchOptions = {
+              isCaseSensitive: false,
+              shouldSort: true,
+              minMatchCharLength: 2,
+              limit: 10,
+            };
+            var results = fuse.search(query, searchOptions);
+            callback(results
+              .map(function(result) { return result.item; })
+            );
+          },
+          templates: {
+            suggestion: function(suggestion) {
+              var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
+                ? `<img src="${offsetURL(suggestion.preview)}"</img>`
+                : '';
+              var html = `
+                <div class="search-item">
+                  <h3>${suggestion.title}</h3>
+                  <div class="search-item-description">
+                    ${suggestion.description || ''}
+                  </div>
+                  <div class="search-item-preview">
+                    ${img}
+                  </div>
+                </div>
+              `;
+              return html;
+            }
+          }
+        }]).on('autocomplete:selected', function(event, suggestion) {
+          window.location.href = offsetURL(suggestion.path);
+        });
+        // remove inline display style on autocompleter (we want to
+        // manage responsive display via css)
+        $('.algolia-autocomplete').css("display", "");
+      })
+      .catch(function(error) {
+        console.log(error);
+      });
+
+  });
+
+  </script>
+
+  <style type="text/css">
+
+  .nav-search {
+    font-size: x-small;
+  }
+
+  /* Algolioa Autocomplete */
+
+  .algolia-autocomplete {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: sub;
+    background-color: white;
+    color: black;
+    padding: 6px;
+    padding-top: 8px;
+    padding-bottom: 0;
+    border-radius: 6px;
+    border: 1px #0F2E3D solid;
+    width: 180px;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .distill-site-nav .algolia-autocomplete {
+      display: none;
+      visibility: hidden;
+    }
+    .distill-site-nav.responsive .algolia-autocomplete {
+      display: inline-block;
+      visibility: visible;
+    }
+    .distill-site-nav.responsive .algolia-autocomplete .aa-dropdown-menu {
+      margin-left: 0;
+      width: 400px;
+      max-height: 400px;
+    }
+  }
+
+  .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
+    width: 90%;
+    outline: none;
+    border: none;
+  }
+
+  .algolia-autocomplete .aa-hint {
+    color: #999;
+  }
+  .algolia-autocomplete .aa-dropdown-menu {
+    width: 550px;
+    max-height: 70vh;
+    overflow-x: visible;
+    overflow-y: scroll;
+    padding: 5px;
+    margin-top: 3px;
+    margin-left: -150px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #999;
+    border-top: none;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
+    cursor: pointer;
+    padding: 5px 4px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion:last-of-type {
+    border-bottom: none;
+    margin-bottom: 2px;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item {
+    overflow: hidden;
+    font-size: 0.8em;
+    line-height: 1.4em;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
+    font-size: 1rem;
+    margin-block-start: 0;
+    margin-block-end: 5px;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-description {
+    display: inline-block;
+    overflow: hidden;
+    height: 2.8em;
+    width: 80%;
+    margin-right: 4%;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview {
+    display: inline-block;
+    width: 15%;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img {
+    height: 3em;
+    width: auto;
+    display: none;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img[src] {
+    display: initial;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
+    background-color: #eee;
+  }
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  </style>
+
+
+  <!--/radix_placeholder_navigation_in_header-->
+  <!--radix_placeholder_distill-->
+
+  <style type="text/css">
+
+  body {
+    background-color: white;
+  }
+
+  .pandoc-table {
+    width: 100%;
+  }
+
+  .pandoc-table>caption {
+    margin-bottom: 10px;
+  }
+
+  .pandoc-table th:not([align]) {
+    text-align: left;
+  }
+
+  .pagedtable-footer {
+    font-size: 15px;
+  }
+
+  d-byline .byline {
+    grid-template-columns: 2fr 2fr;
+  }
+
+  d-byline .byline h3 {
+    margin-block-start: 1.5em;
+  }
+
+  d-byline .byline .authors-affiliations h3 {
+    margin-block-start: 0.5em;
+  }
+
+  .authors-affiliations .orcid-id {
+    width: 16px;
+    height:16px;
+    margin-left: 4px;
+    margin-right: 4px;
+    vertical-align: middle;
+    padding-bottom: 2px;
+  }
+
+  d-title .dt-tags {
+    margin-top: 1em;
+    grid-column: text;
+  }
+
+  .dt-tags .dt-tag {
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(0,0,0,0.6);
+    padding: 0em 0.4em;
+    margin-right: 0.5em;
+    margin-bottom: 0.4em;
+    font-size: 70%;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  d-article table.gt_table td,
+  d-article table.gt_table th {
+    border-bottom: none;
+  }
+
+  .html-widget {
+    margin-bottom: 2.0em;
+  }
+
+  .l-screen-inset {
+    padding-right: 16px;
+  }
+
+  .l-screen .caption {
+    margin-left: 10px;
+  }
+
+  .shaded {
+    background: rgb(247, 247, 247);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .shaded .html-widget {
+    margin-bottom: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .shaded .shaded-content {
+    background: white;
+  }
+
+  .text-output {
+    margin-top: 0;
+    line-height: 1.5em;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  d-article {
+    padding-top: 2.5rem;
+    padding-bottom: 30px;
+  }
+
+  d-appendix {
+    padding-top: 30px;
+  }
+
+  d-article>p>img {
+    width: 100%;
+  }
+
+  d-article h2 {
+    margin: 1rem 0 1.5rem 0;
+  }
+
+  d-article h3 {
+    margin-top: 1.5rem;
+  }
+
+  d-article iframe {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 2.0em;
+    width: 100%;
+  }
+
+  /* Tweak code blocks */
+
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  d-article pre,
+  d-article div.sourceCode,
+  d-article div.sourceCode pre {
+    overflow: auto;
+  }
+
+  d-article div.sourceCode {
+    background-color: white;
+  }
+
+  d-article div.sourceCode pre {
+    padding-left: 10px;
+    font-size: 12px;
+    border-left: 2px solid rgba(0,0,0,0.1);
+  }
+
+  d-article pre {
+    font-size: 12px;
+    color: black;
+    background: none;
+    margin-top: 0;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  d-article pre a {
+    border-bottom: none;
+  }
+
+  d-article pre a:hover {
+    border-bottom: none;
+    text-decoration: underline;
+  }
+
+  d-article details {
+    grid-column: text;
+    margin-bottom: 0.8em;
+  }
+
+  @media(min-width: 768px) {
+
+  d-article pre,
+  d-article div.sourceCode,
+  d-article div.sourceCode pre {
+    overflow: visible !important;
+  }
+
+  d-article div.sourceCode pre {
+    padding-left: 18px;
+    font-size: 14px;
+  }
+
+  d-article pre {
+    font-size: 14px;
+  }
+
+  }
+
+  figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  /* CSS for d-contents */
+
+  .d-contents {
+    grid-column: text;
+    color: rgba(0,0,0,0.8);
+    font-size: 0.9em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    padding-left: 0.25em;
+    justify-self: start;
+  }
+
+  @media(min-width: 1000px) {
+    .d-contents.d-contents-float {
+      height: 0;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      justify-self: center;
+      padding-right: 3em;
+      padding-left: 2em;
+    }
+  }
+
+  .d-contents nav h3 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  .d-contents li {
+    list-style-type: none
+  }
+
+  .d-contents nav > ul {
+    padding-left: 0;
+  }
+
+  .d-contents ul {
+    padding-left: 1em
+  }
+
+  .d-contents nav ul li {
+    margin-top: 0.6em;
+    margin-bottom: 0.2em;
+  }
+
+  .d-contents nav a {
+    font-size: 13px;
+    border-bottom: none;
+    text-decoration: none
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .d-contents nav a:hover {
+    text-decoration: underline solid rgba(0, 0, 0, 0.6)
+  }
+
+  .d-contents nav > ul > li > a {
+    font-weight: 600;
+  }
+
+  .d-contents nav > ul > li > ul {
+    font-weight: inherit;
+  }
+
+  .d-contents nav > ul > li > ul > li {
+    margin-top: 0.2em;
+  }
+
+
+  .d-contents nav ul {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+  }
+
+  .d-article-with-toc h2:nth-child(2) {
+    margin-top: 0;
+  }
+
+
+  /* Figure */
+
+  .figure {
+    position: relative;
+    margin-bottom: 2.5em;
+    margin-top: 1.5em;
+  }
+
+  .figure img {
+    width: 100%;
+  }
+
+  .figure .caption {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+
+  .figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  .figure .caption a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .figure .caption b,
+  .figure .caption strong, {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1.0);
+  }
+
+  /* Citations */
+
+  d-article .citation {
+    color: inherit;
+    cursor: inherit;
+  }
+
+  div.hanging-indent{
+    margin-left: 1em; text-indent: -1em;
+  }
+
+  /* Citation hover box */
+
+  .tippy-box[data-theme~=light-border] {
+    background-color: rgba(250, 250, 250, 0.95);
+  }
+
+  .tippy-content > p {
+    margin-bottom: 0;
+    padding: 2px;
+  }
+
+
+  /* Tweak 1000px media break to show more text */
+
+  @media(min-width: 1000px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 80px [middle-start] 50px [text-start kicker-end] 65px 65px 65px 65px 65px 65px 65px 65px [text-end gutter-start] 65px [middle-end] 65px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 16px;
+    }
+
+    .grid {
+      grid-column-gap: 16px;
+    }
+
+    d-article {
+      font-size: 1.06rem;
+      line-height: 1.7em;
+    }
+    figure .caption, .figure .caption, figure figcaption {
+      font-size: 13px;
+    }
+  }
+
+  @media(min-width: 1180px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 60px [middle-start] 60px [text-start kicker-end] 60px 60px 60px 60px 60px 60px 60px 60px [text-end gutter-start] 60px [middle-end] 60px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 32px;
+    }
+
+    .grid {
+      grid-column-gap: 32px;
+    }
+  }
+
+
+  /* Get the citation styles for the appendix (not auto-injected on render since
+     we do our own rendering of the citation appendix) */
+
+  d-appendix .citation-appendix,
+  .d-appendix .citation-appendix {
+    font-size: 11px;
+    line-height: 15px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 18px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.02);
+    padding: 10px 18px;
+    border-radius: 3px;
+    color: rgba(150, 150, 150, 1);
+    overflow: hidden;
+    margin-top: -12px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  /* Include appendix styles here so they can be overridden */
+
+  d-appendix {
+    contain: layout style;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-top: 60px;
+    margin-bottom: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    color: rgba(0,0,0,0.5);
+    padding-top: 60px;
+    padding-bottom: 48px;
+  }
+
+  d-appendix h3 {
+    grid-column: page-start / text-start;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 1em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.65);
+  }
+
+  d-appendix h3 + * {
+    margin-top: 1em;
+  }
+
+  d-appendix ol {
+    padding: 0 0 0 15px;
+  }
+
+  @media (min-width: 768px) {
+    d-appendix ol {
+      padding: 0 0 0 30px;
+      margin-left: -30px;
+    }
+  }
+
+  d-appendix li {
+    margin-bottom: 1em;
+  }
+
+  d-appendix a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  d-appendix > * {
+    grid-column: text;
+  }
+
+  d-appendix > d-footnote-list,
+  d-appendix > d-citation-list,
+  d-appendix > distill-appendix {
+    grid-column: screen;
+  }
+
+  /* Include footnote styles here so they can be overridden */
+
+  d-footnote-list {
+    contain: layout style;
+  }
+
+  d-footnote-list > * {
+    grid-column: text;
+  }
+
+  d-footnote-list a.footnote-backlink {
+    color: rgba(0,0,0,0.3);
+    padding-left: 0.5em;
+  }
+
+
+
+  /* Anchor.js */
+
+  .anchorjs-link {
+    /*transition: all .25s linear; */
+    text-decoration: none;
+    border-bottom: none;
+  }
+  *:hover > .anchorjs-link {
+    margin-left: -1.125em !important;
+    text-decoration: none;
+    border-bottom: none;
+  }
+
+  /* Social footer */
+
+  .social_footer {
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.67);
+  }
+
+  .disqus-comments {
+    margin-right: 30px;
+  }
+
+  .disqus-comment-count {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+
+  #disqus_thread {
+    margin-top: 30px;
+  }
+
+  .article-sharing a {
+    border-bottom: none;
+    margin-right: 8px;
+  }
+
+  .article-sharing a:hover {
+    border-bottom: none;
+  }
+
+  .sidebar-section.subscribe {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+
+  .subscribe p {
+    margin-bottom: 0.5em;
+  }
+
+
+  .article-footer .subscribe {
+    font-size: 15px;
+    margin-top: 45px;
+  }
+
+
+  .sidebar-section.custom {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+
+  .custom p {
+    margin-bottom: 0.5em;
+  }
+
+  /* Styles for listing layout (hide title) */
+  .layout-listing d-title, .layout-listing .d-title {
+    display: none;
+  }
+
+  /* Styles for posts lists (not auto-injected) */
+
+
+  .posts-with-sidebar {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .posts-list .description h2,
+  .posts-list .description p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  .posts-list .description h2 {
+    font-weight: 700;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .posts-list h2.post-tag {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 12px;
+  }
+  .posts-list {
+    margin-top: 60px;
+    margin-bottom: 24px;
+  }
+
+  .posts-list .post-preview {
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 24px 0;
+  }
+
+  .post-preview-last {
+    border-bottom: none !important;
+  }
+
+  .posts-list .posts-list-caption {
+    grid-column: screen;
+    font-weight: 400;
+  }
+
+  .posts-list .post-preview h2 {
+    margin: 0 0 6px 0;
+    line-height: 1.2em;
+    font-style: normal;
+    font-size: 24px;
+  }
+
+  .posts-list .post-preview p {
+    margin: 0 0 12px 0;
+    line-height: 1.4em;
+    font-size: 16px;
+  }
+
+  .posts-list .post-preview .thumbnail {
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    position: relative;
+    max-width: 500px;
+  }
+  .posts-list .post-preview img {
+    width: 100%;
+    display: block;
+  }
+
+  .posts-list .metadata {
+    font-size: 12px;
+    line-height: 1.4em;
+    margin-bottom: 18px;
+  }
+
+  .posts-list .metadata > * {
+    display: inline-block;
+  }
+
+  .posts-list .metadata .publishedDate {
+    margin-right: 2em;
+  }
+
+  .posts-list .metadata .dt-authors {
+    display: block;
+    margin-top: 0.3em;
+    margin-right: 2em;
+  }
+
+  .posts-list .dt-tags {
+    display: block;
+    line-height: 1em;
+  }
+
+  .posts-list .dt-tags .dt-tag {
+    display: inline-block;
+    color: rgba(0,0,0,0.6);
+    padding: 0.3em 0.4em;
+    margin-right: 0.2em;
+    margin-bottom: 0.4em;
+    font-size: 60%;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .posts-list img {
+    opacity: 1;
+  }
+
+  .posts-list img[data-src] {
+    opacity: 0;
+  }
+
+  .posts-more {
+    clear: both;
+  }
+
+
+  .posts-sidebar {
+    font-size: 16px;
+  }
+
+  .posts-sidebar h3 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .sidebar-section {
+    margin-bottom: 30px;
+  }
+
+  .categories ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .categories li {
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 0;
+  }
+
+  .categories li>a {
+    border-bottom: none;
+  }
+
+  .categories li>a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  }
+
+  .categories .active {
+    font-weight: 600;
+  }
+
+  .categories .category-count {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+
+  @media(min-width: 768px) {
+    .posts-list .post-preview h2 {
+      font-size: 26px;
+    }
+    .posts-list .post-preview .thumbnail {
+      float: right;
+      width: 30%;
+      margin-bottom: 0;
+    }
+    .posts-list .post-preview .description {
+      float: left;
+      width: 45%;
+    }
+    .posts-list .post-preview .metadata {
+      float: left;
+      width: 20%;
+      margin-top: 8px;
+    }
+    .posts-list .post-preview p {
+      margin: 0 0 12px 0;
+      line-height: 1.5em;
+      font-size: 16px;
+    }
+    .posts-with-sidebar .posts-list {
+      float: left;
+      width: 75%;
+    }
+    .posts-with-sidebar .posts-sidebar {
+      float: right;
+      width: 20%;
+      margin-top: 60px;
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+  }
+
+
+  /* Improve display for browsers without grid (IE/Edge <= 15) */
+
+  .downlevel {
+    line-height: 1.6em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+  }
+
+  .downlevel .d-title {
+    padding-top: 6rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .downlevel .d-title h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin: 0 0 0.5rem;
+  }
+
+  .downlevel .d-title p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.55em;
+    margin-top: 0;
+  }
+
+  .downlevel .d-byline {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    font-size: 0.8rem;
+    line-height: 1.8em;
+  }
+
+  .downlevel .section-separator {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .downlevel .d-article {
+    font-size: 1.06rem;
+    line-height: 1.7em;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+
+  .downlevel .d-appendix {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: none;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.5);
+    padding-top: 40px;
+    padding-bottom: 48px;
+  }
+
+  .downlevel .footnotes ol {
+    padding-left: 13px;
+  }
+
+  .downlevel .base-grid,
+  .downlevel .distill-header,
+  .downlevel .d-title,
+  .downlevel .d-abstract,
+  .downlevel .d-article,
+  .downlevel .d-appendix,
+  .downlevel .distill-appendix,
+  .downlevel .d-byline,
+  .downlevel .d-footnote-list,
+  .downlevel .d-citation-list,
+  .downlevel .distill-footer,
+  .downlevel .appendix-bottom,
+  .downlevel .posts-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media(min-width: 768px) {
+    .downlevel .base-grid,
+    .downlevel .distill-header,
+    .downlevel .d-title,
+    .downlevel .d-abstract,
+    .downlevel .d-article,
+    .downlevel .d-appendix,
+    .downlevel .distill-appendix,
+    .downlevel .d-byline,
+    .downlevel .d-footnote-list,
+    .downlevel .d-citation-list,
+    .downlevel .distill-footer,
+    .downlevel .appendix-bottom,
+    .downlevel .posts-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 900px;
+  }
+  }
+
+  .downlevel pre code {
+    display: block;
+    border-left: 2px solid rgba(0, 0, 0, .1);
+    padding: 0 0 0 20px;
+    font-size: 14px;
+  }
+
+  .downlevel code, .downlevel pre {
+    color: black;
+    background: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  .downlevel .posts-list .post-preview {
+    color: inherit;
+  }
+
+
+
+  </style>
+
+  <script type="application/javascript">
+
+  function is_downlevel_browser() {
+    if (bowser.isUnsupportedBrowser({ msie: "12", msedge: "16"},
+                                   window.navigator.userAgent)) {
+      return true;
+    } else {
+      return window.load_distill_framework === undefined;
+    }
+  }
+
+  // show body when load is complete
+  function on_load_complete() {
+
+    // add anchors
+    if (window.anchors) {
+      window.anchors.options.placement = 'left';
+      window.anchors.add('d-article > h2, d-article > h3, d-article > h4, d-article > h5');
+    }
+
+
+    // set body to visible
+    document.body.style.visibility = 'visible';
+
+    // force redraw for leaflet widgets
+    if (window.HTMLWidgets) {
+      var maps = window.HTMLWidgets.findAll(".leaflet");
+      $.each(maps, function(i, el) {
+        var map = this.getMap();
+        map.invalidateSize();
+        map.eachLayer(function(layer) {
+          if (layer instanceof L.TileLayer)
+            layer.redraw();
+        });
+      });
+    }
+
+    // trigger 'shown' so htmlwidgets resize
+    $('d-article').trigger('shown');
+  }
+
+  function init_distill() {
+
+    init_common();
+
+    // create front matter
+    var front_matter = $('<d-front-matter></d-front-matter>');
+    $('#distill-front-matter').wrap(front_matter);
+
+    // create d-title
+    $('.d-title').changeElementType('d-title');
+
+    // create d-byline
+    var byline = $('<d-byline></d-byline>');
+    $('.d-byline').replaceWith(byline);
+
+    // create d-article
+    var article = $('<d-article></d-article>');
+    $('.d-article').wrap(article).children().unwrap();
+
+    // move posts container into article
+    $('.posts-container').appendTo($('d-article'));
+
+    // create d-appendix
+    $('.d-appendix').changeElementType('d-appendix');
+
+    // flag indicating that we have appendix items
+    var appendix = $('.appendix-bottom').children('h3').length > 0;
+
+    // replace footnotes with <d-footnote>
+    $('.footnote-ref').each(function(i, val) {
+      appendix = true;
+      var href = $(this).attr('href');
+      var id = href.replace('#', '');
+      var fn = $('#' + id);
+      var fn_p = $('#' + id + '>p');
+      fn_p.find('.footnote-back').remove();
+      var text = fn_p.html();
+      var dtfn = $('<d-footnote></d-footnote>');
+      dtfn.html(text);
+      $(this).replaceWith(dtfn);
+    });
+    // remove footnotes
+    $('.footnotes').remove();
+
+    // move refs into #references-listing
+    $('#references-listing').replaceWith($('#refs'));
+
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      var id = $(this).attr('id');
+      $('.d-contents a[href="#' + id + '"]').parent().remove();
+      appendix = true;
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('d-appendix'));
+    });
+
+    // show d-appendix if we have appendix content
+    $("d-appendix").css('display', appendix ? 'grid' : 'none');
+
+    // localize layout chunks to just output
+    $('.layout-chunk').each(function(i, val) {
+
+      // capture layout
+      var layout = $(this).attr('data-layout');
+
+      // apply layout to markdown level block elements
+      var elements = $(this).children().not('details, div.sourceCode, pre, script');
+      elements.each(function(i, el) {
+        var layout_div = $('<div class="' + layout + '"></div>');
+        if (layout_div.hasClass('shaded')) {
+          var shaded_content = $('<div class="shaded-content"></div>');
+          $(this).wrap(shaded_content);
+          $(this).parent().wrap(layout_div);
+        } else {
+          $(this).wrap(layout_div);
+        }
+      });
+
+
+      // unwrap the layout-chunk div
+      $(this).children().unwrap();
+    });
+
+    // remove code block used to force  highlighting css
+    $('.distill-force-highlighting-css').parent().remove();
+
+    // remove empty line numbers inserted by pandoc when using a
+    // custom syntax highlighting theme
+    $('code.sourceCode a:empty').remove();
+
+    // load distill framework
+    load_distill_framework();
+
+    // wait for window.distillRunlevel == 4 to do post processing
+    function distill_post_process() {
+
+      if (!window.distillRunlevel || window.distillRunlevel < 4)
+        return;
+
+      // hide author/affiliations entirely if we have no authors
+      var front_matter = JSON.parse($("#distill-front-matter").html());
+      var have_authors = front_matter.authors && front_matter.authors.length > 0;
+      if (!have_authors)
+        $('d-byline').addClass('hidden');
+
+      // article with toc class
+      $('.d-contents').parent().addClass('d-article-with-toc');
+
+      // strip links that point to #
+      $('.authors-affiliations').find('a[href="#"]').removeAttr('href');
+
+      // add orcid ids
+      $('.authors-affiliations').find('.author').each(function(i, el) {
+        var orcid_id = front_matter.authors[i].orcidID;
+        if (orcid_id) {
+          var a = $('<a></a>');
+          a.attr('href', 'https://orcid.org/' + orcid_id);
+          var img = $('<img></img>');
+          img.addClass('orcid-id');
+          img.attr('alt', 'ORCID ID');
+          img.attr('src','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==');
+          a.append(img);
+          $(this).append(a);
+        }
+      });
+
+      // hide elements of author/affiliations grid that have no value
+      function hide_byline_column(caption) {
+        $('d-byline').find('h3:contains("' + caption + '")').parent().css('visibility', 'hidden');
+      }
+
+      // affiliations
+      var have_affiliations = false;
+      for (var i = 0; i<front_matter.authors.length; ++i) {
+        var author = front_matter.authors[i];
+        if (author.affiliation !== "&nbsp;") {
+          have_affiliations = true;
+          break;
+        }
+      }
+      if (!have_affiliations)
+        $('d-byline').find('h3:contains("Affiliations")').css('visibility', 'hidden');
+
+      // published date
+      if (!front_matter.publishedDate)
+        hide_byline_column("Published");
+
+      // document object identifier
+      var doi = $('d-byline').find('h3:contains("DOI")');
+      var doi_p = doi.next().empty();
+      if (!front_matter.doi) {
+        // if we have a citation and valid citationText then link to that
+        if ($('#citation').length > 0 && front_matter.citationText) {
+          doi.html('Citation');
+          $('<a href="#citation"></a>')
+            .text(front_matter.citationText)
+            .appendTo(doi_p);
+        } else {
+          hide_byline_column("DOI");
+        }
+      } else {
+        $('<a></a>')
+           .attr('href', "https://doi.org/" + front_matter.doi)
+           .html(front_matter.doi)
+           .appendTo(doi_p);
+      }
+
+       // change plural form of authors/affiliations
+      if (front_matter.authors.length === 1) {
+        var grid = $('.authors-affiliations');
+        grid.children('h3:contains("Authors")').text('Author');
+        grid.children('h3:contains("Affiliations")').text('Affiliation');
+      }
+
+      // remove d-appendix and d-footnote-list local styles
+      $('d-appendix > style:first-child').remove();
+      $('d-footnote-list > style:first-child').remove();
+
+      // move appendix-bottom entries to the bottom
+      $('.appendix-bottom').appendTo('d-appendix').children().unwrap();
+      $('.appendix-bottom').remove();
+
+      // hoverable references
+      $('span.citation[data-cites]').each(function() {
+        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        window.tippy(this, {
+          allowHTML: true,
+          content: refHtml,
+          maxWidth: 500,
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start'
+        });
+      });
+
+      // clear polling timer
+      clearInterval(tid);
+
+      // show body now that everything is ready
+      on_load_complete();
+    }
+
+    var tid = setInterval(distill_post_process, 50);
+    distill_post_process();
+
+  }
+
+  function init_downlevel() {
+
+    init_common();
+
+     // insert hr after d-title
+    $('.d-title').after($('<hr class="section-separator"/>'));
+
+    // check if we have authors
+    var front_matter = JSON.parse($("#distill-front-matter").html());
+    var have_authors = front_matter.authors && front_matter.authors.length > 0;
+
+    // manage byline/border
+    if (!have_authors)
+      $('.d-byline').remove();
+    $('.d-byline').after($('<hr class="section-separator"/>'));
+    $('.d-byline a').remove();
+
+    // remove toc
+    $('.d-contents').remove();
+
+    // move appendix elements
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('.d-appendix'));
+    });
+
+
+    // inject headers into references and footnotes
+    var refs_header = $('<h3></h3>');
+    refs_header.text('References');
+    $('#refs').prepend(refs_header);
+
+    var footnotes_header = $('<h3></h3');
+    footnotes_header.text('Footnotes');
+    $('.footnotes').children('hr').first().replaceWith(footnotes_header);
+
+    // move appendix-bottom entries to the bottom
+    $('.appendix-bottom').appendTo('.d-appendix').children().unwrap();
+    $('.appendix-bottom').remove();
+
+    // remove appendix if it's empty
+    if ($('.d-appendix').children().length === 0)
+      $('.d-appendix').remove();
+
+    // prepend separator above appendix
+    $('.d-appendix').before($('<hr class="section-separator" style="clear: both"/>'));
+
+    // trim code
+    $('pre>code').each(function(i, val) {
+      $(this).html($.trim($(this).html()));
+    });
+
+    // move posts-container right before article
+    $('.posts-container').insertBefore($('.d-article'));
+
+    $('body').addClass('downlevel');
+
+    on_load_complete();
+  }
+
+
+  function init_common() {
+
+    // jquery plugin to change element types
+    (function($) {
+      $.fn.changeElementType = function(newType) {
+        var attrs = {};
+
+        $.each(this[0].attributes, function(idx, attr) {
+          attrs[attr.nodeName] = attr.nodeValue;
+        });
+
+        this.replaceWith(function() {
+          return $("<" + newType + "/>", attrs).append($(this).contents());
+        });
+      };
+    })(jQuery);
+
+    // prevent underline for linked images
+    $('a > img').parent().css({'border-bottom' : 'none'});
+
+    // mark non-body figures created by knitr chunks as 100% width
+    $('.layout-chunk').each(function(i, val) {
+      var figures = $(this).find('img, .html-widget');
+      if ($(this).attr('data-layout') !== "l-body") {
+        figures.css('width', '100%');
+      } else {
+        figures.css('max-width', '100%');
+        figures.filter("[width]").each(function(i, val) {
+          var fig = $(this);
+          fig.css('width', fig.attr('width') + 'px');
+        });
+
+      }
+    });
+
+    // auto-append index.html to post-preview links in file: protocol
+    // and in rstudio ide preview
+    $('.post-preview').each(function(i, val) {
+      if (window.location.protocol === "file:")
+        $(this).attr('href', $(this).attr('href') + "index.html");
+    });
+
+    // get rid of index.html references in header
+    if (window.location.protocol !== "file:") {
+      $('.distill-site-header a[href]').each(function(i,val) {
+        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+      });
+    }
+
+    // add class to pandoc style tables
+    $('tr.header').parent('thead').parent('table').addClass('pandoc-table');
+    $('.kable-table').children('table').addClass('pandoc-table');
+
+    // add figcaption style to table captions
+    $('caption').parent('table').addClass("figcaption");
+
+    // initialize posts list
+    if (window.init_posts_list)
+      window.init_posts_list();
+
+    // implmement disqus comment link
+    $('.disqus-comment-count').click(function() {
+      window.headroom_prevent_pin = true;
+      $('#disqus_thread').toggleClass('hidden');
+      if (!$('#disqus_thread').hasClass('hidden')) {
+        var offset = $(this).offset();
+        $(window).resize();
+        $('html, body').animate({
+          scrollTop: offset.top - 35
+        });
+      }
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    if (is_downlevel_browser())
+      init_downlevel();
+    else
+      window.addEventListener('WebComponentsReady', init_distill);
+  });
+
+  </script>
+
+  <style type="text/css">
+  /* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+
+
+
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      50px;
+    --body-size:       1.06rem;
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #000000;
+    --header-color:    rgba(0, 0, 0, 0.8);
+    --body-color:      rgba(0, 0, 0, 0.8);
+    --aside-color:     rgba(0, 0, 0, 0.6);
+    --fig-cap-color:   rgba(0, 0, 0, 0.6);
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    sans-serif;
+    --mono-font:       monospace;
+    --body-font:       sans-serif;
+    --navbar-font:     sans-serif;  /* websites + blogs only */
+  }
+
+  /*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
+
+  /*-- ARTICLE TABLE OF CONTENTS --*/
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+  /*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       18px;
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  .distill-site-footer {
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  /*-- Additional custom styles --*/
+  /* Add any additional CSS rules below                      */
+  </style>
+  <style type="text/css">
+  /* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+
+  @import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      50px;
+    --body-size:       1.06rem;
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #000000;
+    --header-color:    rgba(0, 0, 0, 0.8);
+    --body-color:      rgba(0, 0, 0, 0.8);
+    --aside-color:     rgba(0, 0, 0, 0.6);
+    --fig-cap-color:   rgba(0, 0, 0, 0.6);
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    'Noto Sans Kr', sans-serif;
+    --mono-font:       monospace;
+    --body-font:       'Noto Serif KR', sans-serif;
+    --navbar-font:     'Noto Sans Kr', sans-serif;  /* websites + blogs only */
+  }
+
+  /*-- ASIDE --*/
+
+  d-article aside {
+    width: 150%;
+  }
+
+  d-article aside li {
+    line-height: 0.8rem
+  }
+
+  /*-- a concept explained in ASIDE --*/
+
+  s {
+    color: cadetblue;
+    text-emphasis-style: dot;
+    text-decoration-line: none;
+    
+  }
+
+  /*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
+
+  /*-- ARTICLE TABLE OF CONTENTS --*/
+
+  .d-contents {
+    --heading-size:    1.4rem;
+    --contents-size:   0.8rem;
+  }
+
+  @media (min-width: 1000px) {
+    .d-contents.d-contents-float {
+        position: fixed;
+        top: 20%;
+        left: 2%;
+        width: 16%;
+    }
+  }
+
+
+  /*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       18px;
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  .distill-site-footer {
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  /*-- Additional custom styles --*/
+  /* Add any additional CSS rules below                      */
+
+  d-article {
+    contain: none !important;
+  }
+
+  d-contents .figcaption {
+    line-height: 2rem;
+  }
+
+  figure {
+    margin: 1rem auto;
+    width: 75%;
+  }
+
+
+  figure figcaption,
+  .figcaption p {
+    border-bottom: 1px dotted black;
+  }
+
+  i.arrow {
+    position: fixed;
+    font-size: 5rem;
+    top: 50%;
+    color: rgb(25, 0, 125);
+    opacity: 0.1;
+  }
+
+  i.arrow:hover {
+    opacity: 0.5;
+  }
+
+  i.fa-arrow-alt-circle-left {
+    left: 5%;
+  }
+
+  i.fa-arrow-alt-circle-right {
+    right: 5%;
+  }
+
+  .title_box {
+    position: relative; 
+    background-color: white;
+    width: 700px; 
+  }
+
+  .title_box li {
+    list-style-type: none;
+  }
+
+  .title_border:before {
+      content: "";
+      background: linear-gradient(130deg,#ff7a18,#af002d 41.07%,#319197 76.05%);
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      width: calc(100% + 10px);
+      height: calc(100% + 10px);
+      z-index: -1;
+      border-radius: 12px;
+  }
+
+  .title_inside {
+    padding: 20px;
+  }
+
+  d-article a {
+    border-bottom: none;
+    opacity: 0.6;
+  }
+  d-article a:hover {
+    opacity: 1;
+    color: color: rgb(25, 0, 125);
+    border-bottom: none;
+  }
+
+  .d-contents nav a {
+    text-decoration: none;
+    border-bottom: none;
+    opacity: 0.6;
+  }
+  .d-contents nav a:hover {
+    text-decoration: none;
+    border-bottom: none;
+    opacity: 1;
+  }
+
+  /* Table decoration  */
+  table td {
+    vertical-align: top;
+  }</style>
+  <style type="text/css">
+  /* base style */
+
+  /* FONT FAMILIES */
+
+  :root {
+    --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  body,
+  .posts-list .post-preview p,
+  .posts-list .description p {
+    font-family: var(--body-font), var(--body-default);
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  .posts-list .post-preview h2,
+  .posts-list .description h2 {
+    font-family: var(--heading-font), var(--heading-default);
+  }
+
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-family: var(--mono-font), var(--mono-default);
+  }
+
+
+  /*-- TITLE --*/
+  d-title h1,
+  .posts-list > h1 {
+    color: var(--title-color, black);
+  }
+
+  d-title h1 {
+    font-size: var(--title-size, 50px);
+  }
+
+  /*-- HEADERS --*/
+  d-article h1,
+  d-article h2,
+  d-article h3,
+  d-article h4,
+  d-article h5,
+  d-article h6 {
+    color: var(--header-color, rgba(0, 0, 0, 0.8));
+  }
+
+  /*-- BODY --*/
+  d-article > p,  /* only text inside of <p> tags */
+  d-article > ul, /* lists */
+  d-article > ol {
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+    font-size: var(--body-size, 1.06rem);
+  }
+
+
+  /*-- CODE --*/
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-size: var(--code-size, 14px);
+  }
+
+  /*-- ASIDE --*/
+  d-article aside {
+    font-size: var(--aside-size, 12px);
+    color: var(--aside-color, rgba(0, 0, 0, 0.6));
+  }
+
+  /*-- FIGURE CAPTIONS --*/
+  figure .caption,
+  figure figcaption,
+  .figure .caption {
+    font-size: var(--fig-cap-size, 13px);
+    color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
+  }
+
+  /*-- METADATA --*/
+  d-byline h3 {
+    font-size: var(--heading-size, 0.6rem);
+    color: var(--heading-color, rgba(0, 0, 0, 0.5));
+  }
+
+  d-byline {
+    font-size: var(--body-size, 0.8rem);
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+  }
+
+  d-byline a,
+  d-article d-byline a {
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+  }
+
+  /*-- TABLE OF CONTENTS --*/
+  .d-contents nav h3 {
+    font-size: var(--heading-size, 18px);
+  }
+
+  .d-contents nav a {
+    font-size: var(--contents-size, 13px);
+  }
+
+  /*-- APPENDIX --*/
+  d-appendix h3 {
+    font-size: var(--heading-size, 15px);
+    color: var(--heading-color, rgba(0, 0, 0, 0.65));
+  }
+
+  d-appendix {
+    font-size: var(--text-size, 0.8em);
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+  }
+
+  d-appendix d-footnote-list a.footnote-backlink {
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  .distill-site-header .title {
+    font-size: var(--title-size, 18px);
+    font-family: var(--navbar-font), var(--heading-default);
+  }
+
+  .distill-site-header a,
+  .nav-dropdown .nav-dropbtn {
+    font-family: var(--navbar-font), var(--heading-default);
+  }
+
+  .nav-dropdown .nav-dropbtn {
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    font-size: var(--text-size, 15px);
+  }
+
+  .distill-site-header a:hover,
+  .nav-dropdown:hover .nav-dropbtn {
+    color: var(--hover-color, white);
+  }
+
+  .distill-site-header {
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
+  }
+
+  .distill-site-footer {
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
+  }
+
+  .distill-site-footer a:hover {
+    color: var(--hover-color, white);
+  }</style>
+  <!--/radix_placeholder_distill-->
+  <script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
+  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
+  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
+  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
+  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <!--radix_placeholder_site_in_header-->
+  <!--/radix_placeholder_site_in_header-->
+
+
+</head>
+
+<body>
+
+<!--radix_placeholder_front_matter-->
+
+<script id="distill-front-matter" type="text/json">
+{"title":"2장 1절 조현병의 유전학적 이해","description":"Genetic Understanding of Schizophrenia","authors":[]}
+</script>
+
+<!--/radix_placeholder_front_matter-->
+<!--radix_placeholder_navigation_before_body-->
+<header class="header header--fixed" role="banner">
+<nav class="distill-site-nav distill-site-header">
+<div class="nav-left">
+<a class="logo">
+<img src="images/logo2.png" alt="Logo"/>
+</a>
+<a href="index.html" class="title">KYS study group</a>
+<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
+</div>
+<div class="nav-right">
+<a href="index.html">Front Matter</a>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+Contents
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="frontmatter-01.html">1. Understanding of Schizophrenia</a>
+<a href="frontmatter-02.html">2. Biological Basis of Schizophrenia</a>
+<a href="frontmatter-03.html">3. History of Antipsychotic Treatment</a>
+<a href="frontmatter-04.html">4. Basic Concetps in Antipsychotic Treatment</a>
+</div>
+</div>
+<a href="about.html">Authors</a>
+<a href="https://github.com/AnselmJeong/distill">
+<i class="fab fa-github" aria-hidden="true"></i>
+</a>
+<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
+</div>
+</nav>
+</header>
+<!--/radix_placeholder_navigation_before_body-->
+<!--radix_placeholder_site_before_body-->
+<!--/radix_placeholder_site_before_body-->
+
+<div class="d-title">
+<h1>2장 1절 조현병의 유전학적 이해</h1>
+<!--radix_placeholder_categories-->
+<!--/radix_placeholder_categories-->
+<p>Genetic Understanding of Schizophrenia</p>
+</div>
+
+
+<div class="d-article">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#유전학-연구의-태동">1-1. 유전학 연구의 태동</a></li>
+<li><a href="#가계-조사-및-역학-연구">1-2. 가계 조사 및 역학 연구</a></li>
+<li><a href="#dna의-발견과-연관연구">1-3. DNA의 발견과 연관연구</a></li>
+<li><a href="#snp의-발견과-연합-연구">1-4. SNP의 발견과 연합 연구</a></li>
+<li><a href="#광범위-유전체-연합-연구">1-5. 광범위 유전체 연합 연구</a></li>
+<li><a href="#유전학-연구의-영향">1-6. 유전학 연구의 영향</a></li>
+</ul>
+</nav>
+</div>
+<p><a href="article-02-02.html"><i class="arrow far fa-arrow-alt-circle-right"></i></a></p>
+<h2 id="유전학-연구의-태동">1-1. 유전학 연구의 태동</h2>
+<p>모든 정신증은 결국 하나의 질환이 다양하게 변용되어 나타나는 것뿐이라는 단일정신병(<a href="article-01-01.html#modern-period">1장 1-3절 참조</a>) 개념이, 서로 명확히 구분되는 다수의 정신질환이 존재한다는 크레펠린의 혁신적인 개념으로 대체된 이후, 정신의학계는 새로운 희망과 의욕에 몸달아 있었다. 생물정신의학의 기치를 내건 그리징거(<a href="article-01-01.html#kraepelin">1장 1-5절 참조</a>)의 제자들은 그렇다면 다수의 정신질환은 제 각각 특징적인 신경병리를 보일 것이요, 이는 그에 상응하는 독특한 유전적 변이때문에 일어날 것이라 예상하였다. 그들이 이렇게 생각한 것은 경험상 정신질환이 특정 가계(pedigree)에 밀집되어 나타나는 것처럼 보였기 때문이다. 당대 학자들이 가장 먼저 떠올린 가설은 변성 개념(<a href="article-01-01.html#before-kraepelin">1장 1-4절 참조</a>)이었다. 그들은 정신질환이 대를 거듭하면서 변이가 누적되어 점점 더 심한 형태로 악화된다고 믿었으며, 그 최종 국면에 조현병과 치매가 놓여있다고 생각하였다.</p>
+<p>그러나 제대로 된 역학조사나 가계조사없이 유전적 증거를 확인할 수는 없었으며, 하물며 이를 정량화할 방법도 존재하지 않았다. 이미 다윈은 진화론을 통해 종의 생존적합성을 결정하는 미세한 표현형질(phenotype)들이 세대를 거쳐 유전된다고 주장하였다. 다윈의 사촌이었던 <s>Galton</s>은 가계 구성원 들의 다양한 신체 치수를 서로 비교함으로써, 이들 간의 상호 관계를 알아낼 수 있을 것이라는 아이디어를 구상했다. 그는 이러한 신체계측 자료를 광범위하고도 치밀하게 수집하였으며, 이를 제자였던 <s>Pearson</s>에게 맡겨 분석하도록 하였다. Galton과 Pearson이 몸 담았던 실험실은 유전이 어떻게 일어나는 지에 대한 이론적 문제보다는, 서로 다른 신체 치수 즉 표현형이 얼마나 유전에 의해 결정되는가를 계산하는데 주력하였다. Galton은 <s>중심 극한 정리</s>의 개념을 응용하여, 키나 몸무게 같이 정규 분포에 가까운 변이를 보이는 현상들은, 무수히 많은 요인들의 독립적 영향들이 합쳐져서(평균값을 통해) 나타나는 것이라 생각하였다. 따라서 유전되는 것은 연속적이고 미세한 변이를 일으키는 많은 수의 형질 들이고, 질병을 결정하는 것은 다수 형질 들의 효과의 총합일 것이라 믿었다. 1907년 Pearson의 동료인 <s>Heron</s>은 “광증의 통계 및 광증경향의 유전에 대한 첫번째 연구(A First Study of the Statistics of Insanity and the Inheritance of the Insane Diathesis)”라는 저서를 발간하였다. 이 책은 정신지체, 조현병을 비롯한 광증의 유전 정도를 정량적으로 분석한 첫번째 기록이며, 이 책에 실린 수치들은 현대에 추정된 수치와 매우 근접해있다.<span class="citation" data-cites="Kendler2015-lz">(<a href="#ref-Kendler2015-lz" role="doc-biblioref">Kendler 2015</a>)</span> 당시 Galton의 실험실에서 함께 일했던 일군의 학자들을 후세 사람들은 “생체계측적 유전학자(biometrical geneticists)”라고 불렀다.</p>
+<aside>
+<p><strong>Francis Galton (1822~1911)</strong>: 영국의 우생학자, 유전학자이자 통계학자. 인류의 발전을 위해서는 부적격자의 탄생을 막고, 적격자의 탄생율 증진시켜야 한다고 주장하였으며 우생학(eugenics)이라는 용어를 처음 사용하였다. 부모의 키와 자녀의 키 간에는 긴밀한 상관관계가 있다는 것을 밝혀내면서, 상관계수, 회귀 등 통계학의 몇가지 기본 개념을 확립하였고, 이를 유전학 연구에 응용하였다.</p>
+<p><strong>Karl Pearson (1857~1936)</strong>: 영국의 수학자이자 통계학자. Galton의 제자로서 생체계측적 유전이론의 기초를 다지는데 공헌하였다. 유전 현상을 수학적/통계학적으로 이해하는 길을 마련했고, 산포도, 표준편차, 상관계수, 회귀계수, 카이-검정, p 값 등의 개념을 창안하여 현대적 통계분석의 기틀을 세웠다.</p>
+<p><strong>중심 극한 정리(central limit theorem)</strong>: 서로 독립인 무작위 변수가 더해지면, 일정한 평균과 표준편차를 갖는 정규 분포에 흡사한 분포를 갖게 된다는 이론. 더해지는 변수가 많으면 많을 수록 정규분포에 가까워진다. 이 이론이 처음 제시된 것은 1733년 Moivre에 의해서였으나, Galton board를 발명하여 이 이론을 일반인에게 이해시키고 대중화시킨 것은 Galton이다.</p>
+<p><strong>David Heron (1881~1969)</strong>: 스코틀랜드의 통계학자. Pearson의 연구 조교로 경력을 시작하였다.</p>
+</aside>
+<p>현대 유전학을 탄생시킨 <s>멘델</s>이 완두콩 교배를 통해 발견한 소위 “멘델의 유전법칙”을 학계에 발표한 것은 1865년이었으나, 그 학문적 중요성이 재발견된 것은 안타깝게도 멘델이 죽은 후 15년이 지난 1900년에 이르러서였다. 연속적이고 미세한 형질이 점진적으로 유전된다고 여긴 Galton/Pearson과 달리, 멘델의 제 1법칙은 유전현상은 이산적 단위(discrete unit)를 통해 일어난다고 주장한다. 예를 들어 그가 연구했던 완두콩의 경우 우성 형질과 열성 형질은 황색/녹색 혹은 둥글다/주름지다 처럼 뚜렷이 구분되는 단위로 나뉘어져 있다. 이러한 대립형질 중 우성 아니면 열성 형질 하나가 발현될 뿐이지, 황색과 녹색 인자가 유전되었다고해서 연두색 콩이 나오는 것은 아니다. 이러한 논리에 따라, 당시에는 아직 DNA가 발견되기 전이지만, 생식을 통해 전달되는 대립유전형(allele)과 그에 의해 결정되는 표현형 사이에는 일대일 대응관계가 성립된다고 믿어졌다.</p>
+<aside>
+<p><strong>Gregor Mendel (1822~1884)</strong>: 오스트리아의 식물학자로 유전학의 기본 법칙을 발견하였다. 천주교 사제로서 일하면서도, 아버지의 과수원에서 일했던 경험을 살려 농학, 원예학에 몰두했다. 30대 중반부터 7년여간에 걸쳐 완두콩을 재배하면서 유전에 대한 실험을 진행했고, 이를 명쾌한 수학적 원리로 발표하였다. 생전에는 인정받지 못하였으나, 1900년에 들어서 유럽의 식물학자들에 의해 재발굴되었다.</p>
+</aside>
+<p>이는 이후 질병의 유전 연구에 커다란 영향을 미쳤고, 유전형과 표현형은 동일한 현상의 서로 다른 측면처럼 취급되었다. 질병 역시 하나의 표현형이라고 했을 때, 이를 결정하는 유전인자가 어딘가에 존재할 것이라는 추측은 매우 매력적인 가설이었다. 1900년대 초반, 혈우병, 야맹증, 안구색 등의 표현형이 멘델 법칙에 따라 유전된다는 것이 증명되었다. <s>Rüdin</s>은 1907년 멘델의 유전법칙이 조현병에 들어맞는지 체계적으로 연구하기 시작하였다.<span class="citation" data-cites="Zerbin-Rudin1996-nn">(<a href="#ref-Zerbin-Rudin1996-nn" role="doc-biblioref">Zerbin-Rüdin and Kendler 1996</a>)</span> 그는 비록 단일 유전인자에 의한 멘델 유전으로는 자신이 가계연구에서 얻은 데이터를 설명할 수 없었지만, 두 개의 열성 유전인자에 의한 유전 모델로는 상당히 근접하여 설명할 수 있었다고 주장하였다. 또한 유전인자를 물려받았어도 발병하지 않는 <s>불완전 침투</s> 현상이 있을 것이라고 추측하였다. 크레펠린은 조현병 환자의 형제들에게서, 뚜렷하게 병이 있는 것은 아니지만 좀 유별난 성격이 많다는 것을 관찰하고, 이들이 Rüdin이 말한 불완전 침투에 의한 잠재적 환자일 것이라고 생각하였다.<span class="citation" data-cites="Kendler1985-an">(<a href="#ref-Kendler1985-an" role="doc-biblioref">Kendler 1985</a>)</span> 크레펠린과 Rüdin 그리고 그들의 영향을 받았던 독일 정신과 의사들은 질병이 연속적이고 미세한 변이의 총합이라는 생체계측적 모델보다는, 이산적이고 뚜렷이 구분되는 대립형질이 유전된다는 멘델의 모델을 받아들였다. 그들은 유전인자-신경병리-조현병이라는 단순한 인과관계 모델에 매료되었기 때문이었다. 그러나 아무리 애를 써서 관측결과를 모델에 우겨넣으려 해도 잘 맞지 않았다. 좀더 확장된 모델이 필요할 때였다.</p>
+<aside>
+<p><strong>Ernst Rüdin (1874~1952)</strong>: 스위스 태생의 독일 유전학자이자 정신과의사. 비록 정신유전학에서 많은 업적을 남겼지만, 나치의 이데올로기에 동조하여 정신질환자들을 거세하거나 처형하는 것을 암암리에 지지하였다.</p>
+<p><strong>불완전 침투(incomplete penetrance)</strong>: 질병을 일으킨다고 알려진 유전자 변이를 물려받은 개인이 실제로 질병에 걸리게 되는 비율을 침투라고 한다.이 비율이 100%가 아닐 때는 불완전 침투라 한다.)</p>
+</aside>
+<p>1902년 통계학자인 <s>Yule</s>은, 멘델 법칙에 따라 유전되는 대립형질 다수가 서로가 서로에게 영향을 미친다면, 실제 가계도에서 관찰되는 연속적인 형질 분포를 설명할 수도 있을 것이라고 하였다. 당시 초파리(drosophila)를 대량으로 사육하면서 인공적으로 돌연변이를 일으키는 연구를 진행하고 있던 <s>Morgan</s>은 대부분의 돌연변이가 표현형에 큰 변화를 가져오지 않는 미세한 것이요, 질병을 일으킬 정도의 중요한 돌연변이는 극히 드물게만 일어난다는 것을 보고하였다. 이러한 사실들을 종합하여 1918년 <s>Fisher</s>는 연속적인 변이를 보이는 형질은 조그만한 효과를 갖는 많은 유전인자들의 영향을 단순히 합한 것으로 충분히 설명할 수 있다고 주장하였다.<span class="citation" data-cites="Provine2001-iw">(<a href="#ref-Provine2001-iw" role="doc-biblioref">Provine 2001</a>)</span></p>
+<aside>
+<p><strong>George Udny Yule (1871~1951)</strong>: 영국의 통계학자. 특히 시계열 분석의 초석을 놓았다.</p>
+<p><strong>Thomas Hunt Morgan (1866~1945)</strong>: 미국의 진화생물학자. 염색체가 유전현상에서 차지하는 역할을 발견한 공로로 1933년 노벨 생리의학상을 수상하였다.</p>
+<p><strong>Ronald Fisher (1890~1962)</strong>: 영국의 통계학자이자 유전학자. 근대 통계학의 거의 모든 토대를 혼자서 세웠다 해도 과언이 아닐 정도로 많은 개념과 통계기법을 도입하였다. 진화론에서 다윈주의를 전파하는데도 중요한 역할을 하여 다윈의 가장 위대한 후계자로 불리운다.</p>
+</aside>
+<p>Fisher가 생체계측적 유전이론과 멘델식 유전이론을 통합한 이후에도, 각 이론을 신봉하는 유전학자들은 제각기 자기들만의 이론을 발전시켜 나갔다. 그러나, 1960년대 중반에 이르러 다유전자 유전모델(polygenic inheritance)<span class="citation" data-cites="Gottesman1967-rq">(<a href="#ref-Gottesman1967-rq" role="doc-biblioref">I. I. Gottesman and Shields 1967</a>)</span><strong>​</strong>과 경향성-역치(liability-threshold) 모델<span class="citation" data-cites="Falconer1967-wf">(<a href="#ref-Falconer1967-wf" role="doc-biblioref">Falconer 1967</a>)</span>이 반향을 일으키면서, 조현병의 유전 방식은 서서히 이 두 모델에 의해 설명되기 시작하였다. 이는 진단개념에도 상응하는 영향을 주었다. 멘델식 유전모델에서는 질병과 건강상태의 구분이 비교적 명확하지만, 다유전자 모델에서는 형질의 분포가 연속적이라 이 구분이 애매하다. 이에 대해 조현병 자체가 연속적인 성향 즉 스펙트럼에 가까운 상태이며, 진단을 내리는 것은 이러한 스펙트럼 어딘 가에 임의적으로 역치를 설정하는 것이라고 이해되기 시작하였다. 이러한 개념은 1970년 대 말부터 정신유전학의 분석방법으로 인기를 끌던 <s>구조방정식</s>에서 가정하는 잠재변인(latent variable)의 개념하고도 잘 맞아 떨어졌다.<span class="citation" data-cites="Franic2012-ak">(<a href="#ref-Franic2012-ak" role="doc-biblioref">Franić et al. 2012</a>)</span></p>
+<aside>
+<p><strong>구조방정식(Structural Equation Modeling, SEM)</strong>: 여러 변인들 간의 인과관계를 하나의 모형을 통해 검증하는 분석방법. 특히 잠재변인(latent variable)을 가정하여 직접 측정할 수 없는 구성개념에 대해서도 인과관계를 파악할 수 있다.</p>
+</aside>
+<h2 id="가계-조사-및-역학-연구">1-2. 가계 조사 및 역학 연구</h2>
+<p>Rüdin의 선구적 연구를 시작으로 이후 뒤따른 가계 조사에서도, 조현병 환자의 생물학적 친척 중에 조현병 환자가 발생할 비율이 높다는 것이 확인되었다. 한편 당시의 정신분석학적 이론이나 Bateson 등이 주창한 <s>생태 이론</s>에서는 부모의 양육방법이나 가족 내 의사소통 패턴이 조현병의 원인이라고 간주되었다. 따라서 가계 내에 환자가 많은 것, 형제 중에 조현병 환자가 동시에 나타나는 것도 이러한 영향 때문으로 재해석 되었다. 이에 유전 이론을 신봉하는 학자들은 쌍생아 연구를 통해 이런 주장을 정면돌파하고자 하였다.</p>
+<aside>
+<p><strong>생태이론</strong>: Gregory Bateson (1904~1980)은 정신을 독립된 실체가 아니라 생태계적 시스템 속에 내재하고 성숙되어가는 역동적 사건으로 이해한다. 따라서 정신을 이해하기 위해선 이를 둘러싼 시스템을 이해해야 하며, 시스템 구성원 간의 커뮤니케이션을 살펴보아야 한다고 주장하였다. 이 논리대로라면 정신과 환자의 경우 가장 중요한 생태계적 시스템은 가족이며, 가족 내의 왜곡된 커뮤니케이션이 질병을 야기할 것이다.</p>
+</aside>
+<p>크레펠린의 제자였던 <s>Luxenberger</s>는 1928년 조현병 환자를 대상으로 한 최초의 쌍생아 연구를 수행하였다. 그가 조사한 일란성 쌍생아 중 조현병의 <s>발생일치율(</s>은 58%였던 반면, 이란성 쌍생아 중에서는 두 쌍생아가 모두 조현병에 걸린 사례를 찾아낼 수 없었다.<span class="citation" data-cites="Andreasen1994-bx">(<a href="#ref-Andreasen1994-bx" role="doc-biblioref">Andreasen 1994</a>)</span> 이후 수십년간 이어진 유사한 연구에서 일란성 쌍생아에서의 발생일치율은 이란성 쌍생아에 비해 5-10배 정도 높다는 것이 확인되었다. 영국의 베들렘 병원과 모즐리 병원(Maudsley hospital)은 1948년 이래 공동으로 그곳을 거쳐간 모든 환자들의 신상정보와 임상기록을 보관해왔다. Gottesman과 Shields<strong>​</strong><span class="citation" data-cites="Gottesman1972-tr">(<a href="#ref-Gottesman1972-tr" role="doc-biblioref">Irving I. Gottesman and Shields 1972</a>)</span><strong>​</strong>가 처음 이 자료에 등록된 쌍생아 자료를 분석하였고, 1999년에는 Cardno 등<span class="citation" data-cites="Cardno1999-hh">(<a href="#ref-Cardno1999-hh" role="doc-biblioref">Cardno et al. 1999</a>)</span>이 재분석하였다. 일란성 쌍생아의 경우 발생일치율이 0.8% 였음에 비해, 이란성 쌍생아는 5.3%에 지나지 않았으며, <s>유전성</s>은 82%에 달하였다.</p>
+<aside>
+<p><strong>Hans Luxenberger (1894-1976)</strong>: 독일의 유전학자. 정신유전학의 뮌헨 학파(Munich School of Psychiatric Genetics)의 일원이다. 뮌헨 인근에 입원해있던 조발성 치매 환자 16,382을 조사하여 이중 211명의 쌍생아를 찾아낸 후 발병 일치 여부를 분석하였다.<span class="citation" data-cites="Noll2009-av">(<a href="#ref-Noll2009-av" role="doc-biblioref">Noll 2009</a>)</span></p>
+<p><strong>발생일치율(concordance rate)</strong>: 유전적 정보를 공유하는 두 사람이 모두 동일환 질환에 걸릴 확률. 보통 이미 진단을 받은 기준 환자(proband)의 친인척이 동일 질환에 걸릴 확률로 표시한다.</p>
+<p><strong>유전성(heritability)</strong>: 개체 집단에서 발견되는 표현형의 변이 중에서 유전형의 변이로 인해 설명되는 비율.</p>
+</aside>
+<p>입양아 연구에서도 유사한 결과가 얻어졌다. 이 분야에 탁월한 업적을 낸 <s>Kety</s>는 20 여년간의 꾸준한 연구를 통하여 다음과 같은 사실을 확인하였다. 첫번째, 조현병 어머니에게서 태어나 정상 부모에게 입양된 아이들은, 자신을 낳아준 어머니에게 양육된 아이들과 동일한 발병률을 보였다. 둘째, 입양된 조현병 환자의 현재 가족 구성원(입양한 가족)에서의 발병률보다, 원래의 생물학적 가족에서 훨씬 조현병의 발병률이 높았다.<span class="citation" data-cites="Kety1976-ts">(<a href="#ref-Kety1976-ts" role="doc-biblioref">Kety et al. 1976</a>)</span></p>
+<aside>
+<p><strong>Seymore Kety (1915~2000)</strong>: 미국의 신경생물학자. 뇌혈류를 측정하는 방법을 최초로 개발하였으며, 미국 국립정신건강연구원(NIMH)의 초대 국장을 역임하였다.</p>
+</aside>
+<p>쌍생아 연구와 입양 가족 연구는 조현병 발병에 유전적 요인이 차지하는 비중에 대해 귀중한 정보를 제시했음은 물론, 양육방식과 가족 내 갈등이 발병의 주요 요인이라는 당시 심리학자와 정신분석가들의 편견을 일소하는데 기여하였다.<span class="citation" data-cites="Holzman2001-rz">(<a href="#ref-Holzman2001-rz" role="doc-biblioref">Holzman 2001</a>)</span></p>
+<h2 id="dna의-발견과-연관연구">1-3. DNA의 발견과 연관연구</h2>
+<p>크레펠린에 의해 조현병이 개념이 자리잡기가 무섭게, 학자들은 이 질환이 유전적 요인에 의해 일어난다는 것을 입증하고자 애썼다. 이런 배경에는, 조현병 환자가 특정한 가계에 몰려 나타나는 경향이 거듭 관찰되고 있었다는 것, 오염된 혈통과 변성 개념이 사람들에게 은근한 두려움으로 다가왔다는 요인이 자리잡고 있었다. 이에 덧붙여 질병의 원인론에 대한 당시의 지식과 이론도 영향을 끼쳤다. 현재도 마찬가지이지만, <s>아리스토텔레스의 원인 이론</s>및 뉴턴 역학의 영향을 받은 당대의 학자들은 현상 혹은 변화의 근원을 파고들어가면 결국 일차적 원인에 맞닥뜨리게 된다고 믿었다. 아리스토텔레스 철학에서는 물질의 재료나 구성 혹은 외부에서 힘을 가한 존재가 그 역할을 하며, 뉴턴 역학에서도 물체가 운동하려면 맨 처음 힘을 가한 어떤 존재가 있어야 한다. 우주에 존재하는 모든 만물의 운동 역시 태초에 궁극적인 원인이 있어서 시작되었으며, 아리스토텔레스는 이를 <s>원동자</s>라고 하였다.</p>
+<aside>
+<p><strong>아리스토텔레서의 4원인 (Four causes of Aristoteles)</strong>: 아리스토텔레스는 변화와 운동에는 반드시 원인이 있으리라 가정하였고, 다음 네가지를 열거하였다. 1) 질료인(material cause)은 대상이 무엇으로 이루어져 있는지, 2) 형상인(formal cause)은 대상이 어떤 특성을 갖고 어떤 법칙을 따르는지, 3) 작용인(efficient cause)은 외부로부터 가해진 변화나 힘, 4) 목적인(final cause)은 대상이 애초에 지닌 의지, 동기, 목적은 무엇인지를 가리킨다.</p>
+<p><strong>원동자(prime mover)</strong>: 아리스토텔레스는 원인 없는 결과는 없다고 보았는데, 그렇다면 애초에 우주가 왜 움직이게 되었는지를 설명하기 곤란해진다. 이러한 난점에 대해 그는 원인이 없이도 스스로 움직이기 시작한 최초의 존재를 가정하고 이를 원동자( 元動者)라고 칭하였다.</p>
+</aside>
+<p>병인론을 최초로 공식화한 <s>Koch와 Loeffler</s>에게 있어서 prime mover는 다름 아닌 미생물이었다. 그러나 조현병이 미생물에 의한 질병이 아닌 이상, 궁극적 병인으로 가장 걸맞은 것은 유전적 요인이었던 셈이다. 조현병 유전 연구의 초창기에는 가계도 분석과 역학 연구를 통하여 그 유전성 을 조사하는 것이 고작이었으나, 염색체의 발견을 거쳐 DNA의 구조와 기능이 밝혀지면서 유전 연구는 유전적 원인(genetic cause)을 찾는 연구로 거듭나게 되었다. 다유전자 모델이 어느 정도 영향력을 갖게 된 이후에도, 상당수의 유전학자들은 그야말로 “조현병을 일으키는” 단일 유전자를 찾고 있었다.</p>
+<aside>
+<p><strong>Koch의 병인론 가설 (Koch postulates)</strong>: 미생물학자인 Robert Koch와 Friedrich Loeffler가 1884에 제안한 가정. 만약 특정한 병에 걸린 환자에서 1) 유달리 어떤 미생물이 많이 발견되고, 2) 그 미생물이 실험실에서 배양될 수 있으며, 3) 배양액을 다른 개체에 주입하면 동일한 병이 생기고, 4) 새롭게 병에 걸린 개체에서도 역시 동일한 미생물을 다량 추출할 수 있다면, 질병의 원인은 처음의 그 미생물이다라는 가설이다.</p>
+</aside>
+<p>염색체는 19세기 말에 이미 그 개념이 도입되었고, 전술했던 Morgan의 연구를 통해 존재가 증명되었다. 1920년대에는 이미 현미경을 통해 염색체를 육안으로 관찰할 수 있었고, 인간 염색체의 대략적인 개수도 알려졌다. 원래 멘델의 두번째 유전법칙인 독립의 법칙(law of independent assortment)에 따르면, 서로 다른 표현형은 독립적으로 유전되어야만 했지만 실상은 그렇지 않았다. 한 가계 내에서 서로 다른 표현형이 함께 유전되는 유전자 연관(genetic linkage)은 이미 1905년 <s>Bateson</s>에 의해 발견되었다. 선형 구조를 갖는 염색체 개념에 이를 적용하여, 염색체 상에서 서로 거리가 근접한 유전인자는 함께 유전될 가능성이 높고, 역으로 거리가 먼 유전인자는 재조합(recombination)될 확률이 높다는 이론이 고안되었다. 이를 토대로 염색체 지도가 만들어지기 훨씬 이전에 이미 연관 지도(linkage map)가 만들어졌다. 초기에는 대립형질(표현형을 구성하는 우성형질과 열성형질의 쌍) 하나하나가 지도에서의 위치를 가리키는 <s>표지자 </s>의 역할을 하였으나, 이는 초파리 실험과 같이 다양한 형질 변화를 인위적으로 일으킬 수 있는 연구환경이 아니라면 적용하기 어려웠다.</p>
+<aside>
+<p><strong>William Bateson (1861~1926)</strong>: 영국의 생물학자로 “유전학(genetics)”이라는 용어를 처음 사용하였으며, 멘델의 유전법칙을 널리 전파하는데 기여하였다.</p>
+<p><strong>표지자 (marker)</strong>: 하나의 염색체에 들어있는 DNA는 하나의 긴 1차원의 가닥으로 이루어진다. 이 가닥 내에서 상대적 위치를 표시할 수 있는 모든 종류의 변이를 표지자라고 한다.</p>
+</aside>
+<p>세포 내의 유전물질에 대한 가설은 이미 19세기 중반에 제기되었으며, 이것이 핵산(nucleotide)으로 구성되었다는 것 역시 1919년 <s>Levene</s>에 의해 발견되었다.<span class="citation" data-cites="Pray2008-vy">(<a href="#ref-Pray2008-vy" role="doc-biblioref">Pray 2008</a>)</span> 이후 <s>Watson과 Crick</s>는 DNA가 이중나선 형태를 이루고 있음을 1953년에 발표하였다. DNA의 발견은 부연 설명이 필요없을 정도로 유전 연구를 혁신적으로 진일보시켰다. 연관 지도를 통해 유전인자들이 일렬로 배열되어 있을 것이라 짐작하고 있었지만, 이제 그 실질적 증거를 확보하게 되었다. 바야흐로 연관연구는 표현형을 기반으로 한 원시적 표지자가 아닌 분자 단위의 세밀한 표지자를 이용하여 행해질 수 있었다.</p>
+<aside>
+<p><strong>Phoebus Levene (1869~1940)</strong>: 러시아 태생의 미국 생화학자로 DNA와 RNA의 구조를 분석하였으며, 핵산이 연이어 연결된 구조가 이들의 기본 형태라는 것을 발견하였다.</p>
+<p><strong>James Watson (1928~), Francis Crick (1916~2004)</strong>: 미국의 분자생물학자로 공동작업을 통해 DNA의 3차원적 구조를 발견했으며, 이 공로로 함께 1962년 노벨 생리의학상을 수상했다.</p>
+</aside>
+<p>표지자가 되기 위해선 다른 표지자들과의 상대적 위치를 확정할 수 있어야 하며, 동시에 인구집단 내에 적당한 비율의 변이가 있어야 한다. 초창기에 등장한 표지자는 RFLP (Restriction fragment length polymorphism)라는 것으로, 특정한 염기서열만을 잘라내는 제한효소(restriction enzyme)에 의해 잘려나간 조각들의 패턴을 말한다. 개개인에 따라 염기서열이 조금씩 다르기 때문에, 이렇게 잘려나간 패턴 역시 변이가 생긴다. 이러한 조각들을 전기영동(southern blot)에 통과시키면, 분자량에 따라 잘려진 염기들을 순서대로 배열할 수 있었다. 그러나 RFLP는 특정 염기서열을 인식하는 제한효소가 있어야만 발견할 수 있는 표지자였고, 또 이를 영상화하기 위해서 방사성 동위원소나 형광 염료를 붙여야 하는 등, 자동화하기 어렵고 비용이 많이 드는 작업이었다. 뒤이어 <s>Short Tandem Repeat (STR), Variable Number Tandem Repeat (VNTR)</s> 등의 표지자가 개발되었다. 이들은 많은 수의 대립유전자 변이(allelic variation)를 갖고 있었기 때문에 정보량이 풍부하였으나, 게놈 내에 고루 분포하는 표지자가 아니였기 때문에 제한된 용도로 밖에 쓸 수 없었다.</p>
+<aside>
+<p><strong>Tandem Repeat</strong>: DNA에는 특정 염기서열이 연이어 반복되는 경우가 많다. 예를 들어 유전자의 프로모터에 자리잡은 CpG island에는 CG가 100번 이상 반복된다. 반복되는 염기의 길이(bp)가 10개 미만이면 minisatellite, 10~60개 정도이면 microsatellite라고 하며, STR은 minisatellite, VNTR은 microsatellite가 반복되는 것을 지칭한다. STR, VNTR이 반복되는 수는 개인마다 다르며, 부모로부터 유전되기 때문에 유전적 표지자 역할을 할 수 있다.</p>
+</aside>
+<p>이전의 연구가 표현형과 표현형 사이의 유전적 거리를 조사했다면, 이제부터는 표현형과 염색체 내 위치를 가리키는 표지자 간의 거리를 조사하기 시작하였다. 대립유전자가 유전될 때는 부모가 갖고 있는 한쌍의 대립유전자 중 무작위로 하나씩만 자손에게 전달되는데 이를 분리(segregation)라고 한다. 만약 특정한 표지자의 대립유전자가 질병과 함께 다음 세대로 전달되는 양상을 보인다면, 그 표지자는 질병유발 유전자와 매우 근접해있다는 증가가 된다. 이러한 동시 분리(co-segregation)을 찾는 것이 연관 연구(linkage study)의 핵심이다.<span class="citation" data-cites="2000-mn">(<a href="#ref-2000-mn" role="doc-biblioref">주은정 and 김용식 2000</a>)</span></p>
+<p>아쉽게도 쏟아졌던 기대에 비해 연관 연구는 큰 성과를 내지는 못했다. 그럼에도 불구하고, 몇몇 연구를 통해 조현병의 발견기전에 한발 다가갈 수 있었다. 강한 연관 신호를 보였던 몇몇 염색체 영역에 대해서 후속 연구가 진행되면서, 그 부위에 위치한 유전자 중 조현병의 병태 생리에 중요한 역할을 할 것으로 기대되는 몇 가지 유전자를 찾아낼 수 있었다. 예를 들어 1q42에서는 DISC1 (Disrupted in Schizophrenia 1) 유전자를, 22q에서는 COMT (Catechol-O-methyltransferase), PRODH (proline dehydrogenase), 8p에서 NRG1 (neuregulin 1), 그리고 6p에서 DTNBP1 (dysbindin) 유전자를 찾아낼 수 있었다. <span class="citation" data-cites="Karayiorgou1997-tk">(<a href="#ref-Karayiorgou1997-tk" role="doc-biblioref">M. Karayiorgou and Gogos 1997</a>)</span><span class="citation" data-cites="Karayiorgou2006-vv">(<a href="#ref-Karayiorgou2006-vv" role="doc-biblioref">Maria Karayiorgou and Gogos 2006</a>)</span> 이러한 유전자들은 이후 연합 연구를 통한 후보유전자 검색과정에서도 조현병과 관련되어 있는 것으로 나타났으며, 이후 조현병의 병태생리를 이해하는데 중요한 이정표가 되었다.</p>
+<p>그러나 어렵게 얻어진 몇몇 양성 결과들조차 추후 연구에서 결과를 재현하는데 대부분 실패하였으며, 연관 신호가 높게 나타났던 염색체 부위에서 의미있는 유전자를 찾는 것도 쉽지 않았다. 이렇게 기대에 미치지 못한 이유는 다양하다. 무엇보다 연관 연구는 조현병이 기껏해야 몇 개의 드물지만 영향력이 큰 변이에 의해 초래된다는 가정, 그리고 이들이 단순한 멘델식의 우성 혹은 열성 유전모델을 따른다는 가정, 즉 “단일 주요유전자 자리 모형(single major locus model)”에 입각해있다. 설령 다유전자 모델이 맞더라도, 여전히 조현병을 일으키는데 가장 중요한 유전자는 하나라는 뜻이다.<span class="citation" data-cites="Elston1970-rg">(<a href="#ref-Elston1970-rg" role="doc-biblioref">Elston and Campbell 1970</a>)</span><span class="citation" data-cites="Karlsson1974-ts">(<a href="#ref-Karlsson1974-ts" role="doc-biblioref">Karlsson 1974</a>)</span> 이들이 이에 매달릴 수 밖에 없었던 이유 중 하나는 연관 연구의 약한 검증력으로는 영향력이 큰 몇 개의 부위만을 찾아낼 수 있기 때문이다.</p>
+<p>검증력을 키워 미세한 연관 신호를 잡아내려면, 많은 수의 환자가 포함되어 있는 대규모 가계를 대상으로 연구해야 하는데, 이런 가계를 찾아내기란 여간 어려운 것이 아니다. 설령 그런 가계를 찾아냈다 하더라도, 포함된 환자들이 많으면 많을수록 그들 모두가 단일한 유전요인에 의해 발병되었을 확률이 떨어진다. 또한 한 가계에서 의미있는 신호를 발견했다 하더라도, 이 신호가 다른 가계에서도 발견된다는 보장이 없다. 즉 발견된 결과는 해당 가계에 국한되는 것이지, 보편적인 조현병의 원인인자로 일반화하기 힘들다. 마지막으로 연관 연구에 사용되는 표지자가 그리 조밀하지 않기 때문에 설령 의심되는 영역을 찾아낸다 하더라도 해상도가 매우 떨어진다.<span class="citation" data-cites="Karayiorgou1997-tk">(<a href="#ref-Karayiorgou1997-tk" role="doc-biblioref">M. Karayiorgou and Gogos 1997</a>)</span> 결국 연관 연구는 역사속의 한 페이지로만 남게 되었다.</p>
+<h2 id="snp의-발견과-연합-연구">1-4. SNP의 발견과 연합 연구</h2>
+<p>유전적 표지자의 문제는 오랜동안 유전 연구를 제약해왔던 사안이다. 보통 인구 집단내에 일정 비율 이상으로 존재하는 돌연변이를 표지자로 사용한다. 그 자신이 질병을 일으키는 경우도 있겠지만, 대부분은 그저 염색체 내의 특정한 위치를 표시하는 역할만 하게 된다. 만약 그 돌연변이가 생명을 위협할 정도라면 인구 집단에 널리 분포할 리가 만무하기 때문에, 그 영향이 너무 크지도 너무 작지도 않아야만 한다. 인간 게놈에는 30억개의 염기가 있다고 하는데, RFLP, VNTR 등과 같은 고전적 표지자들은 기껏해야 몇 만개 정도에 불과하다. 이렇듯 해상도가 낮기 때문에 조현병과 연관된 부위를 찾는다 해도, 그 부위에 포함된 유전자 중 어떤 유전자의 변이 때문인지조차 분명히 알아낼 수 없다.</p>
+<p>단일염기다형성(Single Nucleotide Polymorphism, SNP)은 1996년 <s>Lander</s>에 의해 그 개념이 제시되었다. 이는 DNA 염기서열 중 특정 위치의 염기가 다른 것으로 바뀌어 있는 것을 의미한다. 단일 염기의 치환, 삭제, 첨가 등 다양한 기전에 의해 발생하며, <s>소수 대립유전자빈도</s>가 1% 이상인 것만을 SNP라고 말한다. SNP에서 하나의 염기 위치에서 발견되는 대립유전자(allele)은 일반적으로 두 개이다. VNTR과 같이 한 위치에 수십, 수백 개의 대립유전자가 있는 변이보다는 변이의 폭은 좁지만, 그 대신 표지자가 밀집되어 존재하는 것이 특징이다. 평균잡아 1,000bp에 하나 꼴로 염기 치환이 일어나기 때문에, 한 사람의 게놈 내에는 4~5백만 개의 SNP가 있을 것으로 추정된다. 게다가 커다란 인구집단에서 발견되는 SNP의 수는 무려 1억개에 가깝다.<span class="citation" data-cites="1000_Genomes_Project_Consortium2015-dn">(<a href="#ref-1000_Genomes_Project_Consortium2015-dn" role="doc-biblioref">1000 Genomes Project Consortium et al. 2015</a>)</span> 한 유전자 내에도 수십개 이상의 SNP가 분포하는 것이 일반적이며, 따라서 정확히 어떤 부위가 질병 위험과 연관되어 있는지를 높은 해상도로 파악해낼 수 있다. 게다가 1990년 부터 시작된 인간 게놈 프로젝트의 일환으로 DNA 염기서열을 매우 빠르고 정확하게 읽어내는 기술이 부단히 발전하면서, SNP 변이를 확인하는 기술은 속도 뿐 아니라 자동화 정도에서 기존의 표지자들보다 훨씬 더 앞서 있었다.</p>
+<aside>
+<p><strong>Eric Lander (1957~)</strong>: 미국의 수학자이자 유전학자로 MIT와 하버드 대학의 교수로 재직중이다. 유전연구로 유명한 Broad Institute의 초대 국장을 역임하였다. 2021년 출범한 미국의 바이든 행정부에서 백악관 과학기술정책실장(Office of Science and Technology Policy)에 임명되었다.</p>
+<p><strong>소수 대립유전자빈도 (Minor Allele Frequency, MAF)</strong>: 하나의 유전자 자리에는 몇 개의 서로 다른 유전형(변이)이 위치할 수 있다. 이들 변이는 조사된 인구집단에서 일정한 비율로 분포하는데, 그중 가장 드문 대립유전형의 빈도를 의미한다. SNP는 두개의 대립유전자가 있기 때문에 MAF가 너무 작으면 표지자로서의 가치가 떨어진다. 보통 MAF가 1% 이상인 변이를 SNP라고 한다.</p>
+</aside>
+<p>SNP의 등장으로 말미암아 연관 연구는 연합 연구(association study)로 대체되었다. 연관 연구는 한 가계 내의 구성원을 대상으로 행해지지만, 연합 연구는 전체 인구집단에서 추출된 표본을 대상으로 이루어진다. SNP는 서로 거리가 매우 가깝기 때문에 한 가계의 구성원이 아니라도, 먼 조상이 같다면 근접한 두 SNP는 <s>재조합</s>을 겪지 않은 채 연관된 상태 그대로 세대를 거듭하여 다음 대로 내려갈 것이다. 예를 들어 첫번째 SNP의 대립유전자가 A와 a이고 두번째 SNP의 대립유전자가 B와 b라고 가정하자. 두 SNP가 충분히 가깝다면, 해당 인구집단에서 AB, Ab, aB, ab의 분포는 A, a, B, b의 비율에서 계산되어지는 기대값에 비해 유의하게 어긋나게 된다. 이러한 현상을 연관불균형(linkage disequilibrium)이라고 한다.<span class="citation" data-cites="Reich2001-sh">(<a href="#ref-Reich2001-sh" role="doc-biblioref">Reich et al. 2001</a>)</span></p>
+<aside>
+<p><strong>유전자 재조합 (recombination)</strong>: 유성생식을 하는 포유류는 난자와 정자를 만들때 감수 분열을 하게 되는데, 이 때 두 개의 DNA 가닥이 꼬이면서 유전자 교차가 일어날 수 있다. 이 과정에서 부모 각각으로 부터 받은 유전자들이 뒤섞이는 것을 유전자 재조합이라 한다. 유전자 사이의 거리가 멀면 멀수록 재조합 확률이 높아진다.</p>
+</aside>
+<p>연합 연구는 지극히 간단한 환자-대조군 연구로서, 조현병 환자군에서 발견되는 SNP 대립유전자의 비율과 대조군에서의 비율을 카이-제곱 등의 통계기법을 이용하여 서로 비교하는 것이다.<span class="citation" data-cites="Cordell2005-uk">(<a href="#ref-Cordell2005-uk" role="doc-biblioref">Cordell and Clayton 2005</a>)</span> 환자군에서 특정 대립유전자가 유의하게 자주 나타난다면 그것이 바로 연합의 증거가 된다. 연합이 발견된 SNP 표지자는 그 자체의 변이가 질병의 원인이 될 수도 있고 (직접 연합), 근방에 있는 진짜 질병유발 변이와의 연관불균형 관계를 통해 간접적으로 관련을 맺고 있는 것일 수도 있다 (간접 연합). 간접 연합을 이용하면, 분석에서 의미있게 나온 SNP의 위치를 토대로 질병 유발 유전자가 있는 위치를 점점 좁혀나갈수 있는데, 이를 연관불균형 매핑(LD mapping)이라고도 한다.<span class="citation" data-cites="Maniatis2007-bl">(<a href="#ref-Maniatis2007-bl" role="doc-biblioref">Maniatis 2007</a>)</span><span class="citation" data-cites="Riley2000-ul">(<a href="#ref-Riley2000-ul" role="doc-biblioref">Riley et al. 2000</a>)</span></p>
+<p>연합 연구가 도입된 초창기에는 SNP의 유전형을 읽어내는데 높은 비용이 들었기 때문에, 대규모 표본에서 많은 수의 SNP 표지자를 사용하기 힘들었다. 따라서 흔히 “후보 유전자(candidate gene) 연구”를 수행하곤 하였다. 이는 연관 연구나 병태 생리 분석 등을 통해 조현병과 관련되어 있을 것이라 여겨지는 후보 유전자를 설정하고, 이 유전자에 위치하는 대표적인 SNP를 몇 개 뽑아내어 그 대립유전자의 빈도를 비교하는 것이다. 주로 연관 연구에서 강한 신호를 보였던 염색체 부위에 위치하는 유전자를 후보 염색체로 선택하는 경우가 많았다.<span class="citation" data-cites="Jorgensen2009-rb">(<a href="#ref-Jorgensen2009-rb" role="doc-biblioref">Jorgensen et al. 2009</a>)</span></p>
+<p>이 방법을 이용하여 무수히 많은 연구 결과가 발표되었으나, 여전히 재현불가능이라는 벽에 부딪히곤 하였다. 어느 한 연구자가 특정 유전자에 위치한 SNP와 조현병 사이의 긴밀한 연합을 발견했다고 발표했다 하더라도, 뒤를 이어 다른 연구팀이 이를 재현하고자 하면 결국 실패하고마는 일이 반복되었다.<span class="citation" data-cites="Ioannidis2001-cl">(<a href="#ref-Ioannidis2001-cl" role="doc-biblioref">Ioannidis et al. 2001</a>)</span> 혹자는 이를 인종이나 민족 등 인구집단의 차이로 설명하려 하였으나, 재현불가능성은 결국 연합 연구에 대해 부정적인 인상만을 심어주게 되었다.<span class="citation" data-cites="Gejman2011-aw">(<a href="#ref-Gejman2011-aw" role="doc-biblioref">Gejman, Sanders, and Kendler 2011</a>)</span></p>
+<p>이러한 후보 유전자 접근에 의한 연합 연구의 결과물들은 <s>SZGene</s>이라는 데이터베이스에 통합되었다. 이 데이터베이스에는 2011년 마지막으로 개정되기 전까지 1,008개의 유전자에 위치한 8,788개의 SNP에 대해 조사한 1,727개의 연구 자료가 실려있다. 관련된 저자들은 이 많은 연구 중에서, DRD1, DTNBP1, MTHFR과 TPH1라는 네 개의 유전자만이 가이드라인에서 정한 기준을 통과한 유의한 조현병 유발 유전자라고 결론지었다.<span class="citation" data-cites="Allen2008-we">(<a href="#ref-Allen2008-we" role="doc-biblioref">Allen et al. 2008</a>)</span> 이후 후보 유전자 연합 연구는 더 이상 주목을 받지 못하였다. SZGene 데이터베이스 역시 2011년 이후 더 이상 관리가 되고 있지 않다.</p>
+<aside>
+<p><strong>SZGene</strong>: Schizophrenia Gene Database (<a href="http://www.szgene.org/" class="uri">&lt;http://www.szgene.org/&gt;</a>)</p>
+</aside>
+<h2 id="광범위-유전체-연합-연구">1-5. 광범위 유전체 연합 연구</h2>
+<p>앞절에서 살펴본 바와 같이 조현병의 후보 유전자 연합 연구는 무성한 결과만을 내어놓았을 뿐, 그 어느 것도 신빙성 있게 받아들여지지 않았다. 이 문제에 대하여 학계는 물량공세를 통한 대규모 접근으로 방향을 틀었다. 우선 기술의 발전에 의해 유전형을 읽어내는 기술이 점점 더 고속화, 자동화되었고 가격도 현저하게 하락하였다. 차세대 염기서열 분석(Next Generation Sequencing) 혹은 고출력 염기서열 분석(High-throughput Sequencing)이라 불리는 이들 방법은 현재 인간의 전체 게놈을 읽어내는데 하루 정도 밖에 걸리지 않으며, 그 비용도 1,000 달러정도까지 내려가 있다. 따라서 후보 유전자를 가려 뽑거나 그 중에서도 SNP를 선택하는 과정은 불필요해졌으며, 바야흐로 전체 게놈을 한번에 분석하여 연합 연구의 방법론을 적용하는 것도 가능하게 되었다. 이를 광범위 유전체 연합 연구(Genome-Wide Association Study, GWAS)라고 한다. <s>국제 HapMap 프로젝트</s>로부터 시작되어 현재는 <s>1000 게놈 프로젝트</s>로 승계된 국제 공동 연구에 의해 이미 인체에 존재하는 모든 SNP와 그들의 연관불균형 관계가 이미 데이터베이스로 구성되어 있다.<span class="citation" data-cites="International_HapMap_Consortium2003-bt">(<a href="#ref-International_HapMap_Consortium2003-bt" role="doc-biblioref">International HapMap Consortium 2003</a>)</span><span class="citation" data-cites="Sudmant2015-vm">(<a href="#ref-Sudmant2015-vm" role="doc-biblioref">Sudmant et al. 2015</a>)</span> 이를 근거로 전체 게놈에 존재하는 SNP 중 보통 백만 개 이상의 SNP를 뽑아 변이를 조사하고, 유전적 연합여부를 결정하게 된다. 후보 유전자 연구와는 달리, 사전에 어떤 이론적 편견도 갖지 않고 그저 SNP의 전략적 위치만을 고려하여 선택한다. 수백만개에 달하는 변이에 대해 다중 분석을 행하는 것이기 때문에 1종 오류(위양성)의 가능성이 부풀려진다. 이를 해소하기 위해 매우 엄격한 조건 (p &lt; 5 x 10 <sup>-8</sup>)을 적용하는 것도 또 다른 특징이다.</p>
+<aside>
+<p><strong>국제 HapMap 프로젝트 (International HapMap Project)</strong>: 인간 게놈 내의 변이를 체계적으로 조사하고 이를 데이터베이스화하기 위해 2002년 출범한 국제공동연구로 미국을 포함하여, 일본, 영국, 캐나다, 중국 연구팀이 참여하였다. 얻어진 자료는 전세계 모든 연구자에게 공개되어 유전 연구에 없어서는 안 될 자료가 되었다. 2016년에 서비스가 중단되었다.</p>
+<p><strong>1000 게놈 프로젝트 (1000 Genomes Project)</strong>: HapMap 프로젝트 이후에도 SNP를 비롯하여 발견된 변이의 수는 계속 늘어나기만 하였다. 1000 게놈 프로젝트에서는 표본 수를 3,000명 이상으로 확장하고, 차세대 염기서열 분석을 이용하여 규모가 훨씬 큰 변이의 데이터베이스를 구축하였다. (<a href="https://www.internationalgenome.org/" class="uri">&lt;https://www.internationalgenome.org/&gt;</a>)</p>
+</aside>
+<p>분석하는 SNP의 개수를 대규모화하는 것 이외에, 또 다른 전략은 표본 수를 최대한 늘리는 것이다. 기존에 연구자들이 행한 연합 연구는 기껏해야 수백명 규모의 표본을 사용한 연구였다. 이는 검증력이 떨어지기 때문에, 양성 신호를 붙잡지 못하는 것도 있지만, 음성 결과를 자신있게 음성이라 말할 수 없다는 한계가 있다. 따라서 GWAS는 시작부터 다수의 연구자들이 힘을 모아 컨소시엄을 구성하는 방식으로 나아갔고, 그중 가장 규모가 큰 컨소시엄은 북캘리포니아 대학(University of North Carolina at Chapel Hill)에서 주도하는 Schizophrenia Psychiatric GWAS Consortium과 미국의 7개 대학이 참여한 Consortium on the Genetics of Schizophrenia가 있다. 특히 전자는 조현병을 비롯한 다양한 정신질환의 GWAS 연구를 위해 표본을 수집하고 있는 Psychiatric Genomics Consortium (PGC)의 일환으로 수만명 단위의 조현병 환자 유전체 자료를 모아놓고 있다. PGC에는 무려 45개국, 500여명의 연구자가 참여하고 있기 때문에 다양한 인종과 인구집단이 포함되어 있다.<span class="citation" data-cites="Sullivan2018-ld">(<a href="#ref-Sullivan2018-ld" role="doc-biblioref">Sullivan et al. 2018</a>)</span></p>
+<p>이렇듯 거대한 표본과 광범위한 표지자를 통한 분석으로 얻어낸 GWAS의 연구결과는 기존의 후보 유전자 연구를 통해 얻어낸 유전자 군과는 전혀 다른 유전자들을 조현병 유발 유전자로 제시하였다. 전자의 유전자 군은 GWAS 결과 내에서는 별다른 연합 신호를 나타내지 못했으며, 결국 SZGene에 수록된 대부분의 연합 연구 결과가 별 가치가 없다는 것이 밝혀졌다.<span class="citation" data-cites="Farrell2015-mi">(<a href="#ref-Farrell2015-mi" role="doc-biblioref">Farrell et al. 2015</a>)</span><span class="citation" data-cites="Johnson2017-rg">(<a href="#ref-Johnson2017-rg" role="doc-biblioref">Johnson et al. 2017</a>)</span></p>
+<p>광범위 유전체 연합 연구 결과를 통해 얻어진 사실은, 결국 조현병을 일으키는 결정적인 돌연변이는 발견할 수 없다는 것이다. 조현병 유전 연구의 선구자들이 꿈꿔웠던 것처럼, 하나 혹은 두 세 개의 유전자 변이가 조현병을 일으키는 것도 아니요, 몇 개의 드문 변이가 상호작용함으로써 발병 위험이 높아지는 것도 아니다. GWAS에서 유의한 관련성을 보이는 유전자는 백여개가 넘으며, 이는 연구의 규모가 커지면서 점점 더 늘어나고 있다. 게다가 이들 중 대다수는 드문 변이(rare variant)가 아니라, 작은 영향력만을 갖는 <s>흔한 변이</s>들이었다. 조현병 발병 위험을 높이는 유전자가 수백개가 되다보니, 이들 유전자 각각의 기능을 분석하는 것은 만만한 작업이 아니다. 대신 연구자들은 유전자 세트 증폭 분석(Gene Set Enrichment Analysis, GSEA)이라는 방법을 적용하곤 한다.<span class="citation" data-cites="Schijven2018-pi">(<a href="#ref-Schijven2018-pi" role="doc-biblioref">Schijven et al. 2018</a>)</span> 유전자 세트란 세포 내에서 특정 기능에 관여하는 유전자들을 미리 지정해놓은 세트이다. 예를 들어 도파민 신호전달을 담당하는 세포 내 신호전달계와 관련된 모든 유전자 세트 같은 것들이다. GWAS에서 유의한 관련성을 보이는 SNP의 목록과 p 값을 <s>Multi-marker Analysis of GenoMic Annotation (MAGMA)</s>와 같은 소프트웨어에 입력하면, 입력된 SNP 들이 주로 어떤 유전자 세트에 집중되어 있는지를 알아낼 수 있다.</p>
+<aside>
+<p><strong>흔한 변이(common variant)</strong>: 흔한 변이란 일반적으로 인구 집단 내에서 1% 이상의 빈도로 나타나는 변이를 말한다.<span class="citation" data-cites="Reich2001-sh">(<a href="#ref-Reich2001-sh" role="doc-biblioref">Reich et al. 2001</a>)</span></p>
+<p><a href="https://ctg.cncr.nl/software/magma">MAGMA software</a> <span class="citation" data-cites="De_Leeuw2015-ag">(<a href="#ref-De_Leeuw2015-ag" role="doc-biblioref">Leeuw et al. 2015</a>)</span></p>
+</aside>
+<p>Pardiñas 등<strong>​</strong><span class="citation" data-cites="Pardinas2018-pf">(<a href="#ref-Pardinas2018-pf" role="doc-biblioref">Pardiñas et al. 2018</a>)</span>은 이러한 방식의 GWAS 연구의 대표적인 사례라 할 수 있다. PGC 2세대 데이터를 사용하고 있는 이 연구에는 11,260명의 조현병 환자와 24,542명의 대조군 자료가 이용되었다. GWAS에 통상적인 기준(p &lt; 5 x 10 <sup>-8</sup>)을 적용했을 때, 조현병과 유의한 관련성을 보이는 145개의 SNP를 발굴하였다. 저자들은 이들을 MAGMA에 입력하여, 유의하게 집중되어 있는 유전자 세트를 찾고자 했는데, 여기에는 fragile X mental retardation protein (FMRP), 5-HT2c 수용체, 전압 의존 칼슘 채널, 장기 강화(long-term potentiation) 등과 관련된 유전자 세트가 포함되었다.</p>
+<h2 id="유전학-연구의-영향">1-6. 유전학 연구의 영향</h2>
+<p>20세기 초기의 조현병 유전학 연구는 조현병이 진정으로 유전되는 질환인지를 확인하는데 주력하였다. 이후 DNA의 구조가 발견되고, 인간 유전체가 유전자들이 일렬로 배치된 일종의 지도와 같다는 것을 알게 되면서, 표현형과 유전형 들을 하나의 지도로 표시하고자 시도하였다. 1960년대 제한효소(restriction enzyme)가 개발된 후 표지자 개념이 등장하였고, 1977년 <s>Sanger</s>등이 DNA 염기서열을 해독하는 방법을 개발함으로써 바야흐로 현대적 개념의 유전 연구가 시작되었다.</p>
+<aside>
+<p><strong>Frederick Sanger (1918~2013)</strong>: 영국의 생화학자. 1958년에는 인슐린의 구조를 밝힌 업적으로, 1980년에는 염기서열을 분석하는 방법을 고안해낸 공로로 노벨 화학상을 두차례에 걸쳐 수상하였다.)</p>
+</aside>
+<p>유전 연구에 수많은 연구자가 동참하고 천문학적 규모의 연구비가 투여되는 원인은, 이를 통해 조현병의 근본 원인을 찾을 수 있으리라는 소망 때문이다. 알츠하이머 치매의 경우 1991년에 연관 분석을 통해 19번 염색체에 유발 유전자가 있을 것이라 예상되었고, 2년 후인 1993년에는 apoprotein E (APOE)가 바로 그 유전자임이 밝혀졌다. APOE가 아밀로이드 분해 과정에 직접적으로 참여하며, APOE–ε4 대립유전자를 가진 환자들이 분해과정이 늦을 뿐 아니라 치매 발병 위험이 높아진다는 것도 알게 되었다. 조현병의 원인 유전자를 찾고자 했던 노력은 알츠하이머 치매에서의 극적인 성공에 고무된 바 크다. 원인 유전자를 찾을 수 있다면 병태생리를 이해할 수 있고, 그 과정에 영향을 미칠 수 있는 약물을 개발함으로써 조현병의 치료에 한발 다가설 수 있으리라는 것이 모든 유전 연구자들의 바람이었다.</p>
+<p>이 외에도 유발 유전자를 알게 되면, 조현병 고위험군을 미리 찾아낼 수 있다. 물론 조현병의 유전성이 80%에 달한다고 하지만, 이중 SNP 변이가 차지하는 비중은 23% 정도에 지나지 않는다.<span class="citation" data-cites="Cross-Disorder_Group_of_the_Psychiatric_Genomics_Consortium2013-tp">(<a href="#ref-Cross-Disorder_Group_of_the_Psychiatric_Genomics_Consortium2013-tp" role="doc-biblioref">Cross-Disorder Group of the Psychiatric Genomics Consortium et al. 2013</a>)</span> 그럼에도 불구하고, 현재로서는 어떤 한개인이 조현병으로 발병할 것인가를 예측하는데 가장 유용한 지표이다. 소위 다유전자 위험 점수(Polygenic Risk Scoring, PRS)란 GWAS에서 얻어진 SNP 변이와 각각의 오즈비를, 한 개인의 전체 유전체 염기서열에 적용함으로써, 그 개인이 앞으로 조현병에 걸릴 위험을 대략이나마 예측하는 기법이다. 아직은 정확도가 높지 않아서 실제 임상에 사용되기에는 무리가 있지만, 초발 조현병 환자나 가족 중 조현병 환자가 있는 고위험군에서는 정확도가 상당히 올라간다고 한다.<span class="citation" data-cites="Vassos2017-bo">(<a href="#ref-Vassos2017-bo" role="doc-biblioref">Vassos et al. 2017</a>)</span> 10만 명 이상을 대상으로 한 대규모 연구에서 PRS 수치가 상위 10%에 속하는 군은 하위 10%에 속하는 군에 비해 조현병의 발생 빈도가 4.6배 높아졌다.<span class="citation" data-cites="Zheutlin2019-ab">(<a href="#ref-Zheutlin2019-ab" role="doc-biblioref">Zheutlin et al. 2019</a>)</span></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-1000_Genomes_Project_Consortium2015-dn" class="csl-entry" role="doc-biblioentry">
+1000 Genomes Project Consortium, Adam Auton, Lisa D Brooks, Richard M Durbin, Erik P Garrison, Hyun Min Kang, Jan O Korbel, et al. 2015. <span>“A Global Reference for Human Genetic Variation.”</span> <em>Nature</em> 526 (7571): 68–74. <a href="https://doi.org/10.1038/nature15393">https://doi.org/10.1038/nature15393</a>.
+</div>
+<div id="ref-Allen2008-we" class="csl-entry" role="doc-biblioentry">
+Allen, Nicole C, Sachin Bagade, Matthew B McQueen, John P A Ioannidis, Fotini K Kavvoura, Muin J Khoury, Rudolph E Tanzi, and Lars Bertram. 2008. <span>“Systematic Meta-Analyses and Field Synopsis of Genetic Association Studies in Schizophrenia: The <span>SzGene</span> Database.”</span> <em>Nat. Genet.</em> 40 (7): 827–34. <a href="https://doi.org/10.1038/ng.171">https://doi.org/10.1038/ng.171</a>.
+</div>
+<div id="ref-Andreasen1994-bx" class="csl-entry" role="doc-biblioentry">
+Andreasen, Nancy C. 1994. <em>Schizophrenia: From Mind to Molecule</em>. American Psychiatric Pub.
+</div>
+<div id="ref-Cardno1999-hh" class="csl-entry" role="doc-biblioentry">
+Cardno, A G, E J Marshall, B Coid, A M Macdonald, T R Ribchester, N J Davies, P Venturi, et al. 1999. <span>“Heritability Estimates for Psychotic Disorders: The Maudsley Twin Psychosis Series.”</span> <em>Arch. Gen. Psychiatry</em> 56 (2): 162–68. <a href="https://doi.org/10.1001/archpsyc.56.2.162">https://doi.org/10.1001/archpsyc.56.2.162</a>.
+</div>
+<div id="ref-Cordell2005-uk" class="csl-entry" role="doc-biblioentry">
+Cordell, Heather J, and David G Clayton. 2005. <span>“Genetic Association Studies.”</span> <em>Lancet</em> 366 (9491): 1121–31. <a href="https://doi.org/10.1016/S0140-6736(05)67424-7">https://doi.org/10.1016/S0140-6736(05)67424-7</a>.
+</div>
+<div id="ref-Cross-Disorder_Group_of_the_Psychiatric_Genomics_Consortium2013-tp" class="csl-entry" role="doc-biblioentry">
+Cross-Disorder Group of the Psychiatric Genomics Consortium, S Hong Lee, Stephan Ripke, Benjamin M Neale, Stephen V Faraone, Shaun M Purcell, Roy H Perlis, et al. 2013. <span>“Genetic Relationship Between Five Psychiatric Disorders Estimated from Genome-Wide <span>SNPs</span>.”</span> <em>Nat. Genet.</em> 45 (9): 984–94. <a href="https://doi.org/10.1038/ng.2711">https://doi.org/10.1038/ng.2711</a>.
+</div>
+<div id="ref-Elston1970-rg" class="csl-entry" role="doc-biblioentry">
+Elston, R C, and M A Campbell. 1970. <span>“Schizophrenia: Evidence for the Major Gene Hypothesis.”</span> <em>Behav. Genet.</em> 1 (1): 3–10. <a href="https://doi.org/10.1007/BF01067366">https://doi.org/10.1007/BF01067366</a>.
+</div>
+<div id="ref-Falconer1967-wf" class="csl-entry" role="doc-biblioentry">
+Falconer, D S. 1967. <span>“The Inheritance of Liability to Diseases with Variable Age of Onset, with Particular Reference to Diabetes Mellitus.”</span> <em>Ann. Hum. Genet.</em> 31 (1): 1–20. <a href="https://doi.org/10.1111/j.1469-1809.1967.tb01249.x">https://doi.org/10.1111/j.1469-1809.1967.tb01249.x</a>.
+</div>
+<div id="ref-Farrell2015-mi" class="csl-entry" role="doc-biblioentry">
+Farrell, M S, T Werge, P Sklar, M J Owen, R A Ophoff, M C O’Donovan, A Corvin, S Cichon, and P F Sullivan. 2015. <span>“Evaluating Historical Candidate Genes for Schizophrenia.”</span> <em>Mol. Psychiatry</em> 20 (5): 555–62. <a href="https://doi.org/10.1038/mp.2015.16">https://doi.org/10.1038/mp.2015.16</a>.
+</div>
+<div id="ref-Franic2012-ak" class="csl-entry" role="doc-biblioentry">
+Franić, Sanja, Conor V Dolan, Denny Borsboom, and Dorret I Boomsma. 2012. <span>“Structural Equation Modeling in Genetics.”</span> In <em>Handbook of Structural Equation Modeling</em>, edited by Rick H Hoyle, 740:617–35. New York, NY, US: The Guilford Press, xi.
+</div>
+<div id="ref-Gejman2011-aw" class="csl-entry" role="doc-biblioentry">
+Gejman, Pablo V, Alan R Sanders, and Kenneth S Kendler. 2011. <span>“Genetics of Schizophrenia: New Findings and Challenges.”</span> <em>Annu. Rev. Genomics Hum. Genet.</em> 12: 121–44. <a href="https://doi.org/10.1146/annurev-genom-082410-101459">https://doi.org/10.1146/annurev-genom-082410-101459</a>.
+</div>
+<div id="ref-Gottesman1967-rq" class="csl-entry" role="doc-biblioentry">
+Gottesman, I I, and J Shields. 1967. <span>“A Polygenic Theory of Schizophrenia.”</span> <em>Proc. Natl. Acad. Sci. U. S. A.</em> 58 (1): 199–205. <a href="https://doi.org/10.1073/pnas.58.1.199">https://doi.org/10.1073/pnas.58.1.199</a>.
+</div>
+<div id="ref-Gottesman1972-tr" class="csl-entry" role="doc-biblioentry">
+Gottesman, Irving I, and James Shields. 1972. <em>Schizophrenia and Genetics: A Twin Study Vantage Point</em>. London, Academic Press.
+</div>
+<div id="ref-Holzman2001-rz" class="csl-entry" role="doc-biblioentry">
+Holzman, P S. 2001. <span>“Seymour s. Kety and the Genetics of Schizophrenia.”</span> <em>Neuropsychopharmacology</em> 25 (3): 299–304. <a href="https://doi.org/10.1016/S0893-133X(01)00276-7">https://doi.org/10.1016/S0893-133X(01)00276-7</a>.
+</div>
+<div id="ref-International_HapMap_Consortium2003-bt" class="csl-entry" role="doc-biblioentry">
+International HapMap Consortium. 2003. <span>“The International <span>HapMap</span> Project.”</span> <em>Nature</em> 426 (6968): 789–96. <a href="https://doi.org/10.1038/nature02168">https://doi.org/10.1038/nature02168</a>.
+</div>
+<div id="ref-Ioannidis2001-cl" class="csl-entry" role="doc-biblioentry">
+Ioannidis, J P, E E Ntzani, T A Trikalinos, and D G Contopoulos-Ioannidis. 2001. <span>“Replication Validity of Genetic Association Studies.”</span> <em>Nat. Genet.</em> 29 (3): 306–9. <a href="https://doi.org/10.1038/ng749">https://doi.org/10.1038/ng749</a>.
+</div>
+<div id="ref-Johnson2017-rg" class="csl-entry" role="doc-biblioentry">
+Johnson, Emma C, Richard Border, Whitney E Melroy-Greif, Christiaan A de Leeuw, Marissa A Ehringer, and Matthew C Keller. 2017. <span>“No Evidence That Schizophrenia Candidate Genes Are More Associated with Schizophrenia Than Noncandidate Genes.”</span> <em>Biol. Psychiatry</em> 82 (10): 702–8. <a href="https://doi.org/10.1016/j.biopsych.2017.06.033">https://doi.org/10.1016/j.biopsych.2017.06.033</a>.
+</div>
+<div id="ref-Jorgensen2009-rb" class="csl-entry" role="doc-biblioentry">
+Jorgensen, Timothy J, Ingo Ruczinski, Bailey Kessing, Michael W Smith, Yin Yao Shugart, and Anthony J Alberg. 2009. <span>“Hypothesis-Driven Candidate Gene Association Studies: Practical Design and Analytical Considerations.”</span> <em>Am. J. Epidemiol.</em> 170 (8): 986–93. <a href="https://doi.org/10.1093/aje/kwp242">https://doi.org/10.1093/aje/kwp242</a>.
+</div>
+<div id="ref-Karayiorgou2006-vv" class="csl-entry" role="doc-biblioentry">
+Karayiorgou, Maria, and Joseph A Gogos. 2006. <span>“Schizophrenia Genetics: Uncovering Positional Candidate Genes.”</span> <em>Eur. J. Hum. Genet.</em> 14 (5): 512–19. <a href="https://doi.org/10.1038/sj.ejhg.5201587">https://doi.org/10.1038/sj.ejhg.5201587</a>.
+</div>
+<div id="ref-Karayiorgou1997-tk" class="csl-entry" role="doc-biblioentry">
+Karayiorgou, M, and J A Gogos. 1997. <span>“A Turning Point in Schizophrenia Genetics.”</span> <em>Neuron</em> 19 (5): 967–79. <a href="https://doi.org/10.1016/s0896-6273(00)80390-6">https://doi.org/10.1016/s0896-6273(00)80390-6</a>.
+</div>
+<div id="ref-Karlsson1974-ts" class="csl-entry" role="doc-biblioentry">
+Karlsson, J L. 1974. <span>“Inheritance of Schizophrenia.”</span> <em>Acta Psychiatr. Scand. Suppl.</em> 247: 1–116.
+</div>
+<div id="ref-Kendler1985-an" class="csl-entry" role="doc-biblioentry">
+Kendler, K S. 1985. <span>“Diagnostic Approaches to Schizotypal Personality Disorder: A Historical Perspective.”</span> <em>Schizophr. Bull.</em> 11 (4): 538–53. <a href="https://doi.org/10.1093/schbul/11.4.538">https://doi.org/10.1093/schbul/11.4.538</a>.
+</div>
+<div id="ref-Kendler2015-lz" class="csl-entry" role="doc-biblioentry">
+———. 2015. <span>“A Joint History of the Nature of Genetic Variation and the Nature of Schizophrenia.”</span> <em>Mol. Psychiatry</em> 20 (1): 77–83. <a href="https://doi.org/10.1038/mp.2014.94">https://doi.org/10.1038/mp.2014.94</a>.
+</div>
+<div id="ref-Kety1976-ts" class="csl-entry" role="doc-biblioentry">
+Kety, S S, D Rosenthal, P H Wender, and F Schulsinger. 1976. <span>“Studies Based on a Total Sample of Adopted Individuals and Their Relatives: Why They Were Necessary, What They Demonstrated and Failed to Demonstrate.”</span> <em>Schizophr. Bull.</em> 2 (3): 413–28. <a href="https://doi.org/10.1093/schbul/2.3.413">https://doi.org/10.1093/schbul/2.3.413</a>.
+</div>
+<div id="ref-De_Leeuw2015-ag" class="csl-entry" role="doc-biblioentry">
+Leeuw, Christiaan A de, Joris M Mooij, Tom Heskes, and Danielle Posthuma. 2015. <span>“<span>MAGMA</span>: Generalized Gene-Set Analysis of <span>GWAS</span> Data.”</span> <em>PLoS Comput. Biol.</em> 11 (4): e1004219. <a href="https://doi.org/10.1371/journal.pcbi.1004219">https://doi.org/10.1371/journal.pcbi.1004219</a>.
+</div>
+<div id="ref-Maniatis2007-bl" class="csl-entry" role="doc-biblioentry">
+Maniatis, Nikolas. 2007. <span>“Linkage Disequilibrium Maps and Disease-Association Mapping.”</span> <em>Methods Mol. Biol.</em> 376: 109–21. <a href="https://doi.org/10.1007/978-1-59745-389-9_8">https://doi.org/10.1007/978-1-59745-389-9_8</a>.
+</div>
+<div id="ref-Noll2009-av" class="csl-entry" role="doc-biblioentry">
+Noll, Richard. 2009. <em>The Encyclopedia of Schizophrenia and Other Psychotic Disorders</em>. Infobase Publishing.
+</div>
+<div id="ref-Pardinas2018-pf" class="csl-entry" role="doc-biblioentry">
+Pardiñas, Antonio F, Peter Holmans, Andrew J Pocklington, Valentina Escott-Price, Stephan Ripke, Noa Carrera, Sophie E Legge, et al. 2018. <span>“Common Schizophrenia Alleles Are Enriched in Mutation-Intolerant Genes and in Regions Under Strong Background Selection.”</span> <em>Nat. Genet.</em> 50 (3): 381–89. <a href="https://doi.org/10.1038/s41588-018-0059-2">https://doi.org/10.1038/s41588-018-0059-2</a>.
+</div>
+<div id="ref-Pray2008-vy" class="csl-entry" role="doc-biblioentry">
+Pray, L A. 2008. <span>“Discovery of <span>DNA</span> Function and Structure: Watson and Crick.”</span> <em>Nature Education</em> 1 (1): 100.
+</div>
+<div id="ref-Provine2001-iw" class="csl-entry" role="doc-biblioentry">
+Provine, William B. 2001. <em>The Origins of Theoretical Population Genetics: With a New Afterword</em>. University of Chicago Press.
+</div>
+<div id="ref-Reich2001-sh" class="csl-entry" role="doc-biblioentry">
+Reich, D E, M Cargill, S Bolk, J Ireland, P C Sabeti, D J Richter, T Lavery, et al. 2001. <span>“Linkage Disequilibrium in the Human Genome.”</span> <em>Nature</em> 411 (6834): 199–204. <a href="https://doi.org/10.1038/35075590">https://doi.org/10.1038/35075590</a>.
+</div>
+<div id="ref-Riley2000-ul" class="csl-entry" role="doc-biblioentry">
+Riley, J H, C J Allan, E Lai, and A Roses. 2000. <span>“The Use of Single Nucleotide Polymorphisms in the Isolation of Common Disease Genes.”</span> <em>Pharmacogenomics</em> 1 (1): 39–47. <a href="https://doi.org/10.1517/14622416.1.1.39">https://doi.org/10.1517/14622416.1.1.39</a>.
+</div>
+<div id="ref-Schijven2018-pi" class="csl-entry" role="doc-biblioentry">
+Schijven, Dick, Daniel Kofink, Vinicius Tragante, Marloes Verkerke, Sara L Pulit, René S Kahn, Jan H Veldink, Christiaan H Vinkers, Marco P Boks, and Jurjen J Luykx. 2018. <span>“Comprehensive Pathway Analyses of Schizophrenia Risk Loci Point to Dysfunctional Postsynaptic Signaling.”</span> <em>Schizophr. Res.</em> 199 (September): 195–202. <a href="https://doi.org/10.1016/j.schres.2018.03.032">https://doi.org/10.1016/j.schres.2018.03.032</a>.
+</div>
+<div id="ref-Sudmant2015-vm" class="csl-entry" role="doc-biblioentry">
+Sudmant, Peter H, Tobias Rausch, Eugene J Gardner, Robert E Handsaker, Alexej Abyzov, John Huddleston, Yan Zhang, et al. 2015. <span>“An Integrated Map of Structural Variation in 2,504 Human Genomes.”</span> <em>Nature</em> 526 (7571): 75–81. <a href="https://doi.org/10.1038/nature15394">https://doi.org/10.1038/nature15394</a>.
+</div>
+<div id="ref-Sullivan2018-ld" class="csl-entry" role="doc-biblioentry">
+Sullivan, Patrick F, Arpana Agrawal, Cynthia M Bulik, Ole A Andreassen, Anders D Børglum, Gerome Breen, Sven Cichon, et al. 2018. <span>“Psychiatric Genomics: An Update and an Agenda.”</span> <em>Am. J. Psychiatry</em> 175 (1): 15–27. <a href="https://doi.org/10.1176/appi.ajp.2017.17030283">https://doi.org/10.1176/appi.ajp.2017.17030283</a>.
+</div>
+<div id="ref-Vassos2017-bo" class="csl-entry" role="doc-biblioentry">
+Vassos, Evangelos, Marta Di Forti, Jonathan Coleman, Conrad Iyegbe, Diana Prata, Jack Euesden, Paul O’Reilly, et al. 2017. <span>“An Examination of Polygenic Score Risk Prediction in Individuals with <span>First-Episode</span> Psychosis.”</span> <em>Biol. Psychiatry</em> 81 (6): 470–77. <a href="https://doi.org/10.1016/j.biopsych.2016.06.028">https://doi.org/10.1016/j.biopsych.2016.06.028</a>.
+</div>
+<div id="ref-Zerbin-Rudin1996-nn" class="csl-entry" role="doc-biblioentry">
+Zerbin-Rüdin, E, and K S Kendler. 1996. <span>“Ernst rüdin (1874-1952) and His Genealogic-Demographic Department in Munich (1917-1986): An Introduction to Their Family Studies of Schizophrenia.”</span> <em>Am. J. Med. Genet.</em> 67 (4): 332–37. <a href="https://doi.org/10.1002/(SICI)1096-8628(19960726)67:4&lt;332::AID-AJMG3&gt;3.0.CO;2-O">https://doi.org/10.1002/(SICI)1096-8628(19960726)67:4&lt;332::AID-AJMG3&gt;3.0.CO;2-O</a>.
+</div>
+<div id="ref-Zheutlin2019-ab" class="csl-entry" role="doc-biblioentry">
+Zheutlin, Amanda B, Jessica Dennis, Richard Karlsson Linnér, Arden Moscati, Nicole Restrepo, Peter Straub, Douglas Ruderfer, et al. 2019. <span>“Penetrance and Pleiotropy of Polygenic Risk Scores for Schizophrenia in 106,160 Patients Across Four Health Care Systems.”</span> <em>Am. J. Psychiatry</em> 176 (10): 846–55. <a href="https://doi.org/10.1176/appi.ajp.2019.18091085">https://doi.org/10.1176/appi.ajp.2019.18091085</a>.
+</div>
+<div id="ref-2000-mn" class="csl-entry" role="doc-biblioentry">
+주은정, and 김용식. 2000. <span>“정신질환의 유전학적 연구 : 정량적 유전학의 기본 개념과 방법론.”</span> <em>신경정신의학</em> 39 (2): 257–72.
+</div>
+</div>
+<!--radix_placeholder_article_footer-->
+<!--/radix_placeholder_article_footer-->
+</div>
+
+<div class="d-appendix">
+</div>
+
+
+<!--radix_placeholder_site_after_body-->
+<!--/radix_placeholder_site_after_body-->
+<!--radix_placeholder_appendices-->
+<div class="appendix-bottom">
+<h3 id="references">References</h3>
+<div id="references-listing"></div>
+</div>
+<!--/radix_placeholder_appendices-->
+<!--radix_placeholder_navigation_after_body-->
+<!--/radix_placeholder_navigation_after_body-->
+
+</body>
+
+</html>
