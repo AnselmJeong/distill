@@ -1,5 +1,5 @@
 ---
-title: "4절 신경퇴행적 가설"
+title: "2장 4절: 신경퇴행적 가설"
 description: Neurodegenerative Hypothesis of Schizophrenia
 bibliography: references/02-04.bib
 link-citation: yes
