@@ -1,0 +1,28 @@
+---
+title: "제 2 장: 조현병의 생물학적 이해"
+author:
+  - name: 정성훈
+    affiliation: 을지대학교 의과대학, 대전 을지대학교 병원
+    affiliation_url: http://www.emc.ac.kr/index.jsp
+    orcid_id: 0000-0002-7404-9056
+  - name: 김용식
+    affiliation: 을지대학교 의과대학, 노원 을지대학교 병원
+    orcid_id: 0000-0002-8845-5186
+    affiliation_url: http://www.eulji.or.kr/index.jsp
+
+date: "`r Sys.Date()`"
+toc: false
+output: distill::distill_article
+---
+
+### 제 1 절: [조현병의 유전학적 이해](article-02-01.html)
+
+### 제 2 절: [후성 유전학적 변화](article-02-02.html)
+
+### 제 3 절: [신경발달학적 가설](article-02-03.html)
+
+### 제 4 절: [신경퇴행적 가설](article-02-04.html)
+
+### 제 5 절: [조현병의 감별 진단](article-01-05.html)
+
+### 제 6 절: [조현병의 자연 경과](article-01-06.html)
