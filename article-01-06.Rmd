@@ -1,5 +1,5 @@
 ---
-title: "6절 조현병의 자연경과"
+title: "1장 6절: 조현병의 자연경과"
 description: Natural Course and Outcome of Schizophrenia
 bibliography: references/01-06.bib
 link-citation: yes

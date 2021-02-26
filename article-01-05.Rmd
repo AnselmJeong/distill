@@ -1,5 +1,5 @@
 ---
-title: "5절 조현병의 감별 진단"
+title: "1장 5절: 조현병의 감별 진단"
 description: Conceptual difficulties and practical application of differential diagnosis.
 bibliography: references/01-05.bib
 link-citation: yes

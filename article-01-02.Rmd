@@ -1,5 +1,5 @@
 ---
-title: "2절 근대적 조현병 개념과 DSM"
+title: "1장 2절: 근대적 조현병 개념과 DSM"
 description: Modern Concept of Schizophrenia and DSM
 bibliography: references/01-02.bib
 link-citation: yes

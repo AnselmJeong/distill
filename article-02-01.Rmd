@@ -1,5 +1,5 @@
 ---
-title: "2장 1절 조현병의 유전학적 이해"
+title: "2장 1절: 조현병의 유전학적 이해"
 description: Genetic Understanding of Schizophrenia
 bibliography: references/02-01.bib
 link-citation: yes
@@ -215,7 +215,7 @@ SNP의 등장으로 말미암아 연관 연구는 연합 연구(association stud
 
 Pardiñas 등**​**[@Pardinas2018-pf]은 이러한 방식의 GWAS 연구의 대표적인 사례라 할 수 있다. PGC 2세대 데이터를 사용하고 있는 이 연구에는 11,260명의 조현병 환자와 24,542명의 대조군 자료가 이용되었다. GWAS에 통상적인 기준(p \< 5 x 10 ^-8^)을 적용했을 때, 조현병과 유의한 관련성을 보이는 145개의 SNP를 발굴하였다. 저자들은 이들을 MAGMA에 입력하여, 유의하게 집중되어 있는 유전자 세트를 찾고자 했는데, 여기에는 fragile X mental retardation protein (FMRP), 5-HT2c 수용체, 전압 의존 칼슘 채널, 장기 강화(long-term potentiation) 등과 관련된 유전자 세트가 포함되었다.
 
-## 1-6. 유전학 연구의 영향
+## 1-6. 유전학 연구의 영향 {#influence-genetic-research}
 
 20세기 초기의 조현병 유전학 연구는 조현병이 진정으로 유전되는 질환인지를 확인하는데 주력하였다. 이후 DNA의 구조가 발견되고, 인간 유전체가 유전자들이 일렬로 배치된 일종의 지도와 같다는 것을 알게 되면서, 표현형과 유전형 들을 하나의 지도로 표시하고자 시도하였다. 1960년대 제한효소(restriction enzyme)가 개발된 후 표지자 개념이 등장하였고, 1977년 <s>Sanger</s>등이 DNA 염기서열을 해독하는 방법을 개발함으로써 바야흐로 현대적 개념의 유전 연구가 시작되었다.
 

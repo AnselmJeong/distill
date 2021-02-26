@@ -1,5 +1,5 @@
 ---
-title: "4절 조현병의 진단"
+title: "1장 4절: 조현병의 진단"
 description: Modern Concept of Schizophrenia and DSM
 bibliography: references/01-04.bib
 link-citation: yes

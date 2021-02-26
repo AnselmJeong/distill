@@ -1,5 +1,5 @@
 ---
-title: "3절 DSM-5"
+title: "1장 3절: DSM-5"
 description: Advent of DSM-5 and Diagnostic Dilemma
 bibliography: references/01-03.bib
 link-citation: yes
