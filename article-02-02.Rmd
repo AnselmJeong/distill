@@ -9,7 +9,7 @@ link-citation: yes
 
 <a href="article-02-03.html"><i class="arrow far fa-arrow-alt-circle-right"></i></a>
 
-## 2-1. 스트레스와 뇌 기능 변화의 연결 경로
+## 2-1. 스트레스와 뇌 기능 변화의 연결 경로 {#stress-brain}
 
 소위 조현병의 2회 충격 가설([2장 3-1절 참조](article-02-03.html#neurodevelopment-birth))에 의하면, 유전적 요인 등으로 인해 취약성을 갖고 태어난 개인이라 할 지라도, 차후에 감당하기 어려운 심리사회적 스트레스를 받지 않는 이상 발병 위험은 그다지 높아지지 않는다. 또한 심리사회적 스트레스는 이후 재발의 계기가 되기도 한다. Meyer와 그를 따르는 20세기 전반의 미국 정신의학자들이 조현병을 "조현병적 반응(schizophrenic reaction)"이라고 불렀던 것은, 아무리 조현병이 뇌질환이라 할 지라도, 개인이 자신을 둘러싼 환경이나 주어진 상황에 제대로 적응하지 못해 생긴 문제라고 믿었기 떄문이다. ([1장 2-2절 참조](article-01-02.html#dsm-constitute))
 

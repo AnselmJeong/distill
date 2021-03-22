@@ -33,7 +33,7 @@ link-citation: yes
 
 커넥톰(Connectome)이란 이렇게 거시적인 층위에서 신경 세포들의 연결을 종합적으로 표현한 것으로 일종의 뇌 회로도(blueprint)라고 생각할 수 있다. 좀 더 넓은 의미로는 단순히 뇌 내 신경세포 뿐만이 아니라 전신에 분포되어있는 신경세포들 간의 연결망을 가리킨다. 2009년 시작된 인간 커넥톰 프로젝트(Human Connectome Project)는 게놈 프로젝트 이후 최대의 과학 혁명으로 불린다. 이 연구를 통해 1000억 개 신경 세포의 연결구조와 활동원리를 파악해서 인간의 기억, 의식, 성격 등의 비밀을 밝히려고 한다. 이를 통하여 치매, 우울증, 자폐증, 조현병 등의 발병 기전과 치료법을 찾는데 기여할 정보를 얻는다는 목표를 갖고 있다.
 
-인간 커넥톰은 한국 혈통의 미국인 과학자인 <s>승현준</s>에 의해서 더욱 우리에게 친숙하다. 원래 컴퓨터 공학자이던 그는 인간 커넥톰 프로젝트의 출범 이후 그 가능성을 높이 평가하여, [저서](https://en.wikipedia.org/wiki/Connectome_(book)) 와 [공개 강연](https://www.ted.com/talks/sebastian\_seung\_i\_am\_my\_connectome?language=en)을 통해 이 접근법의 무궁무진한 잠재력을 역설하였다.
+인간 커넥톰은 한국 혈통의 미국인 과학자인 <s>승현준</s>에 의해서 더욱 우리에게 친숙하다. 원래 컴퓨터 공학자이던 그는 인간 커넥톰 프로젝트의 출범 이후 그 가능성을 높이 평가하여, [저서](https://en.wikipedia.org/wiki/Connectome_(book)) 와 [공개 강연](https://www.ted.com/talks/sebastian_seung_i_am_my_connectome?language=en)을 통해 이 접근법의 무궁무진한 잠재력을 역설하였다.
 
 <aside>
 

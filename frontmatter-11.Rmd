@@ -1,0 +1,28 @@
+---
+title: "제 11 장: 치료저항성 조현병의 치료"
+author:
+  - name: 정성훈
+    affiliation: 을지대학교 의과대학, 대전 을지대학교 병원
+    affiliation_url: http://www.emc.ac.kr/index.jsp
+    orcid_id: 0000-0002-7404-9056
+  - name: 김용식
+    affiliation: 을지대학교 의과대학, 노원 을지대학교 병원
+    orcid_id: 0000-0002-8845-5186
+    affiliation_url: http://www.eulji.or.kr/index.jsp
+
+date: "`r Sys.Date()`"
+toc: false
+output: distill::distill_article
+---
+
+### 제 1 절: [치료저항성의 정의와 개념](article-11-01.html)
+
+### 제 2 절: [치료저항성의 판단](article-11-02.html)
+
+### 제 3 절: [클로자핀 이외의 전략](article-11-03.html)
+
+### 제 4 절: [클로자핀 투여 전략](article-11-04.html)
+
+### 제 5 절: [전기경련 치료 및 뇌자극술](article-11-05.html)
+
+

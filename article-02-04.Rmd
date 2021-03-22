@@ -4,11 +4,12 @@ description: Neurodegenerative Hypothesis of Schizophrenia
 bibliography: references/02-04.bib
 link-citation: yes
 ---
+
 <a href="article-02-03.html"><i class="arrow far fa-arrow-alt-circle-left"></i></a>
 
 <a href="article-02-05.html"><i class="arrow far fa-arrow-alt-circle-right"></i></a>
 
-## 4-1. 신경발달학적 가설과 신경퇴행적 가설
+## 4-1. 신경발달학적 가설과 신경퇴행적 가설 {#neurodevelopmental-vs-neurodegenerative}
 
 신경퇴행(neurodegeneration)이란 정상적으로 성장한 신경계 구조가 점점 그 구조와 기능을 상실하게 되는 과정을 의미한다. 엄밀한 정의상으로는 신경발달학적 가설과 확연히 구분되지만, 실제로는 구분히 애매한 회색 영역이 있다. 청소년기가 되면 중추신경계의 발달이 종료된다는 고전적인 개념과는 달리 신경계의 성숙은 성인기 초기까지 지속된다.[@Taber-Thomas2015-en] 출생전에 완성되는 신경세포의 생성, 이동, 피질층(cortical layer)의 형성 등과는 달리, 수초화, 가지치기, 신경가소성에 의한 시냅스 재구조화, 뇌에 축적되는 독성 물질의 제거 등은 성인기, 심지어 노년기까지도 지속되며, 이 역시 확장된 신경발달 과정으로 볼 수도 있다.[@Andreasen2010-gc] 그러나 후자는 대체로 기능 보존(neuronal housekeeping)에 관련된 문제이며, 기능 보존이 제대로 되지 않으면 퇴화하는 것을 막을 수 없기 때문에 이들을 신경퇴행의 관점에서 보는 것이 일반적이다.
 
@@ -20,7 +21,7 @@ link-citation: yes
 
 이와는 반대로 신경퇴행적 가설에서는 지속되는 증상이 이후 뇌 구조/기능이 퇴행되는 과정의 원인이 된다. 이 논리를 따라가면, 첫 삽화를 겪은 환자의 뇌와 재발이 거듭되어 만성화 단계에 이른 조현병 환자의 뇌는 결코 동일하다고 볼 수 없다. 즉 조현병의 병적 과정에는 두가지 측면이 존재한다는 것이다. 첫째는 발병을 초래하는 병적 과정이요, 두번째는 일단 발병이 된 이후에도 멈추지 않고 지속되면서 만성화, 황폐화를 일으키는 과정이다. 두번째 과정에 주목하는 것이 바로 신경퇴행 가설의 핵심이다.
 
-## 4-2. 신경퇴행적 가설의 증거와 기전{#neurodegenerative-evidence}
+## 4-2. 신경퇴행적 가설의 증거와 기전 {#neurodegenerative-evidence}
 
 이런 가설이 등장하게 된 가장 중요한 요인은 나이든 조현병 환자에게서도 발견되는 점진적인 뇌실질 위축이다. 주로 해마(hippocampus)와 편도체(amygdala)가 포함된 측두엽에서 두드러지며, 전두엽의 용적 역시 뚜렷이 줄어든다. 위축의 정도는 환자의 연령 혹은 치료받지 않은 기간과 비례한다.[**(Chakos et al. 2005)**](https://paperpile.com/c/f4WTws/7LHPy)
 

@@ -1,5 +1,5 @@
 ---
-title: "1장 1절: 조현병 개념의 역사"
+title: '1장 1절: 조현병 개념의 역사'
 description: Overview of the History of Schizophrenia
 bibliography: references/01-01.bib
 link-citation: yes
