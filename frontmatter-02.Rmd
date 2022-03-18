@@ -35,7 +35,7 @@ output: distill::distill_article
 
 ### 제 10 절: [글루타메이트 가설](article-02-10.html)
 
-### 제 11 절: [커넥톰과 기능적 연결성](article-02-09.html)
+### 제 11 절: [신경인지 기능의 이상](article-02-11.html)
 
-### 제 12 절: [커넥톰과 기능적 연결성](article-02-09.html)
+### 제 12 절: [언어와 조현병](article-02-12.html)
 

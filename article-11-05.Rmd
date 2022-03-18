@@ -7,7 +7,6 @@ link-citation: yes
 
 <a href="article-11-04.html"><i class="arrow far fa-arrow-alt-circle-left"></i></a>
 
-# **5. 전기 경련치료 및 뇌 자극술**
 
 ## 5-1. 개요
 
